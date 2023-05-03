@@ -1,0 +1,20 @@
+# History files
+.Rhistory
+.Rapp.history
+.RData
+plotgdx_witch_*.R
+plotgdx_rice_*.R
+# Example code in package build process
+*-Ex.R
+# RStudio files
+.Rproj.user/
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+!plotgdx_witch.R
+!plotgdx_rice.R
+.httr-oauth
+.Rproj.user
+# data from online deployed gdxcompaR
+gdxcompaR/witch-online/*.RData
+gdxcompaR/witch-online/rsconnect

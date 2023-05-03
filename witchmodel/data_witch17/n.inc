@@ -1,0 +1,17 @@
+brazil
+canada
+china
+europe
+india
+indonesia
+jpnkor
+laca
+mena
+mexico
+oceania
+sasia
+seasia
+southafrica
+ssa
+te
+usa
