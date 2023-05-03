@@ -221,6 +221,7 @@ parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery c
 $loaddc battery_cost
 
 
+
 parameter battery_cost_new(t);
 parameters 
     asymptote /10/
@@ -323,6 +324,7 @@ csi('advbiofuel',jfedveh,t,n) = 1;
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='vars'
+
 
 * battery cost
 battery_cost_new(t) =  asymptote+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t); 
@@ -459,6 +461,7 @@ jveh_inv
 jveh_invfix
 
 * Parameters
+
 battery_cost_new
 ai
 battery_cost

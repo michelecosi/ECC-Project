@@ -1,0 +1,1305 @@
+Region;Technology;Material;Scenario;Unit;2020;2030;2050
+EU;Li-ion batteries (e-mobility);Al;LDS;t/yr;51954;469266;733107
+EU;Li-ion batteries (e-mobility);Al;HDS;t/yr;51954;632777;946736
+EU;Li-ion batteries (e-mobility);Co;LDS;t/yr;7959;37138;27601
+EU;Li-ion batteries (e-mobility);Co;HDS;t/yr;7959;49217;28625
+EU;Li-ion batteries (e-mobility);Cu;LDS;t/yr;17256;164281;272471
+EU;Li-ion batteries (e-mobility);Cu;HDS;t/yr;17256;230684;367976
+EU;Li-ion batteries (e-mobility);Fe;LDS;t/yr;272;54459;144450
+EU;Li-ion batteries (e-mobility);Fe;HDS;t/yr;272;96513;234156
+EU;Li-ion batteries (e-mobility);Fluorspar;LDS;t/yr;94;987;1617
+EU;Li-ion batteries (e-mobility);Fluorspar;HDS;t/yr;94;1401;2366
+EU;Li-ion batteries (e-mobility);Graphite;LDS;t/yr;32658;321494;493123
+EU;Li-ion batteries (e-mobility);Graphite;HDS;t/yr;32658;445687;711754
+EU;Li-ion batteries (e-mobility);Li;LDS;t/yr;4758;39762;58417
+EU;Li-ion batteries (e-mobility);Li;HDS;t/yr;4758;54296;81821
+EU;Li-ion batteries (e-mobility);Mn;LDS;t/yr;6759;25979;19517
+EU;Li-ion batteries (e-mobility);Mn;HDS;t/yr;6759;35992;19804
+EU;Li-ion batteries (e-mobility);Ni;LDS;t/yr;23301;209604;275541
+EU;Li-ion batteries (e-mobility);Ni;HDS;t/yr;23301;259660;369170
+EU;Li-ion batteries (e-mobility);P;LDS;t/yr;643;65492;176138
+EU;Li-ion batteries (e-mobility);P;HDS;t/yr;643;113511;272764
+USA;Li-ion batteries (e-mobility);Al;LDS;t/yr;11812;354845;1068112
+USA;Li-ion batteries (e-mobility);Al;HDS;t/yr;11812;647484;1323899
+USA;Li-ion batteries (e-mobility);Co;LDS;t/yr;2045;23174;40415
+USA;Li-ion batteries (e-mobility);Co;HDS;t/yr;2045;41215;39639
+USA;Li-ion batteries (e-mobility);Cu;LDS;t/yr;3963;122256;397258
+USA;Li-ion batteries (e-mobility);Cu;HDS;t/yr;3963;229245;513708
+USA;Li-ion batteries (e-mobility);Fe;LDS;t/yr;70;33983;211511
+USA;Li-ion batteries (e-mobility);Fe;HDS;t/yr;70;80821;324252
+USA;Li-ion batteries (e-mobility);Fluorspar;LDS;t/yr;24;616;2367
+USA;Li-ion batteries (e-mobility);Fluorspar;HDS;t/yr;24;1173;3276
+USA;Li-ion batteries (e-mobility);Graphite;LDS;t/yr;8240;203155;721887
+USA;Li-ion batteries (e-mobility);Graphite;HDS;t/yr;8240;378245;986127
+USA;Li-ion batteries (e-mobility);Li;LDS;t/yr;1186;26021;85443
+USA;Li-ion batteries (e-mobility);Li;HDS;t/yr;1186;47611;113532
+USA;Li-ion batteries (e-mobility);Mn;LDS;t/yr;1688;16941;28549
+USA;Li-ion batteries (e-mobility);Mn;HDS;t/yr;1688;31448;27474
+USA;Li-ion batteries (e-mobility);Ni;LDS;t/yr;5986;130795;403462
+USA;Li-ion batteries (e-mobility);Ni;HDS;t/yr;5986;217442;511215
+USA;Li-ion batteries (e-mobility);P;LDS;t/yr;109;49820;256790
+USA;Li-ion batteries (e-mobility);P;HDS;t/yr;109;114462;380772
+China;Li-ion batteries (e-mobility);Al;LDS;t/yr;46845;169339;1069247
+China;Li-ion batteries (e-mobility);Al;HDS;t/yr;46845;167127;1384322
+China;Li-ion batteries (e-mobility);Co;LDS;t/yr;8179;12869;39801
+China;Li-ion batteries (e-mobility);Co;HDS;t/yr;8179;12117;41873
+China;Li-ion batteries (e-mobility);Cu;LDS;t/yr;15727;59069;396777
+China;Li-ion batteries (e-mobility);Cu;HDS;t/yr;15727;60272;538096
+China;Li-ion batteries (e-mobility);Fe;LDS;t/yr;279;18871;208299
+China;Li-ion batteries (e-mobility);Fe;HDS;t/yr;279;23760;342530
+China;Li-ion batteries (e-mobility);Fluorspar;LDS;t/yr;97;342;2331
+China;Li-ion batteries (e-mobility);Fluorspar;HDS;t/yr;97;345;3460
+China;Li-ion batteries (e-mobility);Graphite;LDS;t/yr;32924;111679;711476
+China;Li-ion batteries (e-mobility);Graphite;HDS;t/yr;32924;110208;1041149
+China;Li-ion batteries (e-mobility);Li;LDS;t/yr;4734;13910;84451
+China;Li-ion batteries (e-mobility);Li;HDS;t/yr;4734;13574;119679
+China;Li-ion batteries (e-mobility);Mn;LDS;t/yr;6739;9081;28208
+China;Li-ion batteries (e-mobility);Mn;HDS;t/yr;6739;8987;28967
+China;Li-ion batteries (e-mobility);Ni;LDS;t/yr;23945;72632;397336
+China;Li-ion batteries (e-mobility);Ni;HDS;t/yr;23945;63926;540032
+China;Li-ion batteries (e-mobility);P;LDS;t/yr;420;23666;256532
+China;Li-ion batteries (e-mobility);P;HDS;t/yr;420;29817;398867
+World;Li-ion batteries (e-mobility);Al;LDS;t/yr;116221;1878655;9170223
+World;Li-ion batteries (e-mobility);Al;HDS;t/yr;116221;2603386;11215260
+World;Li-ion batteries (e-mobility);Co;LDS;t/yr;19078;126019;340890
+World;Li-ion batteries (e-mobility);Co;HDS;t/yr;19078;170032;333731
+World;Li-ion batteries (e-mobility);Cu;LDS;t/yr;38815;648595;3402267
+World;Li-ion batteries (e-mobility);Cu;HDS;t/yr;38815;924952;4347246
+World;Li-ion batteries (e-mobility);Fe;LDS;t/yr;651;184791;1784060
+World;Li-ion batteries (e-mobility);Fe;HDS;t/yr;651;333423;2729977
+World;Li-ion batteries (e-mobility);Fluorspar;LDS;t/yr;226;3351;19969
+World;Li-ion batteries (e-mobility);Fluorspar;HDS;t/yr;226;4839;27580
+World;Li-ion batteries (e-mobility);Graphite;LDS;t/yr;77472;1102635;6094093
+World;Li-ion batteries (e-mobility);Graphite;HDS;t/yr;77472;1557545;8305236
+World;Li-ion batteries (e-mobility);Li;LDS;t/yr;11208;140507;723525
+World;Li-ion batteries (e-mobility);Li;HDS;t/yr;11208;195183;957089
+World;Li-ion batteries (e-mobility);Mn;LDS;t/yr;15939;91522;241663
+World;Li-ion batteries (e-mobility);Mn;HDS;t/yr;15939;128983;231580
+World;Li-ion batteries (e-mobility);Ni;LDS;t/yr;55851;711239;3403138
+World;Li-ion batteries (e-mobility);Ni;HDS;t/yr;55851;897052;4304075
+World;Li-ion batteries (e-mobility);P;LDS;t/yr;1236;263560;2199735
+World;Li-ion batteries (e-mobility);P;HDS;t/yr;1236;461022;3222193
+EU;Li-ion batteries (ESS);Al;LDS;t/yr;1975;39623;188855
+EU;Li-ion batteries (ESS);Al;HDS;t/yr;1975;62526;336547
+EU;Li-ion batteries (ESS);Co;LDS;t/yr;143;3250;8707
+EU;Li-ion batteries (ESS);Co;HDS;t/yr;143;4432;11577
+EU;Li-ion batteries (ESS);Cu;LDS;t/yr;696;14440;70714
+EU;Li-ion batteries (ESS);Cu;HDS;t/yr;696;22955;126777
+EU;Li-ion batteries (ESS);Fe;LDS;t/yr;260;6928;38099
+EU;Li-ion batteries (ESS);Fe;HDS;t/yr;260;12064;74222
+EU;Li-ion batteries (ESS);Fluorspar;LDS;t/yr;3;64;323
+EU;Li-ion batteries (ESS);Fluorspar;HDS;t/yr;3;102;564
+EU;Li-ion batteries (ESS);Graphite;LDS;t/yr;1068;20954;102282
+EU;Li-ion batteries (ESS);Graphite;HDS;t/yr;1068;33053;174819
+EU;Li-ion batteries (ESS);Li;LDS;t/yr;133;2551;12146
+EU;Li-ion batteries (ESS);Li;HDS;t/yr;133;3912;20052
+EU;Li-ion batteries (ESS);Mn;LDS;t/yr;200;3098;9842
+EU;Li-ion batteries (ESS);Mn;HDS;t/yr;200;4243;13161
+EU;Li-ion batteries (ESS);Ni;LDS;t/yr;390;4804;27951
+EU;Li-ion batteries (ESS);Ni;HDS;t/yr;390;6706;39117
+EU;Li-ion batteries (ESS);P;LDS;t/yr;422;10647;57920
+EU;Li-ion batteries (ESS);P;HDS;t/yr;422;18480;112657
+USA;Li-ion batteries (ESS);Al;LDS;t/yr;8465;121889;433662
+USA;Li-ion batteries (ESS);Al;HDS;t/yr;8465;188858;769411
+USA;Li-ion batteries (ESS);Co;LDS;t/yr;611;9997;19993
+USA;Li-ion batteries (ESS);Co;HDS;t/yr;611;13386;26468
+USA;Li-ion batteries (ESS);Cu;LDS;t/yr;2982;44422;162378
+USA;Li-ion batteries (ESS);Cu;HDS;t/yr;2982;69334;289837
+USA;Li-ion batteries (ESS);Fe;LDS;t/yr;1113;21312;87486
+USA;Li-ion batteries (ESS);Fe;HDS;t/yr;1113;36440;169686
+USA;Li-ion batteries (ESS);Fluorspar;LDS;t/yr;14;197;741
+USA;Li-ion batteries (ESS);Fluorspar;HDS;t/yr;14;309;1290
+USA;Li-ion batteries (ESS);Graphite;LDS;t/yr;4577;64458;234866
+USA;Li-ion batteries (ESS);Graphite;HDS;t/yr;4577;99834;399670
+USA;Li-ion batteries (ESS);Li;LDS;t/yr;569;7849;27889
+USA;Li-ion batteries (ESS);Li;HDS;t/yr;569;11817;45842
+USA;Li-ion batteries (ESS);Mn;LDS;t/yr;858;9532;22599
+USA;Li-ion batteries (ESS);Mn;HDS;t/yr;858;12814;30089
+USA;Li-ion batteries (ESS);Ni;LDS;t/yr;1671;14777;64182
+USA;Li-ion batteries (ESS);Ni;HDS;t/yr;1671;20255;89428
+USA;Li-ion batteries (ESS);P;LDS;t/yr;1810;32753;133000
+USA;Li-ion batteries (ESS);P;HDS;t/yr;1810;55817;257555
+China;Li-ion batteries (ESS);Al;LDS;t/yr;3668;75609;312419
+China;Li-ion batteries (ESS);Al;HDS;t/yr;3668;118150;555612
+China;Li-ion batteries (ESS);Co;LDS;t/yr;265;6201;14403
+China;Li-ion batteries (ESS);Co;HDS;t/yr;265;8374;19113
+China;Li-ion batteries (ESS);Cu;LDS;t/yr;1292;27556;116980
+China;Li-ion batteries (ESS);Cu;HDS;t/yr;1292;43376;209299
+China;Li-ion batteries (ESS);Fe;LDS;t/yr;482;13220;63027
+China;Li-ion batteries (ESS);Fe;HDS;t/yr;482;22797;122535
+China;Li-ion batteries (ESS);Fluorspar;LDS;t/yr;6;122;534
+China;Li-ion batteries (ESS);Fluorspar;HDS;t/yr;6;193;931
+China;Li-ion batteries (ESS);Graphite;LDS;t/yr;1983;39984;169203
+China;Li-ion batteries (ESS);Graphite;HDS;t/yr;1983;62457;288612
+China;Li-ion batteries (ESS);Li;LDS;t/yr;246;4869;20092
+China;Li-ion batteries (ESS);Li;HDS;t/yr;246;7393;33104
+China;Li-ion batteries (ESS);Mn;LDS;t/yr;372;5913;16281
+China;Li-ion batteries (ESS);Mn;HDS;t/yr;372;8017;21728
+China;Li-ion batteries (ESS);Ni;LDS;t/yr;724;9167;46238
+China;Li-ion batteries (ESS);Ni;HDS;t/yr;724;12672;64578
+China;Li-ion batteries (ESS);P;LDS;t/yr;784;20317;95816
+China;Li-ion batteries (ESS);P;HDS;t/yr;784;34920;185988
+World;Li-ion batteries (ESS);Al;LDS;t/yr;16225;258405;1254434
+World;Li-ion batteries (ESS);Al;HDS;t/yr;16225;401515;2231003
+World;Li-ion batteries (ESS);Co;LDS;t/yr;1171;21193;57833
+World;Li-ion batteries (ESS);Co;HDS;t/yr;1171;28458;76747
+World;Li-ion batteries (ESS);Cu;LDS;t/yr;5715;94175;469703
+World;Li-ion batteries (ESS);Cu;HDS;t/yr;5715;147405;840420
+World;Li-ion batteries (ESS);Fe;LDS;t/yr;2134;45182;253068
+World;Li-ion batteries (ESS);Fe;HDS;t/yr;2134;77473;492026
+World;Li-ion batteries (ESS);Fluorspar;LDS;t/yr;26;417;2144
+World;Li-ion batteries (ESS);Fluorspar;HDS;t/yr;26;657;3740
+World;Li-ion batteries (ESS);Graphite;LDS;t/yr;8773;136651;679387
+World;Li-ion batteries (ESS);Graphite;HDS;t/yr;8773;212250;1158892
+World;Li-ion batteries (ESS);Li;LDS;t/yr;1090;16640;80674
+World;Li-ion batteries (ESS);Li;HDS;t/yr;1090;25123;132925
+World;Li-ion batteries (ESS);Mn;LDS;t/yr;1644;20207;65371
+World;Li-ion batteries (ESS);Mn;HDS;t/yr;1644;27244;87247
+World;Li-ion batteries (ESS);Ni;LDS;t/yr;3203;31328;185656
+World;Li-ion batteries (ESS);Ni;HDS;t/yr;3203;43063;259308
+World;Li-ion batteries (ESS);P;LDS;t/yr;3469;69436;384724
+World;Li-ion batteries (ESS);P;HDS;t/yr;3469;118669;746813
+EU;Li-ion batteries;Al;LDS;t/yr;53929;508889;921962
+EU;Li-ion batteries;Al;HDS;t/yr;53929;695303;1283283
+EU;Li-ion batteries;Co;LDS;t/yr;8102;40388;36308
+EU;Li-ion batteries;Co;HDS;t/yr;8102;53649;40202
+EU;Li-ion batteries;Cu;LDS;t/yr;17952;178721;343185
+EU;Li-ion batteries;Cu;HDS;t/yr;17952;253639;494753
+EU;Li-ion batteries;Fe;LDS;t/yr;532;61387;182549
+EU;Li-ion batteries;Fe;HDS;t/yr;532;108577;308378
+EU;Li-ion batteries;Fluorspar;LDS;t/yr;97;1051;1940
+EU;Li-ion batteries;Fluorspar;HDS;t/yr;97;1503;2930
+EU;Li-ion batteries;Graphite;LDS;t/yr;33726;342448;595405
+EU;Li-ion batteries;Graphite;HDS;t/yr;33726;478740;886573
+EU;Li-ion batteries;Li;LDS;t/yr;4891;42313;70563
+EU;Li-ion batteries;Li;HDS;t/yr;4891;58208;101873
+EU;Li-ion batteries;Mn;LDS;t/yr;6959;29077;29359
+EU;Li-ion batteries;Mn;HDS;t/yr;6959;40235;32965
+EU;Li-ion batteries;Ni;LDS;t/yr;23691;214408;303492
+EU;Li-ion batteries;Ni;HDS;t/yr;23691;266366;408287
+EU;Li-ion batteries;P;LDS;t/yr;1065;76139;234058
+EU;Li-ion batteries;P;HDS;t/yr;1065;131991;385421
+USA;Li-ion batteries;Al;LDS;t/yr;20277;476734;1501774
+USA;Li-ion batteries;Al;HDS;t/yr;20277;836342;2093310
+USA;Li-ion batteries;Co;LDS;t/yr;2656;33171;60408
+USA;Li-ion batteries;Co;HDS;t/yr;2656;54601;66107
+USA;Li-ion batteries;Cu;LDS;t/yr;6945;166678;559636
+USA;Li-ion batteries;Cu;HDS;t/yr;6945;298579;803545
+USA;Li-ion batteries;Fe;LDS;t/yr;1183;55295;298997
+USA;Li-ion batteries;Fe;HDS;t/yr;1183;117261;493938
+USA;Li-ion batteries;Fluorspar;LDS;t/yr;38;813;3108
+USA;Li-ion batteries;Fluorspar;HDS;t/yr;38;1482;4566
+USA;Li-ion batteries;Graphite;LDS;t/yr;12817;267613;956753
+USA;Li-ion batteries;Graphite;HDS;t/yr;12817;478079;1385797
+USA;Li-ion batteries;Li;LDS;t/yr;1755;33870;113332
+USA;Li-ion batteries;Li;HDS;t/yr;1755;59428;159374
+USA;Li-ion batteries;Mn;LDS;t/yr;2546;26473;51148
+USA;Li-ion batteries;Mn;HDS;t/yr;2546;44262;57563
+USA;Li-ion batteries;Ni;LDS;t/yr;7657;145572;467644
+USA;Li-ion batteries;Ni;HDS;t/yr;7657;237697;600643
+USA;Li-ion batteries;P;LDS;t/yr;1919;82573;389790
+USA;Li-ion batteries;P;HDS;t/yr;1919;170279;638327
+China;Li-ion batteries;Al;LDS;t/yr;50513;244948;1381666
+China;Li-ion batteries;Al;HDS;t/yr;50513;285277;1939934
+China;Li-ion batteries;Co;LDS;t/yr;8444;19070;54204
+China;Li-ion batteries;Co;HDS;t/yr;8444;20491;60986
+China;Li-ion batteries;Cu;LDS;t/yr;17019;86625;513757
+China;Li-ion batteries;Cu;HDS;t/yr;17019;103648;747395
+China;Li-ion batteries;Fe;LDS;t/yr;761;32091;271326
+China;Li-ion batteries;Fe;HDS;t/yr;761;46557;465065
+China;Li-ion batteries;Fluorspar;LDS;t/yr;103;464;2865
+China;Li-ion batteries;Fluorspar;HDS;t/yr;103;538;4391
+China;Li-ion batteries;Graphite;LDS;t/yr;34907;151663;880679
+China;Li-ion batteries;Graphite;HDS;t/yr;34907;172665;1329761
+China;Li-ion batteries;Li;LDS;t/yr;4980;18779;104543
+China;Li-ion batteries;Li;HDS;t/yr;4980;20967;152783
+China;Li-ion batteries;Mn;LDS;t/yr;7111;14994;44489
+China;Li-ion batteries;Mn;HDS;t/yr;7111;17004;50695
+China;Li-ion batteries;Ni;LDS;t/yr;24669;81799;443574
+China;Li-ion batteries;Ni;HDS;t/yr;24669;76598;604610
+China;Li-ion batteries;P;LDS;t/yr;1204;43983;352348
+China;Li-ion batteries;P;HDS;t/yr;1204;64737;584855
+World;Li-ion batteries;Al;LDS;t/yr;132446;2137060;10424657
+World;Li-ion batteries;Al;HDS;t/yr;132446;3004901;13446263
+World;Li-ion batteries;Co;LDS;t/yr;20249;147212;398723
+World;Li-ion batteries;Co;HDS;t/yr;20249;198490;410478
+World;Li-ion batteries;Cu;LDS;t/yr;44530;742770;3871970
+World;Li-ion batteries;Cu;HDS;t/yr;44530;1072357;5187666
+World;Li-ion batteries;Fe;LDS;t/yr;2785;229973;2037128
+World;Li-ion batteries;Fe;HDS;t/yr;2785;410896;3222003
+World;Li-ion batteries;Fluorspar;LDS;t/yr;252;3768;22113
+World;Li-ion batteries;Fluorspar;HDS;t/yr;252;5496;31320
+World;Li-ion batteries;Graphite;LDS;t/yr;86245;1239286;6773480
+World;Li-ion batteries;Graphite;HDS;t/yr;86245;1769795;9464128
+World;Li-ion batteries;Li;LDS;t/yr;12298;157147;804199
+World;Li-ion batteries;Li;HDS;t/yr;12298;220306;1090014
+World;Li-ion batteries;Mn;LDS;t/yr;17583;111729;307034
+World;Li-ion batteries;Mn;HDS;t/yr;17583;156227;318827
+World;Li-ion batteries;Ni;LDS;t/yr;59054;742567;3588794
+World;Li-ion batteries;Ni;HDS;t/yr;59054;940115;4563383
+World;Li-ion batteries;P;LDS;t/yr;4705;332996;2584459
+World;Li-ion batteries;P;HDS;t/yr;4705;579691;3969006
+EU;Fuel cells;Pt;LDS;t/yr;0,009730446;0,006634435;7,538354004
+EU;Fuel cells;Pt;HDS;t/yr;0,009730444;0,005898029;10,46976379
+USA;Fuel cells;Pt;LDS;t/yr;0,003348684;0,015357757;13,13249988
+USA;Fuel cells;Pt;HDS;t/yr;0,003348684;0,020741477;13,73933289
+China;Fuel cells;Pt;LDS;t/yr;0,000376322;0,007849182;11,27194568
+China;Fuel cells;Pt;HDS;t/yr;0,000376322;0,003972683;13,18890833
+World;Fuel cells;Pt;LDS;t/yr;0,076343899;0,084941292;61,06003613
+World;Fuel cells;Pt;HDS;t/yr;0,076343899;0,081340237;74,05155762
+EU;Electrolysers;Ir;LDS;t/yr;0,0089;1,8;2,4
+EU;Electrolysers;Ir;HDS;t/yr;0,0089;2,9;9,3
+EU;Electrolysers;La;LDS;t/yr;0,0012;3,8;96,7
+EU;Electrolysers;La;HDS;t/yr;0,0012;5,9;381,5
+EU;Electrolysers;Ni;LDS;t/yr;4,1;3313,2;8319,7
+EU;Electrolysers;Ni;HDS;t/yr;4,1;5196,6;32815
+EU;Electrolysers;Pd;LDS;t/yr;0,0015;1,2;1,6
+EU;Electrolysers;Pd;HDS;t/yr;0,0015;1,9;6,1
+EU;Electrolysers;Pt;LDS;t/yr;0,0066;1,8;2,4
+EU;Electrolysers;Pt;HDS;t/yr;0,0066;2,9;9,3
+EU;Electrolysers;Rh;LDS;t/yr;0,0027;0,4388;0,5652
+EU;Electrolysers;Rh;HDS;t/yr;0,0027;0,6882;2,2293
+EU;Electrolysers;Ru;LDS;t/yr;0,0027;0,4388;0,5652
+EU;Electrolysers;Ru;HDS;t/yr;0,0027;0,6882;2,2293
+EU;Electrolysers;Y;LDS;t/yr;0,0001;0,5;11,7
+EU;Electrolysers;Y;HDS;t/yr;0,0001;0,7;46,3
+EU;Electrolysers;Zr;LDS;t/yr;0,5;418,9;1110
+EU;Electrolysers;Zr;HDS;t/yr;0,5;657,1;4378,3
+USA;Electrolysers;Ir;LDS;t/yr;0,0002;1,1;2,5
+USA;Electrolysers;Ir;HDS;t/yr;0,0002;4,1;8,8
+USA;Electrolysers;La;LDS;t/yr;0,00002;2,9;73,6
+USA;Electrolysers;La;HDS;t/yr;0,00002;10,2;263,3
+USA;Electrolysers;Ni;LDS;t/yr;0,1;1856;3872
+USA;Electrolysers;Ni;HDS;t/yr;0,1;6639,5;13851,3
+USA;Electrolysers;Pd;LDS;t/yr;0,00003;0,8;1,6
+USA;Electrolysers;Pd;HDS;t/yr;0,00003;2,7;5,8
+USA;Electrolysers;Pt;LDS;t/yr;0,0001;1,1;2,5
+USA;Electrolysers;Pt;HDS;t/yr;0,0001;4,1;8,8
+USA;Electrolysers;Rh;LDS;t/yr;0,015;0,275;0,591
+USA;Electrolysers;Rh;HDS;t/yr;0,015;0,985;2,116
+USA;Electrolysers;Ru;LDS;t/yr;0,015;0,275;0,591
+USA;Electrolysers;Ru;HDS;t/yr;0,015;0,985;2,116
+USA;Electrolysers;Y;LDS;t/yr;0,000003;0,3;8,9
+USA;Electrolysers;Y;HDS;t/yr;0,000003;1,2;32
+USA;Electrolysers;Zr;LDS;t/yr;0,01;235,2;535,7
+USA;Electrolysers;Zr;HDS;t/yr;0,01;841,271;1916,222
+China;Electrolysers;Ir;LDS;t/yr;0,0036;0,8;2,5
+China;Electrolysers;Ir;HDS;t/yr;0,0036;2,1;9,9
+China;Electrolysers;La;LDS;t/yr;0;0;0
+China;Electrolysers;La;HDS;t/yr;0;0;0
+China;Electrolysers;Ni;LDS;t/yr;9,2;8592,9;25778,6
+China;Electrolysers;Ni;HDS;t/yr;9,2;21921,5;101990,9
+China;Electrolysers;Pd;LDS;t/yr;0,0006;0,5;1,6
+China;Electrolysers;Pd;HDS;t/yr;0,0006;1,4;6,5
+China;Electrolysers;Pt;LDS;t/yr;0,0027;0,8;2,5
+China;Electrolysers;Pt;HDS;t/yr;0,0027;2,1;9,9
+China;Electrolysers;Rh;LDS;t/yr;0,0011;0,2;0,6
+China;Electrolysers;Rh;HDS;t/yr;0,0011;0,51;2,37
+China;Electrolysers;Ru;LDS;t/yr;0,0011;0,2;0,6
+China;Electrolysers;Ru;HDS;t/yr;0,0011;0,51;2,37
+China;Electrolysers;Y;LDS;t/yr;0;0;0
+China;Electrolysers;Y;HDS;t/yr;0;0;0
+China;Electrolysers;Zr;LDS;t/yr;1,2;1080;3239,9
+China;Electrolysers;Zr;HDS;t/yr;1,2;2755,2;12818,5
+World;Electrolysers;Ir;LDS;t/yr;0,02;4,6;9,4
+World;Electrolysers;Ir;HDS;t/yr;0,02;16,6;33,6
+World;Electrolysers;La;LDS;t/yr;0,004;12,1;253,2
+World;Electrolysers;La;HDS;t/yr;0,004;43,1;905,7
+World;Electrolysers;Ni;LDS;t/yr;28,2;14208,1;39912,5
+World;Electrolysers;Ni;HDS;t/yr;28,2;50818;142754,5
+World;Electrolysers;Pd;LDS;t/yr;0,003;3,1;6,2
+World;Electrolysers;Pd;HDS;t/yr;0,003;11;22,2
+World;Electrolysers;Pt;LDS;t/yr;0,02;4,6;9,4
+World;Electrolysers;Pt;HDS;t/yr;0,02;16,6;33,6
+World;Electrolysers;Rh;LDS;t/yr;0,019;0,91;1,76
+World;Electrolysers;Rh;HDS;t/yr;0,019;2,18;6,72
+World;Electrolysers;Ru;LDS;t/yr;0,019;0,91;1,76
+World;Electrolysers;Ru;HDS;t/yr;0,019;2,18;6,72
+World;Electrolysers;Y;LDS;t/yr;0,0004;1,5;30,7
+World;Electrolysers;Y;HDS;t/yr;0,0004;5,2;109,9
+World;Electrolysers;Zr;LDS;t/yr;3,5;1793,8;5184,9
+World;Electrolysers;Zr;HDS;t/yr;3,5;6415,7;18544,9
+EU;Wind turbines;Al;LDS;t/yr;12246,87139;21916,45996;20727,14376
+EU;Wind turbines;Al;HDS;t/yr;12246,87139;43521,87166;48774,56515
+EU;Wind turbines;B;LDS;t/yr;13,73426465;19,88186258;9,909018708
+EU;Wind turbines;B;HDS;t/yr;13,73426465;64,50386028;86,24896263
+EU;Wind turbines;Balsa wood;LDS;t/yr;2679,47757;4684,635;4320,135
+EU;Wind turbines;Balsa wood;HDS;t/yr;2679,47757;9835,8111;12207,1293
+EU;Wind turbines;Concrete;LDS;t/yr;3517525,621;6215834,62;5809390,808
+EU;Wind turbines;Concrete;HDS;t/yr;3517525,621;12777619,03;15249839,01
+EU;Wind turbines;Cr;LDS;t/yr;5239,713405;9151,665463;8450,447853
+EU;Wind turbines;Cr;HDS;t/yr;5239,713405;19472,13953;24662,29315
+EU;Wind turbines;Cu;LDS;t/yr;19067,66676;32786,62912;29578,70374
+EU;Wind turbines;Cu;HDS;t/yr;19067,66676;72612,82382;99072,59103
+EU;Wind turbines;Dy;LDS;t/yr;57,29109511;87,37679152;47,30565348
+EU;Wind turbines;Dy;HDS;t/yr;57,29109511;249,7710953;296,4928741
+EU;Wind turbines;Fe;LDS;t/yr;187684,6339;323925,2206;296493,2916
+EU;Wind turbines;Fe;HDS;t/yr;187684,6339;695396,9476;881099,005
+EU;Wind turbines;Glass / carbon composites;LDS;t/yr;79864,77834;139377,8314;128476,84
+EU;Wind turbines;Glass / carbon composites;HDS;t/yr;79864,77834;294733,4533;369304,548
+EU;Wind turbines;Mn;LDS;t/yr;9006,958937;16298,68872;15363,33058
+EU;Wind turbines;Mn;HDS;t/yr;9006,958937;33248,53433;41179,91283
+EU;Wind turbines;Mo;LDS;t/yr;1038,985657;1791,928398;1640,772738
+EU;Wind turbines;Mo;HDS;t/yr;1038,985657;3851,313628;4877,172018
+EU;Wind turbines;Nd;LDS;t/yr;512,3570637;760,3329172;397,0063877
+EU;Wind turbines;Nd;HDS;t/yr;512,3570637;2300,233115;2870,991579
+EU;Wind turbines;Ni;LDS;t/yr;3456,073903;5791,177688;5308,774728
+EU;Wind turbines;Ni;HDS;t/yr;3456,073903;12299,1439;14167,05359
+EU;Wind turbines;Plastic;LDS;t/yr;44610,74223;77499,66187;71173,51947
+EU;Wind turbines;Plastic;HDS;t/yr;44610,74223;163629,3035;203235,0227
+EU;Wind turbines;Pr;LDS;t/yr;83,43826149;123,0136218;62,52611695
+EU;Wind turbines;Pr;HDS;t/yr;83,43826149;387,3364694;510,3282446
+EU;Wind turbines;Steel;LDS;t/yr;1193392,597;2113678,477;1963318,521
+EU;Wind turbines;Steel;HDS;t/yr;1193392,597;4394168,91;5474186,739
+EU;Wind turbines;Tb;LDS;t/yr;19,86575678;30,4308058;16,17692212
+EU;Wind turbines;Tb;HDS;t/yr;19,86575678;86,5185724;104,7711334
+EU;Wind turbines;Zn;LDS;t/yr;46454,04072;77347,12462;69014,10222
+EU;Wind turbines;Zn;HDS;t/yr;46454,04072;169525,9692;211618,9223
+USA;Wind turbines;Al;LDS;t/yr;20307,08602;20637,63898;25344,97059
+USA;Wind turbines;Al;HDS;t/yr;20307,08602;22114,04646;27059,17852
+USA;Wind turbines;B;LDS;t/yr;1,76907666;2,958748481;3,466828538
+USA;Wind turbines;B;HDS;t/yr;1,76907666;10,02389235;26,18350427
+USA;Wind turbines;Balsa wood;LDS;t/yr;3799,926;3893,611143;4794,134205
+USA;Wind turbines;Balsa wood;HDS;t/yr;3799,926;4294,226763;5783,839518
+USA;Wind turbines;Concrete;LDS;t/yr;5142292,081;5248105,167;6468040,917
+USA;Wind turbines;Concrete;HDS;t/yr;5142292,081;5737705,764;7447463,613
+USA;Wind turbines;Cr;LDS;t/yr;6976,664136;7159,430631;8889,703856
+USA;Wind turbines;Cr;HDS;t/yr;6976,664136;8045,028517;11208,61698
+USA;Wind turbines;Cu;LDS;t/yr;18625,7595;19386,25765;23971,38036
+USA;Wind turbines;Cu;HDS;t/yr;18625,7595;22442,55805;34891,66594
+USA;Wind turbines;Dy;LDS;t/yr;28,66551584;32,26621308;28,93566665
+USA;Wind turbines;Dy;HDS;t/yr;28,66551584;54,94410925;96,68563002
+USA;Wind turbines;Fe;LDS;t/yr;252423,4547;259081,5922;319739,0648
+USA;Wind turbines;Fe;HDS;t/yr;252423,4547;290308,0876;403643,3639
+USA;Wind turbines;Glass / carbon composites;LDS;t/yr;110199,2614;112995,4398;139552,1781
+USA;Wind turbines;Glass / carbon composites;HDS;t/yr;110199,2614;125621,7479;171776,7659
+USA;Wind turbines;Mn;LDS;t/yr;12591,54738;12899,65916;16094,60586
+USA;Wind turbines;Mn;HDS;t/yr;12591,54738;14233,3806;19123,15142
+USA;Wind turbines;Mo;LDS;t/yr;1394,995056;1431,521765;1767,939731
+USA;Wind turbines;Mo;HDS;t/yr;1394,995056;1606,749346;2236,684876
+USA;Wind turbines;Nd;LDS;t/yr;188,9449871;225,9065954;213,3196127
+USA;Wind turbines;Nd;HDS;t/yr;188,9449871;454,9790141;918,8731324
+USA;Wind turbines;Ni;LDS;t/yr;5540,995798;5540,09872;6707,934899
+USA;Wind turbines;Ni;HDS;t/yr;5540,995798;6065,350865;7579,215444
+USA;Wind turbines;Plastic;LDS;t/yr;63353,91439;64919,70403;79757,31567
+USA;Wind turbines;Plastic;HDS;t/yr;63353,91439;71617,77479;96564,35388
+USA;Wind turbines;Pr;LDS;t/yr;5,910996;12,73222396;15,93116414
+USA;Wind turbines;Pr;HDS;t/yr;5,910996;51,58799285;143,7055106
+USA;Wind turbines;Steel;LDS;t/yr;1655425,095;1697220,432;2098388,884
+USA;Wind turbines;Steel;HDS;t/yr;1655425,095;1871320,05;2526171,013
+USA;Wind turbines;Tb;LDS;t/yr;12,5679034;14,02085885;12,17449581
+USA;Wind turbines;Tb;HDS;t/yr;12,5679034;21,71891286;36,22720974
+USA;Wind turbines;Zn;LDS;t/yr;66573,29614;68244,59039;82643,26517
+USA;Wind turbines;Zn;HDS;t/yr;66573,29614;75410,55295;102376,9948
+China;Wind turbines;Al;LDS;t/yr;86594,08089;43443,14749;93014,24005
+China;Wind turbines;Al;HDS;t/yr;86594,08089;68129,29394;164934,6675
+China;Wind turbines;B;LDS;t/yr;117,8453535;59,06375052;85,06854602
+China;Wind turbines;B;HDS;t/yr;117,8453535;127,723436;350,1923863
+China;Wind turbines;Balsa wood;LDS;t/yr;19550,9052;9809,145483;20990,16374
+China;Wind turbines;Balsa wood;HDS;t/yr;19550,9052;16089,82329;42959,97688
+China;Wind turbines;Concrete;LDS;t/yr;24129440,73;12104838,29;25927071,92
+China;Wind turbines;Concrete;HDS;t/yr;24129440,73;19548296,37;50501999,53
+China;Wind turbines;Cr;LDS;t/yr;36040,0454;18077,14539;38765,71866
+China;Wind turbines;Cr;HDS;t/yr;36040,0454;30131,9749;82989,62662
+China;Wind turbines;Cu;LDS;t/yr;127094,2726;63773,04585;136350,3007
+China;Wind turbines;Cu;HDS;t/yr;127094,2726;109913,6827;322371,8181
+China;Wind turbines;Dy;LDS;t/yr;444,4481846;222,8487948;319,9320863
+China;Wind turbines;Dy;HDS;t/yr;444,4481846;451,5681441;1144,73148
+China;Wind turbines;Fe;LDS;t/yr;1357533,853;681064,5994;1458078,469
+China;Wind turbines;Fe;HDS;t/yr;1357533,853;1133290,841;3109282,903
+China;Wind turbines;Glass / carbon composites;LDS;t/yr;570795,3478;286353,4957;613220,2353
+China;Wind turbines;Glass / carbon composites;HDS;t/yr;570795,3478;473010,9874;1280340,383
+China;Wind turbines;Mn;LDS;t/yr;58346,34533;29259,20978;62852,72725
+China;Wind turbines;Mn;HDS;t/yr;58346,34533;47909,82929;127817,0426
+China;Wind turbines;Mo;LDS;t/yr;7471,3987;3748,232064;8026,404023
+China;Wind turbines;Mo;HDS;t/yr;7471,3987;6242,5819;17152,3769
+China;Wind turbines;Nd;LDS;t/yr;4204,548901;2107,892524;3029,440677
+China;Wind turbines;Nd;HDS;t/yr;4204,548901;4381,183386;11464,26095
+China;Wind turbines;Ni;LDS;t/yr;27208,40292;13608,34788;29015,17102
+China;Wind turbines;Ni;HDS;t/yr;27208,40292;21722,487;54215,1804
+China;Wind turbines;Plastic;LDS;t/yr;331746,1046;166456,9419;355990,7342
+China;Wind turbines;Plastic;HDS;t/yr;331746,1046;273190,3752;729925,5117
+China;Wind turbines;Pr;LDS;t/yr;672,4022215;337,0619654;484,8411395
+China;Wind turbines;Pr;HDS;t/yr;672,4022215;727,7027343;1992,456187
+China;Wind turbines;Steel;LDS;t/yr;8329776,327;4178717,722;8950626,181
+China;Wind turbines;Steel;HDS;t/yr;8329776,327;6856821,234;18343731,55
+China;Wind turbines;Tb;LDS;t/yr;181,2146901;90,90008803;130,0763664
+China;Wind turbines;Tb;HDS;t/yr;181,2146901;179,3003567;439,8396624
+China;Wind turbines;Zn;LDS;t/yr;387756,3019;194641,5955;414916,1548
+China;Wind turbines;Zn;HDS;t/yr;387756,3019;320464,8917;859589,9423
+World;Wind turbines;Al;LDS;t/yr;140996,9342;130371,7656;298964,7972
+World;Wind turbines;Al;HDS;t/yr;140996,9342;300994,2849;552174,5882
+World;Wind turbines;B;LDS;t/yr;133,1075685;125,3346507;191,1104379
+World;Wind turbines;B;HDS;t/yr;133,1075685;410,2063809;860,4627845
+World;Wind turbines;Balsa wood;LDS;t/yr;29906,31186;27670,52585;63396,73452
+World;Wind turbines;Balsa wood;HDS;t/yr;29906,31186;66105,18553;129784,8063
+World;Wind turbines;Concrete;LDS;t/yr;38430215,34;35560530,32;81502677,44
+World;Wind turbines;Concrete;HDS;t/yr;38430215,34;84041941,49;161914919
+World;Wind turbines;Cr;LDS;t/yr;56095,29009;51993,16602;119147,9352
+World;Wind turbines;Cr;HDS;t/yr;56095,29009;126191,0689;256369,1226
+World;Wind turbines;Cu;LDS;t/yr;184600,9607;170819,2174;390712,9291
+World;Wind turbines;Cu;HDS;t/yr;184600,9607;425292,1334;898224,9524
+World;Wind turbines;Dy;LDS;t/yr;550,6679131;514,6068119;784,6659648
+World;Wind turbines;Dy;HDS;t/yr;550,6679131;1547,476122;2953,206107
+World;Wind turbines;Fe;LDS;t/yr;2052833,974;1900449,448;4352772,194
+World;Wind turbines;Fe;HDS;t/yr;2052833,974;4609018,944;9323112,019
+World;Wind turbines;Glass / carbon composites;LDS;t/yr;876902,5916;811874,0761;1860167,062
+World;Wind turbines;Glass / carbon composites;HDS;t/yr;876902,5916;1953274,363;3893219,65
+World;Wind turbines;Mn;LDS;t/yr;96115,93411;89162,61381;204572,4156
+World;Wind turbines;Mn;HDS;t/yr;96115,93411;212056,8593;415345,4619
+World;Wind turbines;Mo;LDS;t/yr;11327,28966;10488,17762;24022,49272
+World;Wind turbines;Mo;HDS;t/yr;11327,28966;25470,5578;51679,10248
+World;Wind turbines;Nd;LDS;t/yr;4995,36238;4680,89831;7136,607927
+World;Wind turbines;Nd;HDS;t/yr;4995,36238;14562,43594;28919,80103
+World;Wind turbines;Ni;LDS;t/yr;40860,52968;37133,0507;85000,0103
+World;Wind turbines;Ni;HDS;t/yr;40860,52968;87924,61337;163661,5366
+World;Wind turbines;Plastic;LDS;t/yr;501472,6708;463789,7557;1062347,047
+World;Wind turbines;Plastic;HDS;t/yr;501472,6708;1109174,176;2179935,849
+World;Wind turbines;Pr;LDS;t/yr;758,158845;712,6951147;1085,87607
+World;Wind turbines;Pr;HDS;t/yr;758,158845;2324,737024;4850,995768
+World;Wind turbines;Steel;LDS;t/yr;13020657,78;12055721,47;27632007
+World;Wind turbines;Steel;HDS;t/yr;13020657,78;28754722,69;56360265,3
+World;Wind turbines;Tb;LDS;t/yr;218,0385316;203,2032742;309,9842376
+World;Wind turbines;Tb;HDS;t/yr;218,0385316;591,3197715;1077,519054
+World;Wind turbines;Zn;LDS;t/yr;546326,7046;503974,7189;1152677,678
+World;Wind turbines;Zn;HDS;t/yr;546326,7046;1213190,809;2399737,982
+EU;Traction motors;Al;LDS;t/y;19850;111645;171540
+EU;Traction motors;Al;HDS;t/y;19850;156020;227732
+EU;Traction motors;B;LDS;t/y;12;65;101
+EU;Traction motors;B;HDS;t/y;12;90;131
+EU;Traction motors;Cu;LDS;t/y;7643;44760;67980
+EU;Traction motors;Cu;HDS;t/y;7643;62875;91683
+EU;Traction motors;Dy;LDS;t/y;59;107;123
+EU;Traction motors;Dy;HDS;t/y;60;451;620
+EU;Traction motors;Electrosteel;LDS;t/y;31087;174851;268653
+EU;Traction motors;Electrosteel;HDS;t/y;31087;244347;356658
+EU;Traction motors;Fe;LDS;t/y;1004;5364;8369
+EU;Traction motors;Fe;HDS;t/y;1004;7444;10880
+EU;Traction motors;Nd;LDS;t/y;437;1634;2186
+EU;Traction motors;Nd;HDS;t/y;437;2916;4025
+EU;Traction motors;Steel;LDS;t/y;989;5564;8549
+EU;Traction motors;Steel;HDS;t/y;989;7775;11349
+USA;Traction motors;Al;LDS;t/y;4229;83797;250021
+USA;Traction motors;Al;HDS;t/y;4229;156476;318126
+USA;Traction motors;B;LDS;t/y;2;52;147
+USA;Traction motors;B;HDS;t/y;2;97;184
+USA;Traction motors;Cu;LDS;t/y;1712;31566;99237
+USA;Traction motors;Cu;HDS;t/y;1712;59298;127683
+USA;Traction motors;Dy;LDS;t/y;12;87;179
+USA;Traction motors;Dy;HDS;t/y;14;420;863
+USA;Traction motors;Electrosteel;LDS;t/y;6623;131236;391565
+USA;Traction motors;Electrosteel;HDS;t/y;6623;245062;498225
+USA;Traction motors;Fe;LDS;t/y;201;4352;12173
+USA;Traction motors;Fe;HDS;t/y;201;8070;15262
+USA;Traction motors;Nd;LDS;t/y;87;1326;3179
+USA;Traction motors;Nd;HDS;t/y;87;3161;5646
+USA;Traction motors;Steel;LDS;t/y;211;4176;12460
+USA;Traction motors;Steel;HDS;t/y;211;7798;15854
+China;Traction motors;Al;LDS;t/y;16685;40220;249982
+China;Traction motors;Al;HDS;t/y;16685;40902;333006
+China;Traction motors;B;LDS;t/y;9;24;148
+China;Traction motors;B;HDS;t/y;9;24;192
+China;Traction motors;Cu;LDS;t/y;6781;15905;98712
+China;Traction motors;Cu;HDS;t/y;6781;16120;134083
+China;Traction motors;Dy;LDS;t/y;46;39;180
+China;Traction motors;Dy;HDS;t/y;54;115;907
+China;Traction motors;Electrosteel;LDS;t/y;26131;62990;391504
+China;Traction motors;Electrosteel;HDS;t/y;26131;64057;521530
+China;Traction motors;Fe;LDS;t/y;787;1968;12253
+China;Traction motors;Fe;HDS;t/y;787;2010;15907
+China;Traction motors;Nd;LDS;t/y;342;600;3200
+China;Traction motors;Nd;HDS;t/y;342;787;5885
+China;Traction motors;Steel;LDS;t/y;831;2004;12458
+China;Traction motors;Steel;HDS;t/y;831;2038;16595
+World;Traction motors;Al;LDS;t/y;42863;444069;2143718
+World;Traction motors;Al;HDS;t/y;42863;630652;2693209
+World;Traction motors;B;LDS;t/y;25;275;1267
+World;Traction motors;B;HDS;t/y;25;388;1561
+World;Traction motors;Cu;LDS;t/y;16958;168667;846146
+World;Traction motors;Cu;HDS;t/y;16958;240801;1078868
+World;Traction motors;Dy;LDS;t/y;123;456;1544
+World;Traction motors;Dy;HDS;t/y;123;1704;6467
+World;Traction motors;Electrosteel;LDS;t/y;67130;695469;3357334
+World;Traction motors;Electrosteel;HDS;t/y;67130;987680;4217907
+World;Traction motors;Fe;LDS;t/y;2096;22841;105132
+World;Traction motors;Fe;HDS;t/y;2096;32234;129536
+World;Traction motors;Nd;LDS;t/y;912;6959;27455
+World;Traction motors;Nd;HDS;t/y;912;12627;47923
+World;Traction motors;Steel;LDS;t/y;2136;22130;106830
+World;Traction motors;Steel;HDS;t/y;2136;31428;134214
+EU;Solar PV;Ag;LDS;t/yr;541,2289828;467,0607752;331,3633139
+EU;Solar PV;Ag;HDS;t/yr;541,2289828;961,0102676;750,1515702
+EU;Solar PV;Al;LDS;t/yr;213301,1907;217771,788;222636,3806
+EU;Solar PV;Al;HDS;t/yr;213301,1907;448080,711;504011,8308
+EU;Solar PV;As;LDS;t/yr;0;0;19,14543592
+EU;Solar PV;As;HDS;t/yr;0;0;43,34209072
+EU;Solar PV;Cd;LDS;t/yr;60,1618743;51,91749249;38,87996217
+EU;Solar PV;Cd;HDS;t/yr;60,1618743;106,8238782;88,01778424
+EU;Solar PV;Concrete;LDS;t/yr;1071063,671;1093512,183;1142036,55
+EU;Solar PV;Concrete;HDS;t/yr;1071063,671;2249977,929;2585381,288
+EU;Solar PV;Cu;LDS;t/yr;15291,14305;15611,63138;15581,50931
+EU;Solar PV;Cu;HDS;t/yr;15291,14305;32122,02533;35273,95214
+EU;Solar PV;Ga;LDS;t/yr;3,258768191;2,81219751;40,39686978
+EU;Solar PV;Ga;HDS;t/yr;3,258768191;5,7862934;91,45181142
+EU;Solar PV;Ge;LDS;t/yr;0;0;2503,633927
+EU;Solar PV;Ge;HDS;t/yr;0;0;5667,811864
+EU;Solar PV;Glass;LDS;t/yr;1090137,72;1112986,007;1204836,411
+EU;Solar PV;Glass;HDS;t/yr;1090137,72;2290046,685;2727549,754
+EU;Solar PV;In;LDS;t/yr;6,950519569;5,99804364;39,83723396
+EU;Solar PV;In;HDS;t/yr;6,950519569;12,34139502;90,18488877
+EU;Solar PV;Pb;LDS;t/yr;649,4747794;560,4729303;397,6359767
+EU;Solar PV;Pb;HDS;t/yr;649,4747794;1153,212321;900,1818842
+EU;Solar PV;Plastic;LDS;t/yr;144821,4815;147856,8069;154448,2941
+EU;Solar PV;Plastic;HDS;t/yr;144821,4815;304225,7391;349645,3151
+EU;Solar PV;Se;LDS;t/yr;9,388898565;8,102275343;6,06763046
+EU;Solar PV;Se;HDS;t/yr;9,388898565;16,67099917;13,73610875
+EU;Solar PV;Si;LDS;t/yr;58452,73014;50442,56373;35787,2379
+EU;Solar PV;Si;HDS;t/yr;58452,73014;103789,1089;81016,36958
+EU;Solar PV;Sn;LDS;t/yr;1082,457966;934,1215505;662,7266279
+EU;Solar PV;Sn;HDS;t/yr;1082,457966;1922,020535;1500,30314
+EU;Solar PV;Steel;LDS;t/yr;1276160,97;1302908,133;1360724,4
+EU;Solar PV;Steel;HDS;t/yr;1276160,97;2680824,767;3080454,3
+EU;Solar PV;Te;LDS;t/yr;64,71959205;55,85063586;41,82541385
+EU;Solar PV;Te;HDS;t/yr;64,71959205;114,9165962;94,68579819
+USA;Solar PV;Ag;LDS;t/yr;340,0172531;630,3836253;750,0411812
+USA;Solar PV;Ag;HDS;t/yr;340,0172531;832,188207;925,0706206
+USA;Solar PV;Al;LDS;t/yr;181073,5028;397168,5562;692754,3977
+USA;Solar PV;Al;HDS;t/yr;181073,5028;524314,0453;854415,4063
+USA;Solar PV;As;LDS;t/yr;0;0;56,77167602
+USA;Solar PV;As;HDS;t/yr;0;0;70,01990141
+USA;Solar PV;Cd;LDS;t/yr;316,672785;587,1035555;749,3861234
+USA;Solar PV;Cd;HDS;t/yr;316,672785;775,0528972;924,2626986
+USA;Solar PV;Concrete;LDS;t/yr;867037,7536;1901769,875;3385268,752
+USA;Solar PV;Concrete;HDS;t/yr;867037,7536;2510583,078;4175254,298
+USA;Solar PV;Cu;LDS;t/yr;10148,14044;22259,03971;37478,91654
+USA;Solar PV;Cu;HDS;t/yr;10148,14044;29384,82156;46224,98797
+USA;Solar PV;Ga;LDS;t/yr;0,698542908;1,295081372;115,1964097
+USA;Solar PV;Ga;HDS;t/yr;0,698542908;1,709675509;142,0786176
+USA;Solar PV;Ge;LDS;t/yr;0;0;7423,988402
+USA;Solar PV;Ge;HDS;t/yr;0;0;9156,448646
+USA;Solar PV;Glass;LDS;t/yr;1018172,587;2233270,633;4101272,349
+USA;Solar PV;Glass;HDS;t/yr;1018172,587;2948207,106;5058344,33
+USA;Solar PV;In;LDS;t/yr;1,48989921;2,762236494;108,3350003
+USA;Solar PV;In;HDS;t/yr;1,48989921;3,6465107;133,6160313
+USA;Solar PV;Pb;LDS;t/yr;408,0207038;756,4603504;900,0494175
+USA;Solar PV;Pb;HDS;t/yr;408,0207038;998,6258484;1110,084745
+USA;Solar PV;Plastic;LDS;t/yr;96878,1858;212493,6481;378341,9857
+USA;Solar PV;Plastic;HDS;t/yr;96878,1858;280519,1964;466631,7854
+USA;Solar PV;Se;LDS;t/yr;2,012585162;3,731283395;4,762655535
+USA;Solar PV;Se;HDS;t/yr;2,012585162;4,925778388;5,874067747
+USA;Solar PV;Si;LDS;t/yr;36721,86334;68081,43153;81004,44757
+USA;Solar PV;Si;HDS;t/yr;36721,86334;89876,32635;99907,62702
+USA;Solar PV;Sn;LDS;t/yr;680,0345063;1260,767251;1500,082362
+USA;Solar PV;Sn;HDS;t/yr;680,0345063;1664,376414;1850,141241
+USA;Solar PV;Steel;LDS;t/yr;1033066,26;2265938,575;4033511,705
+USA;Solar PV;Steel;HDS;t/yr;1033066,26;2991333,029;4974771,079
+USA;Solar PV;Te;LDS;t/yr;340,6631475;631,5810976;806,1577994
+USA;Solar PV;Te;HDS;t/yr;340,6631475;833,7690258;994,2826
+China;Solar PV;Ag;LDS;t/yr;1462,47606;1778,553402;1919,984286
+China;Solar PV;Ag;HDS;t/yr;1462,47606;2252,187783;2778,045099
+China;Solar PV;Al;LDS;t/yr;576369,5126;829268,427;1289999,026
+China;Solar PV;Al;HDS;t/yr;576369,5126;1050105,225;1866512,918
+China;Solar PV;As;LDS;t/yr;0;0;110,9324254
+China;Solar PV;As;HDS;t/yr;0;0;160,5092724
+China;Solar PV;Cd;LDS;t/yr;162,56576;197,7002518;225,2781563
+China;Solar PV;Cd;HDS;t/yr;162,56576;250,3484525;325,9572916
+China;Solar PV;Concrete;LDS;t/yr;2894163,151;4164061,546;6617184,638
+China;Solar PV;Concrete;HDS;t/yr;2894163,151;5272964,271;9574472,813
+China;Solar PV;Cu;LDS;t/yr;41318,79732;59448,62335;90282,33295
+China;Solar PV;Cu;HDS;t/yr;41318,79732;75279,97927;130630,4402
+China;Solar PV;Ga;LDS;t/yr;8,805645331;10,70876364;234,0674177
+China;Solar PV;Ga;HDS;t/yr;8,805645331;13,56054118;338,6745647
+China;Solar PV;Ge;LDS;t/yr;0;0;14506,54794
+China;Solar PV;Ge;HDS;t/yr;0;0;20989,67408
+China;Solar PV;Glass;LDS;t/yr;2945703,886;4238217,28;6981059,397
+China;Solar PV;Glass;HDS;t/yr;2945703,886;5366867,911;10100966,96
+China;Solar PV;In;LDS;t/yr;18,78127151;22,84037;230,8247775
+China;Solar PV;In;HDS;t/yr;18,78127151;28,92283259;333,9827552
+China;Solar PV;Pb;LDS;t/yr;1754,971272;2134,264082;2303,981144
+China;Solar PV;Pb;HDS;t/yr;1754,971272;2702,62534;3333,654118
+China;Solar PV;Plastic;LDS;t/yr;391327,8047;563034,2792;894903,8266
+China;Solar PV;Plastic;HDS;t/yr;391327,8047;712972,0839;1294845,592
+China;Solar PV;Se;LDS;t/yr;25,37011102;30,85322112;35,1570456
+China;Solar PV;Se;HDS;t/yr;25,37011102;39,06953123;50,86909247
+China;Solar PV;Si;LDS;t/yr;157947,4145;192083,7674;207358,3029
+China;Solar PV;Si;HDS;t/yr;157947,4145;243236,2806;300028,8707
+China;Solar PV;Sn;LDS;t/yr;2924,95212;3557,106804;3839,968573
+China;Solar PV;Sn;HDS;t/yr;2924,95212;4504,375567;5556,090197
+China;Solar PV;Steel;LDS;t/yr;3448364,605;4961435,033;7884305,1
+China;Solar PV;Steel;HDS;t/yr;3448364,605;6282680,833;11407882,5
+China;Solar PV;Te;LDS;t/yr;174,8813478;212,6775436;242,3446832
+China;Solar PV;Te;HDS;t/yr;174,8813478;269,3142444;350,6510258
+World;Solar PV;Ag;LDS;t/yr;3737,129246;5914,821583;5798,494394
+World;Solar PV;Ag;HDS;t/yr;3737,129246;8143,679129;9358,265912
+World;Solar PV;Al;LDS;t/yr;1472822,305;2757845,103;3895892,366
+World;Solar PV;Al;HDS;t/yr;1472822,305;3797072,37;6287631,623
+World;Solar PV;As;LDS;t/yr;0;0;335,0241206
+World;Solar PV;As;HDS;t/yr;0;0;540,6998082
+World;Solar PV;Cd;LDS;t/yr;415,4114194;657,4791149;680,3566756
+World;Solar PV;Cd;HDS;t/yr;415,4114194;905,2342274;1098,036534
+World;Solar PV;Concrete;LDS;t/yr;7395582,088;13848153,83;19984386,49
+World;Solar PV;Concrete;HDS;t/yr;7395582,088;19066495,88;32253062,63
+World;Solar PV;Cu;LDS;t/yr;105583,7358;197704,494;272659,3156
+World;Solar PV;Cu;HDS;t/yr;105583,7358;272204,6539;440048,4342
+World;Solar PV;Ga;LDS;t/yr;22,50145188;35,61345206;706,9008944
+World;Solar PV;Ga;HDS;t/yr;22,50145188;49,03352065;1140,876595
+World;Solar PV;Ge;LDS;t/yr;0;0;43810,84654
+World;Solar PV;Ge;HDS;t/yr;0;0;70706,898
+World;Solar PV;Glass;LDS;t/yr;7527286,39;14094768,82;21083315,14
+World;Solar PV;Glass;HDS;t/yr;7527286,39;19406041,77;34026637,95
+World;Solar PV;In;LDS;t/yr;47,99260716;75,95876138;697,1078816
+World;Solar PV;In;HDS;t/yr;47,99260716;104,5819846;1125,071524
+World;Solar PV;Pb;LDS;t/yr;4484,555096;7097,7859;6958,193273
+World;Solar PV;Pb;HDS;t/yr;4484,555096;9772,414955;11229,91909
+World;Solar PV;Plastic;LDS;t/yr;999977,1099;1872447,183;2702675,673
+World;Solar PV;Plastic;HDS;t/yr;999977,1099;2578033,644;4361883,602
+World;Solar PV;Se;LDS;t/yr;64,82935787;102,6065891;106,1768751
+World;Solar PV;Se;HDS;t/yr;64,82935787;141,2714022;171,3602469
+World;Solar PV;Si;LDS;t/yr;403609,9586;638800,731;626237,3946
+World;Solar PV;Si;HDS;t/yr;403609,9586;879517,3459;1010692,718
+World;Solar PV;Sn;LDS;t/yr;7474,258493;11829,64317;11596,98879
+World;Solar PV;Sn;HDS;t/yr;7474,258493;16287,35826;18716,53182
+World;Solar PV;Steel;LDS;t/yr;8811757,381;16499927,97;23811183,9
+World;Solar PV;Steel;HDS;t/yr;8811757,381;22717527;38429181
+World;Solar PV;Te;LDS;t/yr;782,0434676;1237,754243;1280,822984
+World;Solar PV;Te;HDS;t/yr;782,0434676;1704,172011;2067,136959
+EU;Heat pumps;Cu;LDS;t/yr;59658;154180,0285;233490,3041
+EU;Heat pumps;Cu;HDS;t/yr;59658;369093,991;584188,5989
+EU;Heat pumps;Plastic;LDS;t/yr;0,003779;0,9138384;1,7557812
+EU;Heat pumps;Plastic;HDS;t/yr;0,003779;2,18268158;6,71550312
+EU;Heat pumps;Steel;LDS;t/yr;0,019222;0,9138384;1,7557812
+EU;Heat pumps;Steel;HDS;t/yr;0,019222;2,18268158;6,71550312
+USA;Heat pumps;Cu;LDS;t/yr;125172;133658,8353;151841,65
+USA;Heat pumps;Cu;HDS;t/yr;125172;232583,4316;312724,6571
+USA;Heat pumps;Plastic;LDS;t/yr;61902;66099,04151;75091,0892
+USA;Heat pumps;Plastic;HDS;t/yr;61902;115020,7681;154653,4506
+USA;Heat pumps;Steel;LDS;t/yr;536940;573345,2772;651342,5969
+USA;Heat pumps;Steel;HDS;t/yr;536940;997693,9553;1341469,158
+China;Heat pumps;Cu;LDS;t/yr;71004;81768,0743;85804,31934
+China;Heat pumps;Cu;HDS;t/yr;71004;136862,394;199519,8608
+China;Heat pumps;Plastic;LDS;t/yr;35114;40437,21707;42433,28361
+China;Heat pumps;Plastic;HDS;t/yr;35114;67683,31505;98669,65795
+China;Heat pumps;Steel;LDS;t/yr;304580;350753,7613;368067,7087
+China;Heat pumps;Steel;HDS;t/yr;304580;587087,3183;855863,8839
+World;Heat pumps;Cu;LDS;t/yr;329034;446235,9359;554806,2319
+World;Heat pumps;Cu;HDS;t/yr;329034;815168,8143;1180103,075
+World;Heat pumps;Plastic;LDS;t/yr;162719;220679,5202;274371,3879
+World;Heat pumps;Plastic;HDS;t/yr;162719;403129,9327;583602,887
+World;Heat pumps;Steel;LDS;t/yr;1411430;1914181,473;2379906,514
+World;Heat pumps;Steel;HDS;t/yr;1411430;3496762,4;5062190,788
+EU;Data storage and servers;Ag;LDS;t/yr;1,00453928;1,40279995;
+EU;Data storage and servers;Ag;HDS;t/yr;1,00453928;2,134828562;
+EU;Data storage and servers;Al;LDS;t/yr;5034,436462;6521,784911;
+EU;Data storage and servers;Al;HDS;t/yr;5034,436462;10047,19351;
+EU;Data storage and servers;Au;LDS;t/yr;2,775248994;3,865206012;
+EU;Data storage and servers;Au;HDS;t/yr;2,775248994;5,87553195;
+EU;Data storage and servers;Co;LDS;t/yr;0,098980318;0,138222155;
+EU;Data storage and servers;Co;HDS;t/yr;0,098980318;0,210351166;
+EU;Data storage and servers;Cr;LDS;t/yr;455,9662594;626,204314;
+EU;Data storage and servers;Cr;HDS;t/yr;455,9662594;950,6298597;
+EU;Data storage and servers;Cu;LDS;t/yr;3292,264035;4567,699706;
+EU;Data storage and servers;Cu;HDS;t/yr;3292,264035;6937,504139;
+EU;Data storage and servers;Dy;LDS;t/yr;3,258852205;4,077697533;
+EU;Data storage and servers;Dy;HDS;t/yr;3,258852205;6,329567885;
+EU;Data storage and servers;Epoxy Resins;LDS;t/yr;2447,852167;3418,330139;
+EU;Data storage and servers;Epoxy Resins;HDS;t/yr;2447,852167;5202,130792;
+EU;Data storage and servers;Ga;LDS;t/yr;0,107228677;0,149740668;
+EU;Data storage and servers;Ga;HDS;t/yr;0,107228677;0,22788043;
+EU;Data storage and servers;Ge;LDS;t/yr;0,131973757;0,184296207;
+EU;Data storage and servers;Ge;HDS;t/yr;0,131973757;0,280468221;
+EU;Data storage and servers;Glass fibre;LDS;t/yr;3581,421709;5001,315821;
+EU;Data storage and servers;Glass fibre;HDS;t/yr;3581,421709;7611,172116;
+EU;Data storage and servers;Mg;LDS;t/yr;0,008111187;0,011326956;
+EU;Data storage and servers;Mg;HDS;t/yr;0,008111187;0,017237746;
+EU;Data storage and servers;Mn;LDS;t/yr;491,7301852;675,0354203;
+EU;Data storage and servers;Mn;HDS;t/yr;491,7301852;1024,859467;
+EU;Data storage and servers;Mo;LDS;t/yr;200,7400676;275,5699461;
+EU;Data storage and servers;Mo;HDS;t/yr;200,7400676;418,3791632;
+EU;Data storage and servers;Nd;LDS;t/yr;63,24372598;79,19826548;
+EU;Data storage and servers;Nd;HDS;t/yr;63,24372598;122,9162219;
+EU;Data storage and servers;Ni;LDS;t/yr;582,1997305;799,337619;
+EU;Data storage and servers;Ni;HDS;t/yr;582,1997305;1213,562691;
+EU;Data storage and servers;Pb;LDS;t/yr;0,006655333;0,009293913;
+EU;Data storage and servers;Pb;HDS;t/yr;0,006655333;0,014143792;
+EU;Data storage and servers;Pd;LDS;t/yr;0,825885193;1,15331648;
+EU;Data storage and servers;Pd;HDS;t/yr;0,825885193;1,755156153;
+EU;Data storage and servers;Plastic;LDS;t/yr;3544,199673;4832,987734;
+EU;Data storage and servers;Plastic;HDS;t/yr;3544,199673;7348,93918;
+EU;Data storage and servers;Pr;LDS;t/yr;15,70174244;19,64708811;
+EU;Data storage and servers;Pr;HDS;t/yr;15,70174244;30,4970089;
+EU;Data storage and servers;Ru;LDS;t/yr;0,032841193;0,041980367;
+EU;Data storage and servers;Ru;HDS;t/yr;0,032841193;0,06528357;
+EU;Data storage and servers;Sb;LDS;t/yr;32,99343918;46,07405181;
+EU;Data storage and servers;Sb;HDS;t/yr;32,99343918;70,11705537;
+EU;Data storage and servers;Si;LDS;t/yr;266,3985922;370,5133179;
+EU;Data storage and servers;Si;HDS;t/yr;266,3985922;564,6890248;
+EU;Data storage and servers;Sn;LDS;t/yr;23,33335167;32,5340591;
+EU;Data storage and servers;Sn;HDS;t/yr;23,33335167;49,47908696;
+EU;Data storage and servers;Fe;LDS;t/yr;28471,11036;39002,01457;
+EU;Data storage and servers;Fe;HDS;t/yr;28471,11036;59243,02691;
+EU;Data storage and servers;Synthetic rubber;LDS;t/yr;67,76784;93,73205653;
+EU;Data storage and servers;Synthetic rubber;HDS;t/yr;67,76784;142,0610245;
+EU;Data storage and servers;Tb;LDS;t/yr;3,258852205;4,077697533;
+EU;Data storage and servers;Tb;HDS;t/yr;3,258852205;6,329567885;
+EU;Data storage and servers;Ti;LDS;t/yr;25,28734335;34,87860779;
+EU;Data storage and servers;Ti;HDS;t/yr;25,28734335;52,9964087;
+EU;Data storage and servers;V;HDS;t/yr;1,499716399;1,717631648;
+EU;Data storage and servers;V;HDS;t/yr;1,499716399;2,727239198;
+EU;Data storage and servers;Zn;LDS;t/yr;272,9693151;378,6525501;
+EU;Data storage and servers;Zn;HDS;t/yr;272,9693151;574,605884;
+EU;Data storage and servers;Zr;LDS;t/yr;1,874645499;2,14703956;
+EU;Data storage and servers;Zr;HDS;t/yr;1,874645499;3,409048998;
+USA;Data storage and servers;Ag;LDS;t/yr;1,996975677;2,804824512;
+USA;Data storage and servers;Ag;HDS;t/yr;1,996975677;4,268477113;
+USA;Data storage and servers;Al;LDS;t/yr;10008,21706;13039,96495;
+USA;Data storage and servers;Al;HDS;t/yr;10008,21706;20088,83351;
+USA;Data storage and servers;Au;LDS;t/yr;5,517061254;7,728275559;
+USA;Data storage and servers;Au;HDS;t/yr;5,517061254;11,74781624;
+USA;Data storage and servers;Co;LDS;t/yr;0,196768101;0,27636791;
+USA;Data storage and servers;Co;HDS;t/yr;0,196768101;0,420586062;
+USA;Data storage and servers;Cr;LDS;t/yr;906,4389494;1252,062498;
+USA;Data storage and servers;Cr;HDS;t/yr;906,4389494;1900,734266;
+USA;Data storage and servers;Cu;LDS;t/yr;6544,862238;9132,874649;
+USA;Data storage and servers;Cu;HDS;t/yr;6544,862238;13871,17362;
+USA;Data storage and servers;Dy;LDS;t/yr;6,478441131;8,153141149;
+USA;Data storage and servers;Dy;HDS;t/yr;6,478441131;12,65563715;
+USA;Data storage and servers;Epoxy Resins;LDS;t/yr;4866,212138;6834,77082;
+USA;Data storage and servers;Epoxy Resins;HDS;t/yr;4866,212138;10401,38614;
+USA;Data storage and servers;Ga;LDS;t/yr;0,213165443;0,299398569;
+USA;Data storage and servers;Ga;HDS;t/yr;0,213165443;0,455634901;
+USA;Data storage and servers;Ge;LDS;t/yr;0,262357468;0,368490546;
+USA;Data storage and servers;Ge;HDS;t/yr;0,262357468;0,560781416;
+USA;Data storage and servers;Glass fibre;LDS;t/yr;7119,69376;9999,867201;
+USA;Data storage and servers;Glass fibre;HDS;t/yr;7119,69376;15218,13721;
+USA;Data storage and servers;Mg;LDS;t/yr;0,016124648;0,022647651;
+USA;Data storage and servers;Mg;HDS;t/yr;0,016124648;0,034465964;
+USA;Data storage and servers;Mn;LDS;t/yr;977,5359104;1349,69772;
+USA;Data storage and servers;Mn;HDS;t/yr;977,5359104;2049,15245;
+USA;Data storage and servers;Mo;LDS;t/yr;399,0615801;550,987573;
+USA;Data storage and servers;Mo;HDS;t/yr;399,0615801;836,5270703;
+USA;Data storage and servers;Nd;LDS;t/yr;125,7254794;158,3527547;
+USA;Data storage and servers;Nd;HDS;t/yr;125,7254794;245,7645028;
+USA;Data storage and servers;Ni;LDS;t/yr;1157,385006;1598,23341;
+USA;Data storage and servers;Ni;HDS;t/yr;1157,385006;2426,454594;
+USA;Data storage and servers;Pb;LDS;t/yr;0,013230481;0,018582688;
+USA;Data storage and servers;Pb;HDS;t/yr;0,013230481;0,028279766;
+USA;Data storage and servers;Pd;LDS;t/yr;1,641819962;2,305995474;
+USA;Data storage and servers;Pd;HDS;t/yr;1,641819962;3,509342157;
+USA;Data storage and servers;Plastic;LDS;t/yr;7045,698145;9663,304069;
+USA;Data storage and servers;Plastic;HDS;t/yr;7045,698145;14693,81629;
+USA;Data storage and servers;Pr;LDS;t/yr;31,21430727;39,28331644;
+USA;Data storage and servers;Pr;HDS;t/yr;31,21430727;60,9771608;
+USA;Data storage and servers;Ru;LDS;t/yr;0,065286709;0,083937531;
+USA;Data storage and servers;Ru;HDS;t/yr;0,065286709;0,130531054;
+USA;Data storage and servers;Sb;LDS;t/yr;65,58936705;92,12263652;
+USA;Data storage and servers;Sb;HDS;t/yr;65,58936705;140,1953541;
+USA;Data storage and servers;Si;LDS;t/yr;529,5875628;740,8218372;
+USA;Data storage and servers;Si;HDS;t/yr;529,5875628;1129,065922;
+USA;Data storage and servers;Sn;LDS;t/yr;46,38557862;65,05013524;
+USA;Data storage and servers;Sn;HDS;t/yr;46,38557862;98,93082472;
+USA;Data storage and servers;Fe;LDS;t/yr;56599,1953;77982,47106;
+USA;Data storage and servers;Fe;HDS;t/yr;56599,1953;118453,3077;
+USA;Data storage and servers;Synthetic rubber;LDS;t/yr;134,7192;187,4123033;
+USA;Data storage and servers;Synthetic rubber;HDS;t/yr;134,7192;284,0435259;
+USA;Data storage and servers;Tb;LDS;t/yr;6,478441131;8,153141149;
+USA;Data storage and servers;Tb;HDS;t/yr;6,478441131;12,65563715;
+USA;Data storage and servers;Ti;LDS;t/yr;50,27001992;69,73793669;
+USA;Data storage and servers;Ti;HDS;t/yr;50,27001992;105,963524;
+USA;Data storage and servers;V;HDS;t/yr;2,981363926;3,434313888;
+USA;Data storage and servers;V;HDS;t/yr;2,981363926;5,452970935;
+USA;Data storage and servers;Zn;LDS;t/yr;542,6498432;757,0958028;
+USA;Data storage and servers;Zn;HDS;t/yr;542,6498432;1148,894159;
+USA;Data storage and servers;Zr;LDS;t/yr;3,726704908;4,29289236;
+USA;Data storage and servers;Zr;HDS;t/yr;3,726704908;6,816213669;
+China;Data storage and servers;Ag;LDS;t/yr;0,314674955;2,064413602;
+China;Data storage and servers;Ag;HDS;t/yr;0,314674955;3,141694667;
+China;Data storage and servers;Al;LDS;t/yr;1577,052386;9597,705989;
+China;Data storage and servers;Al;HDS;t/yr;1577,052386;14785,83097;
+China;Data storage and servers;Au;LDS;t/yr;0,869355107;5,688183741;
+China;Data storage and servers;Au;HDS;t/yr;0,869355107;8,646655626;
+China;Data storage and servers;Co;LDS;t/yr;0,031005883;0,203412965;
+China;Data storage and servers;Co;HDS;t/yr;0,031005883;0,309560753;
+China;Data storage and servers;Cr;LDS;t/yr;142,8328042;921,5460149;
+China;Data storage and servers;Cr;HDS;t/yr;142,8328042;1398,982951;
+China;Data storage and servers;Cu;LDS;t/yr;1031,311625;6722,0001;
+China;Data storage and servers;Cu;HDS;t/yr;1031,311625;10209,49417;
+China;Data storage and servers;Dy;LDS;t/yr;1,020845269;6,000894321;
+China;Data storage and servers;Dy;HDS;t/yr;1,020845269;9,314832125;
+China;Data storage and servers;Epoxy Resins;LDS;t/yr;766,7970642;5030,544259;
+China;Data storage and servers;Epoxy Resins;HDS;t/yr;766,7970642;7655,652945;
+China;Data storage and servers;Ga;LDS;t/yr;0,033589706;0,220364046;
+China;Data storage and servers;Ga;HDS;t/yr;0,033589706;0,335357482;
+China;Data storage and servers;Ge;LDS;t/yr;0,041341177;0,271217287;
+China;Data storage and servers;Ge;HDS;t/yr;0,041341177;0,41274767;
+China;Data storage and servers;Glass fibre;LDS;t/yr;1121,891138;7360,126019;
+China;Data storage and servers;Glass fibre;HDS;t/yr;1121,891138;11200,88951;
+China;Data storage and servers;Mg;LDS;t/yr;0,002540854;0,016669178;
+China;Data storage and servers;Mg;HDS;t/yr;0,002540854;0,025367721;
+China;Data storage and servers;Mn;LDS;t/yr;154,0359616;993,4077227;
+China;Data storage and servers;Mn;HDS;t/yr;154,0359616;1508,222055;
+China;Data storage and servers;Mo;LDS;t/yr;62,8824308;405,5391827;
+China;Data storage and servers;Mo;HDS;t/yr;62,8824308;615,702642;
+China;Data storage and servers;Nd;LDS;t/yr;19,81128766;116,5511708;
+China;Data storage and servers;Nd;HDS;t/yr;19,81128766;180,8881733;
+China;Data storage and servers;Ni;LDS;t/yr;182,3758192;1176,335552;
+China;Data storage and servers;Ni;HDS;t/yr;182,3758192;1785,924876;
+China;Data storage and servers;Pb;LDS;t/yr;0,002084803;0,013677274;
+China;Data storage and servers;Pb;HDS;t/yr;0,002084803;0,02081454;
+China;Data storage and servers;Pd;LDS;t/yr;0,258711024;1,697264268;
+China;Data storage and servers;Pd;HDS;t/yr;0,258711024;2,582954353;
+China;Data storage and servers;Plastic;LDS;t/yr;1110,231223;7112,408022;
+China;Data storage and servers;Plastic;HDS;t/yr;1110,231223;10814,97758;
+China;Data storage and servers;Pr;LDS;t/yr;4,918618115;28,91339991;
+China;Data storage and servers;Pr;HDS;t/yr;4,918618115;44,88055478;
+China;Data storage and servers;Ru;LDS;t/yr;0,010287603;0,061779901;
+China;Data storage and servers;Ru;HDS;t/yr;0,010287603;0,096073777;
+China;Data storage and servers;Sb;LDS;t/yr;10,3352942;67,80432183;
+China;Data storage and servers;Sb;HDS;t/yr;10,3352942;103,1869176;
+China;Data storage and servers;Si;LDS;t/yr;83,45016141;545,2614489;
+China;Data storage and servers;Si;HDS;t/yr;83,45016141;831,0177827;
+China;Data storage and servers;Sn;LDS;t/yr;7,309242691;47,8783551;
+China;Data storage and servers;Sn;HDS;t/yr;7,309242691;72,81530069;
+China;Data storage and servers;Fe;LDS;t/yr;8918,661077;57396,84365;
+China;Data storage and servers;Fe;HDS;t/yr;8918,661077;87184,28498;
+China;Data storage and servers;Synthetic rubber;LDS;t/yr;21,22848;137,9396488;
+China;Data storage and servers;Synthetic rubber;HDS;t/yr;21,22848;209,0623908;
+China;Data storage and servers;Tb;LDS;t/yr;1,020845269;6,000894321;
+China;Data storage and servers;Tb;HDS;t/yr;1,020845269;9,314832125;
+China;Data storage and servers;Ti;LDS;t/yr;7,921336472;51,32868187;
+China;Data storage and servers;Ti;HDS;t/yr;7,921336472;77,99152474;
+China;Data storage and servers;V;HDS;t/yr;0,469790679;2,527731868;
+China;Data storage and servers;V;HDS;t/yr;0,469790679;4,013508625;
+China;Data storage and servers;Zn;LDS;t/yr;85,50846015;557,2394518;
+China;Data storage and servers;Zn;HDS;t/yr;85,50846015;845,6118086;
+China;Data storage and servers;Zr;LDS;t/yr;0,587238349;3,159664835;
+China;Data storage and servers;Zr;HDS;t/yr;0,587238349;5,016885781;
+World;Data storage and servers;Ag;LDS;t/yr;6,051441446;10,09215596;
+World;Data storage and servers;Ag;HDS;t/yr;6,051441446;15,35858538;
+World;Data storage and servers;Al;LDS;t/yr;30327,93049;46919,6413;
+World;Data storage and servers;Al;HDS;t/yr;30327,93049;72282,469;
+World;Data storage and servers;Au;LDS;t/yr;16,71836744;27,80743035;
+World;Data storage and servers;Au;HDS;t/yr;16,71836744;42,27030718;
+World;Data storage and servers;Co;LDS;t/yr;0,596266973;0,994410892;
+World;Data storage and servers;Co;HDS;t/yr;0,596266973;1,513328237;
+World;Data storage and servers;Cr;LDS;t/yr;2746,784695;4505,098251;
+World;Data storage and servers;Cr;HDS;t/yr;2746,784695;6839,11117;
+World;Data storage and servers;Cu;LDS;t/yr;19832,91587;32861,37686;
+World;Data storage and servers;Cu;HDS;t/yr;19832,91587;49910,44786;
+World;Data storage and servers;Dy;LDS;t/yr;19,63163979;29,33615693;
+World;Data storage and servers;Dy;HDS;t/yr;19,63163979;45,53677541;
+World;Data storage and servers;Epoxy Resins;LDS;t/yr;14746,09739;24592,47371;
+World;Data storage and servers;Epoxy Resins;HDS;t/yr;14746,09739;37425,66094;
+World;Data storage and servers;Ga;LDS;t/yr;0,645955888;1,077278467;
+World;Data storage and servers;Ga;HDS;t/yr;0,645955888;1,639438924;
+World;Data storage and servers;Ge;LDS;t/yr;0,795022631;1,32588119;
+World;Data storage and servers;Ge;HDS;t/yr;0,795022631;2,017770983;
+World;Data storage and servers;Glass fibre;LDS;t/yr;21574,82958;35980,93889;
+World;Data storage and servers;Glass fibre;HDS;t/yr;21574,82958;54757,01368;
+World;Data storage and servers;Mg;LDS;t/yr;0,048862571;0,081489458;
+World;Data storage and servers;Mg;HDS;t/yr;0,048862571;0,124013422;
+World;Data storage and servers;Mn;LDS;t/yr;2962,230032;4856,40361;
+World;Data storage and servers;Mn;HDS;t/yr;2962,230032;7373,140823;
+World;Data storage and servers;Mo;LDS;t/yr;1209,277515;1982,531347;
+World;Data storage and servers;Mo;HDS;t/yr;1209,277515;3009,942912;
+World;Data storage and servers;Nd;LDS;t/yr;380,9863011;569,7756456;
+World;Data storage and servers;Nd;HDS;t/yr;380,9863011;884,2954991;
+World;Data storage and servers;Ni;LDS;t/yr;3507,227292;5750,670234;
+World;Data storage and servers;Ni;HDS;t/yr;3507,227292;8730,72739;
+World;Data storage and servers;Pb;LDS;t/yr;0,040092366;0,066863145;
+World;Data storage and servers;Pb;HDS;t/yr;0,040092366;0,101754603;
+World;Data storage and servers;Pd;LDS;t/yr;4,975212005;8,29729841;
+World;Data storage and servers;Pd;HDS;t/yr;4,975212005;12,62711026;
+World;Data storage and servers;Plastic;LDS;t/yr;21350,60044;34769,93706;
+World;Data storage and servers;Plastic;HDS;t/yr;21350,60044;52870,43271;
+World;Data storage and servers;Pr;LDS;t/yr;94,5888099;141,3469379;
+World;Data storage and servers;Pr;HDS;t/yr;94,5888099;219,4044633;
+World;Data storage and servers;Ru;LDS;t/yr;0,197838512;0,302019127;
+World;Data storage and servers;Ru;HDS;t/yr;0,197838512;0,469669226;
+World;Data storage and servers;Sb;LDS;t/yr;198,7556577;331,4702974;
+World;Data storage and servers;Sb;HDS;t/yr;198,7556577;504,4427457;
+World;Data storage and servers;Si;LDS;t/yr;1604,810796;2665,581924;
+World;Data storage and servers;Si;HDS;t/yr;1604,810796;4062,539144;
+World;Data storage and servers;Sn;LDS;t/yr;140,5623594;234,0596024;
+World;Data storage and servers;Sn;HDS;t/yr;140,5623594;355,9671231;
+World;Data storage and servers;Fe;LDS;t/yr;171512,713;280591,9788;
+World;Data storage and servers;Fe;HDS;t/yr;171512,713;426211,7826;
+World;Data storage and servers;Synthetic rubber;LDS;t/yr;408,24;674,3360186;
+World;Data storage and servers;Synthetic rubber;HDS;t/yr;408,24;1022,028847;
+World;Data storage and servers;Tb;LDS;t/yr;19,63163979;29,33615693;
+World;Data storage and servers;Tb;HDS;t/yr;19,63163979;45,53677541;
+World;Data storage and servers;Ti;LDS;t/yr;152,3333937;250,9269762;
+World;Data storage and servers;Ti;HDS;t/yr;152,3333937;381,2717716;
+World;Data storage and servers;V;HDS;t/yr;9,03443614;12,35714792;
+World;Data storage and servers;V;HDS;t/yr;9,03443614;19,62056196;
+World;Data storage and servers;Zn;LDS;t/yr;1644,393464;2724,137958;
+World;Data storage and servers;Zn;HDS;t/yr;1644,393464;4133,88395;
+World;Data storage and servers;Zr;LDS;t/yr;11,29304518;15,4464349;
+World;Data storage and servers;Zr;HDS;t/yr;11,29304518;24,52570245;
+EU;Smartphones, tablets and laptops;Ag;LDS;t/yr;29,64616103;24,80976129;
+EU;Smartphones, tablets and laptops;Ag;HDS;t/yr;29,64616103;34,90636123;
+EU;Smartphones, tablets and laptops;Al;LDS;t/yr;18538,78493;15626,01174;
+EU;Smartphones, tablets and laptops;Al;HDS;t/yr;18538,78493;22020,77187;
+EU;Smartphones, tablets and laptops;As;LDS;t/yr;2,980752;2,56188087;
+EU;Smartphones, tablets and laptops;As;HDS;t/yr;2,980752;3,643152;
+EU;Smartphones, tablets and laptops;Au;LDS;t/yr;11,32604182;9,508609994;
+EU;Smartphones, tablets and laptops;Au;HDS;t/yr;11,32604182;13,47525013;
+EU;Smartphones, tablets and laptops;B;LDS;t/yr;119,5111956;103,3608686;
+EU;Smartphones, tablets and laptops;B;HDS;t/yr;119,5111956;146,3139312;
+EU;Smartphones, tablets and laptops;Ba;LDS;t/yr;277,5180739;234,7556606;
+EU;Smartphones, tablets and laptops;Ba;HDS;t/yr;277,5180739;332,8290801;
+EU;Smartphones, tablets and laptops;Be;LDS;t/yr;0,255264681;0,213716372;
+EU;Smartphones, tablets and laptops;Be;HDS;t/yr;0,255264681;0,300080117;
+EU;Smartphones, tablets and laptops;Bi;LDS;t/yr;2,585546024;2,224968085;
+EU;Smartphones, tablets and laptops;Bi;HDS;t/yr;2,585546024;3,149407745;
+EU;Smartphones, tablets and laptops;Br;LDS;t/yr;859,74;743,5577285;
+EU;Smartphones, tablets and laptops;Br;HDS;t/yr;859,74;1052,5536;
+EU;Smartphones, tablets and laptops;Cd;LDS;t/yr;0,017597236;0,015219207;
+EU;Smartphones, tablets and laptops;Cd;HDS;t/yr;0,017597236;0,021543762;
+EU;Smartphones, tablets and laptops;Ce;LDS;t/yr;10,01250333;8,622275014;
+EU;Smartphones, tablets and laptops;Ce;HDS;t/yr;10,01250333;12,24298404;
+EU;Smartphones, tablets and laptops;Cl;LDS;t/yr;24,564;21,24450653;
+EU;Smartphones, tablets and laptops;Cl;HDS;t/yr;24,564;30,07296;
+EU;Smartphones, tablets and laptops;Co;LDS;t/yr;518,1065903;344,3476931;
+EU;Smartphones, tablets and laptops;Co;HDS;t/yr;518,1065903;451,7532405;
+EU;Smartphones, tablets and laptops;Cr;LDS;t/yr;631,7608998;535,7272361;
+EU;Smartphones, tablets and laptops;Cr;HDS;t/yr;631,7608998;767,8611862;
+EU;Smartphones, tablets and laptops;Cu;LDS;t/yr;4615,130089;3688,956872;
+EU;Smartphones, tablets and laptops;Cu;HDS;t/yr;4615,130089;5159,793476;
+EU;Smartphones, tablets and laptops;Dy;LDS;t/yr;4,964713153;4,209096843;
+EU;Smartphones, tablets and laptops;Dy;HDS;t/yr;4,964713153;6,01004997;
+EU;Smartphones, tablets and laptops;Eu;LDS;t/yr;0,00981;0,006487461;
+EU;Smartphones, tablets and laptops;Eu;HDS;t/yr;0,00981;0,00849;
+EU;Smartphones, tablets and laptops;Steel;LDS;t/yr;13381,05169;11091,94484;
+EU;Smartphones, tablets and laptops;Steel;HDS;t/yr;13381,05169;15637,61903;
+EU;Smartphones, tablets and laptops;Ga;LDS;t/yr;2,154089511;1,816274103;
+EU;Smartphones, tablets and laptops;Ga;HDS;t/yr;2,154089511;2,60890567;
+EU;Smartphones, tablets and laptops;Gd;LDS;t/yr;1,459621044;1,212005346;
+EU;Smartphones, tablets and laptops;Gd;HDS;t/yr;1,459621044;1,758657293;
+EU;Smartphones, tablets and laptops;Ge;LDS;t/yr;0,058517289;0,047765174;
+EU;Smartphones, tablets and laptops;Ge;HDS;t/yr;0,058517289;0,068849304;
+EU;Smartphones, tablets and laptops;Hf;LDS;t/yr;0,1048704;0,087486044;
+EU;Smartphones, tablets and laptops;Hf;HDS;t/yr;0,1048704;0,1271712;
+EU;Smartphones, tablets and laptops;Hg;LDS;t/yr;0,030654588;0,026512033;
+EU;Smartphones, tablets and laptops;Hg;HDS;t/yr;0,030654588;0,037529482;
+EU;Smartphones, tablets and laptops;In;LDS;t/yr;4,523879257;3,80153527;
+EU;Smartphones, tablets and laptops;In;HDS;t/yr;4,523879257;5,359808336;
+EU;Smartphones, tablets and laptops;Li;LDS;t/yr;0,1398272;0,116648058;
+EU;Smartphones, tablets and laptops;Li;HDS;t/yr;0,1398272;0,1695616;
+EU;Smartphones, tablets and laptops;Mg;LDS;t/yr;7488,623719;6162,176264;
+EU;Smartphones, tablets and laptops;Mg;HDS;t/yr;7488,623719;8666,542675;
+EU;Smartphones, tablets and laptops;Mn;LDS;t/yr;365,5043685;305,3595507;
+EU;Smartphones, tablets and laptops;Mn;HDS;t/yr;365,5043685;429,7291038;
+EU;Smartphones, tablets and laptops;Mo;LDS;t/yr;5,882997256;4,887865995;
+EU;Smartphones, tablets and laptops;Mo;HDS;t/yr;5,882997256;7,094050396;
+EU;Smartphones, tablets and laptops;Nb;LDS;t/yr;0,724819989;0,603672893;
+EU;Smartphones, tablets and laptops;Nb;HDS;t/yr;0,724819989;0,874631799;
+EU;Smartphones, tablets and laptops;Nd;LDS;t/yr;90,0372613;76,67342213;
+EU;Smartphones, tablets and laptops;Nd;HDS;t/yr;90,0372613;109,5461241;
+EU;Smartphones, tablets and laptops;Ni;LDS;t/yr;612,3917333;511,0231211;
+EU;Smartphones, tablets and laptops;Ni;HDS;t/yr;612,3917333;730,4097575;
+EU;Smartphones, tablets and laptops;Pb;LDS;t/yr;90,79060521;78,46868281;
+EU;Smartphones, tablets and laptops;Pb;HDS;t/yr;90,79060521;111,1228208;
+EU;Smartphones, tablets and laptops;Pd;LDS;t/yr;2,074840566;1,761081567;
+EU;Smartphones, tablets and laptops;Pd;HDS;t/yr;2,074840566;2,493928314;
+EU;Smartphones, tablets and laptops;Pr;LDS;t/yr;24,51422791;19,88715876;
+EU;Smartphones, tablets and laptops;Pr;HDS;t/yr;24,51422791;28,13217717;
+EU;Smartphones, tablets and laptops;Pt;LDS;t/yr;0,089151724;0,074426957;
+EU;Smartphones, tablets and laptops;Pt;HDS;t/yr;0,089151724;0,108130376;
+EU;Smartphones, tablets and laptops;Sb;LDS;t/yr;19,99336547;17,28938995;
+EU;Smartphones, tablets and laptops;Sb;HDS;t/yr;19,99336547;24,4764585;
+EU;Smartphones, tablets and laptops;Si;LDS;t/yr;2202,966682;1838,875737;
+EU;Smartphones, tablets and laptops;Si;HDS;t/yr;2202,966682;2642,736171;
+EU;Smartphones, tablets and laptops;Sn;LDS;t/yr;299,999064;251,4085803;
+EU;Smartphones, tablets and laptops;Sn;HDS;t/yr;299,999064;357,2935836;
+EU;Smartphones, tablets and laptops;Sr;LDS;t/yr;168,956544;141,2905342;
+EU;Smartphones, tablets and laptops;Sr;HDS;t/yr;168,956544;201,3422045;
+EU;Smartphones, tablets and laptops;Ta;LDS;t/yr;37,8742694;32,52884246;
+EU;Smartphones, tablets and laptops;Ta;HDS;t/yr;37,8742694;46,23591541;
+EU;Smartphones, tablets and laptops;Ti;LDS;t/yr;140,4607167;120,9348195;
+EU;Smartphones, tablets and laptops;Ti;HDS;t/yr;140,4607167;171,7552672;
+EU;Smartphones, tablets and laptops;V;LDS;t/yr;2,060864307;1,714037226;
+EU;Smartphones, tablets and laptops;V;HDS;t/yr;2,060864307;2,484087505;
+EU;Smartphones, tablets and laptops;W;LDS;t/yr;42,8035255;35,64197078;
+EU;Smartphones, tablets and laptops;W;HDS;t/yr;42,8035255;51,72273711;
+EU;Smartphones, tablets and laptops;Y;LDS;t/yr;0,139367971;0,116191359;
+EU;Smartphones, tablets and laptops;Y;HDS;t/yr;0,139367971;0,162968213;
+EU;Smartphones, tablets and laptops;Zn;LDS;t/yr;477,8677338;395,5921446;
+EU;Smartphones, tablets and laptops;Zn;HDS;t/yr;477,8677338;557,7122749;
+EU;Smartphones, tablets and laptops;Zr;LDS;t/yr;6,0475264;5,04502851;
+EU;Smartphones, tablets and laptops;Zr;HDS;t/yr;6,0475264;7,3335392;
+USA;Smartphones, tablets and laptops;Ag;LDS;t/yr;20,60603406;15,95158762;
+USA;Smartphones, tablets and laptops;Ag;HDS;t/yr;20,60603406;21,27204504;
+USA;Smartphones, tablets and laptops;Al;LDS;t/yr;12680,33497;9864,792135;
+USA;Smartphones, tablets and laptops;Al;HDS;t/yr;12680,33497;13126,18337;
+USA;Smartphones, tablets and laptops;As;LDS;t/yr;2,145486159;1,6947029;
+USA;Smartphones, tablets and laptops;As;HDS;t/yr;2,145486159;2,281335233;
+USA;Smartphones, tablets and laptops;Au;LDS;t/yr;8,821066682;6,864357803;
+USA;Smartphones, tablets and laptops;Au;HDS;t/yr;8,821066682;9,343351422;
+USA;Smartphones, tablets and laptops;B;LDS;t/yr;74,86556893;59,36839562;
+USA;Smartphones, tablets and laptops;B;HDS;t/yr;74,86556893;77,90195675;
+USA;Smartphones, tablets and laptops;Ba;LDS;t/yr;208,2366961;162,7443853;
+USA;Smartphones, tablets and laptops;Ba;HDS;t/yr;208,2366961;220,2974091;
+USA;Smartphones, tablets and laptops;Be;LDS;t/yr;0,169884277;0,131387004;
+USA;Smartphones, tablets and laptops;Be;HDS;t/yr;0,169884277;0,173737832;
+USA;Smartphones, tablets and laptops;Bi;LDS;t/yr;1,678067077;1,325581503;
+USA;Smartphones, tablets and laptops;Bi;HDS;t/yr;1,678067077;1,750605342;
+USA;Smartphones, tablets and laptops;Br;LDS;t/yr;538,5681558;427,0845437;
+USA;Smartphones, tablets and laptops;Br;HDS;t/yr;538,5681558;560,4113317;
+USA;Smartphones, tablets and laptops;Cd;LDS;t/yr;0,011023462;0,008741605;
+USA;Smartphones, tablets and laptops;Cd;HDS;t/yr;0,011023462;0,01147055;
+USA;Smartphones, tablets and laptops;Ce;LDS;t/yr;6,905504105;5,460595926;
+USA;Smartphones, tablets and laptops;Ce;HDS;t/yr;6,905504105;7,296278879;
+USA;Smartphones, tablets and laptops;Cl;LDS;t/yr;15,38766159;12,20241553;
+USA;Smartphones, tablets and laptops;Cl;HDS;t/yr;15,38766159;16,01175233;
+USA;Smartphones, tablets and laptops;Co;LDS;t/yr;475,1630646;327,8166046;
+USA;Smartphones, tablets and laptops;Co;HDS;t/yr;475,1630646;450,601615;
+USA;Smartphones, tablets and laptops;Cr;LDS;t/yr;562,6856256;441,721097;
+USA;Smartphones, tablets and laptops;Cr;HDS;t/yr;562,6856256;614,0469026;
+USA;Smartphones, tablets and laptops;Cu;LDS;t/yr;3812,126338;2881,90952;
+USA;Smartphones, tablets and laptops;Cu;HDS;t/yr;3812,126338;3944,071067;
+USA;Smartphones, tablets and laptops;Dy;LDS;t/yr;4,163723025;3,265184442;
+USA;Smartphones, tablets and laptops;Dy;HDS;t/yr;4,163723025;4,499863533;
+USA;Smartphones, tablets and laptops;Eu;LDS;t/yr;0,008970508;0,006170438;
+USA;Smartphones, tablets and laptops;Eu;HDS;t/yr;0,008970508;0,008474579;
+USA;Smartphones, tablets and laptops;Steel;LDS;t/yr;10249,60128;7905,089162;
+USA;Smartphones, tablets and laptops;Steel;HDS;t/yr;10249,60128;10717,24489;
+USA;Smartphones, tablets and laptops;Ga;LDS;t/yr;2,037262987;1,595719525;
+USA;Smartphones, tablets and laptops;Ga;HDS;t/yr;2,037262987;2,235429741;
+USA;Smartphones, tablets and laptops;Gd;LDS;t/yr;1,680971082;1,311721551;
+USA;Smartphones, tablets and laptops;Gd;HDS;t/yr;1,680971082;1,879170529;
+USA;Smartphones, tablets and laptops;Ge;LDS;t/yr;0,066233613;0,051271736;
+USA;Smartphones, tablets and laptops;Ge;HDS;t/yr;0,066233613;0,073270143;
+USA;Smartphones, tablets and laptops;Hf;LDS;t/yr;0,121344;0,094892269;
+USA;Smartphones, tablets and laptops;Hf;HDS;t/yr;0,121344;0,136032;
+USA;Smartphones, tablets and laptops;Hg;LDS;t/yr;0,019202997;0,015227977;
+USA;Smartphones, tablets and laptops;Hg;HDS;t/yr;0,019202997;0,01998183;
+USA;Smartphones, tablets and laptops;In;LDS;t/yr;3,186852045;2,475448371;
+USA;Smartphones, tablets and laptops;In;HDS;t/yr;3,186852045;3,311051777;
+USA;Smartphones, tablets and laptops;Li;LDS;t/yr;0,161792;0,126523026;
+USA;Smartphones, tablets and laptops;Li;HDS;t/yr;0,161792;0,181376;
+USA;Smartphones, tablets and laptops;Mg;LDS;t/yr;5742,947632;4407,811171;
+USA;Smartphones, tablets and laptops;Mg;HDS;t/yr;5742,947632;5972,892499;
+USA;Smartphones, tablets and laptops;Mn;LDS;t/yr;258,0504228;199,605473;
+USA;Smartphones, tablets and laptops;Mn;HDS;t/yr;258,0504228;266,9142907;
+USA;Smartphones, tablets and laptops;Mo;LDS;t/yr;6,779193398;5,291487991;
+USA;Smartphones, tablets and laptops;Mo;HDS;t/yr;6,779193398;7,58121342;
+USA;Smartphones, tablets and laptops;Nb;LDS;t/yr;0,810533541;0,632960655;
+USA;Smartphones, tablets and laptops;Nb;HDS;t/yr;0,810533541;0,904034166;
+USA;Smartphones, tablets and laptops;Nd;LDS;t/yr;74,48516648;58,56055078;
+USA;Smartphones, tablets and laptops;Nd;HDS;t/yr;74,48516648;80,56686041;
+USA;Smartphones, tablets and laptops;Ni;LDS;t/yr;565,0270507;439,8332605;
+USA;Smartphones, tablets and laptops;Ni;HDS;t/yr;565,0270507;613,7626134;
+USA;Smartphones, tablets and laptops;Pb;LDS;t/yr;57,68128647;45,71895787;
+USA;Smartphones, tablets and laptops;Pb;HDS;t/yr;57,68128647;60,15779751;
+USA;Smartphones, tablets and laptops;Pd;LDS;t/yr;1,491758211;1,167722413;
+USA;Smartphones, tablets and laptops;Pd;HDS;t/yr;1,491758211;1,569483014;
+USA;Smartphones, tablets and laptops;Pr;LDS;t/yr;22,24094083;17,03435804;
+USA;Smartphones, tablets and laptops;Pr;HDS;t/yr;22,24094083;23,67341783;
+USA;Smartphones, tablets and laptops;Pt;LDS;t/yr;0,102222346;0,079951052;
+USA;Smartphones, tablets and laptops;Pt;HDS;t/yr;0,102222346;0,114507055;
+USA;Smartphones, tablets and laptops;Sb;LDS;t/yr;12,5615724;9,96043781;
+USA;Smartphones, tablets and laptops;Sb;HDS;t/yr;12,5615724;13,07755402;
+USA;Smartphones, tablets and laptops;Si;LDS;t/yr;2195,365759;1712,162577;
+USA;Smartphones, tablets and laptops;Si;HDS;t/yr;2195,365759;2413,217566;
+USA;Smartphones, tablets and laptops;Sn;LDS;t/yr;247,6542899;192,7616454;
+USA;Smartphones, tablets and laptops;Sn;HDS;t/yr;247,6542899;264,7785762;
+USA;Smartphones, tablets and laptops;Sr;LDS;t/yr;147,3447437;114,685938;
+USA;Smartphones, tablets and laptops;Sr;HDS;t/yr;147,3447437;158,8027369;
+USA;Smartphones, tablets and laptops;Ta;LDS;t/yr;27,1304412;21,41820469;
+USA;Smartphones, tablets and laptops;Ta;HDS;t/yr;27,1304412;28,80565877;
+USA;Smartphones, tablets and laptops;Ti;LDS;t/yr;97,42166295;77,02934609;
+USA;Smartphones, tablets and laptops;Ti;HDS;t/yr;97,42166295;103,0283074;
+USA;Smartphones, tablets and laptops;V;LDS;t/yr;2,32458361;1,81449159;
+USA;Smartphones, tablets and laptops;V;HDS;t/yr;2,32458361;2,59385587;
+USA;Smartphones, tablets and laptops;W;LDS;t/yr;48,85469022;38,16354504;
+USA;Smartphones, tablets and laptops;W;HDS;t/yr;48,85469022;54,62685473;
+USA;Smartphones, tablets and laptops;Y;LDS;t/yr;0,093448985;0,072053751;
+USA;Smartphones, tablets and laptops;Y;HDS;t/yr;0,093448985;0,095369214;
+USA;Smartphones, tablets and laptops;Zn;LDS;t/yr;368,9121234;284,3480623;
+USA;Smartphones, tablets and laptops;Zn;HDS;t/yr;368,9121234;385,967622;
+USA;Smartphones, tablets and laptops;Zr;LDS;t/yr;6,997504;5,47212087;
+USA;Smartphones, tablets and laptops;Zr;HDS;t/yr;6,997504;7,844512;
+China;Smartphones, tablets and laptops;Ag;LDS;t/yr;24,74589317;18,43019216;
+China;Smartphones, tablets and laptops;Ag;HDS;t/yr;24,74589317;27,06784643;
+China;Smartphones, tablets and laptops;Al;LDS;t/yr;15180,23545;11319,54307;
+China;Smartphones, tablets and laptops;Al;HDS;t/yr;15180,23545;16681,81038;
+China;Smartphones, tablets and laptops;As;LDS;t/yr;3,427620216;2,576296268;
+China;Smartphones, tablets and laptops;As;HDS;t/yr;3,427620216;3,691306031;
+China;Smartphones, tablets and laptops;Au;LDS;t/yr;15,05084081;11,29067637;
+China;Smartphones, tablets and laptops;Au;HDS;t/yr;15,05084081;15,95281338;
+China;Smartphones, tablets and laptops;B;LDS;t/yr;79,37541161;59,36839562;
+China;Smartphones, tablets and laptops;B;HDS;t/yr;79,37541161;90,21947209;
+China;Smartphones, tablets and laptops;Ba;LDS;t/yr;337,8567456;253,4744419;
+China;Smartphones, tablets and laptops;Ba;HDS;t/yr;337,8567456;360,7368617;
+China;Smartphones, tablets and laptops;Be;LDS;t/yr;0,171185913;0,126939065;
+China;Smartphones, tablets and laptops;Be;HDS;t/yr;0,171185913;0,191210384;
+China;Smartphones, tablets and laptops;Bi;LDS;t/yr;1,960537237;1,467153588;
+China;Smartphones, tablets and laptops;Bi;HDS;t/yr;1,960537237;2,190230818;
+China;Smartphones, tablets and laptops;Br;LDS;t/yr;571,0110757;427,0845437;
+China;Smartphones, tablets and laptops;Br;HDS;t/yr;571,0110757;649,0211108;
+China;Smartphones, tablets and laptops;Cd;LDS;t/yr;0,011687506;0,008741605;
+China;Smartphones, tablets and laptops;Cd;HDS;t/yr;0,011687506;0,013284223;
+China;Smartphones, tablets and laptops;Ce;LDS;t/yr;9,940978112;7,463894202;
+China;Smartphones, tablets and laptops;Ce;HDS;t/yr;9,940978112;10,83377896;
+China;Smartphones, tablets and laptops;Cl;LDS;t/yr;16,31460216;12,20241553;
+China;Smartphones, tablets and laptops;Cl;HDS;t/yr;16,31460216;18,54346031;
+China;Smartphones, tablets and laptops;Co;LDS;t/yr;389,9576999;275,7347262;
+China;Smartphones, tablets and laptops;Co;HDS;t/yr;389,9576999;390,8238701;
+China;Smartphones, tablets and laptops;Cr;LDS;t/yr;1280,295376;964,9199698;
+China;Smartphones, tablets and laptops;Cr;HDS;t/yr;1280,295376;1333,095732;
+China;Smartphones, tablets and laptops;Cu;LDS;t/yr;5922,609929;4411,861013;
+China;Smartphones, tablets and laptops;Cu;HDS;t/yr;5922,609929;6207,51305;
+China;Smartphones, tablets and laptops;Dy;LDS;t/yr;8,594950356;6,470641491;
+China;Smartphones, tablets and laptops;Dy;HDS;t/yr;8,594950356;9,009095521;
+China;Smartphones, tablets and laptops;Eu;LDS;t/yr;0,006981937;0,004911086;
+China;Smartphones, tablets and laptops;Eu;HDS;t/yr;0,006981937;0,006983762;
+China;Smartphones, tablets and laptops;Steel;LDS;t/yr;15708,08929;11744,16303;
+China;Smartphones, tablets and laptops;Steel;HDS;t/yr;15708,08929;16710,04805;
+China;Smartphones, tablets and laptops;Ga;LDS;t/yr;4,955688362;3,736115904;
+China;Smartphones, tablets and laptops;Ga;HDS;t/yr;4,955688362;5,131254607;
+China;Smartphones, tablets and laptops;Gd;LDS;t/yr;4,91117;3,706607017;
+China;Smartphones, tablets and laptops;Gd;HDS;t/yr;4,91117;5,022205274;
+China;Smartphones, tablets and laptops;Ge;LDS;t/yr;0,183944722;0,138650289;
+China;Smartphones, tablets and laptops;Ge;HDS;t/yr;0,183944722;0,188025853;
+China;Smartphones, tablets and laptops;Hf;LDS;t/yr;0,359232;0,271210943;
+China;Smartphones, tablets and laptops;Hf;HDS;t/yr;0,359232;0,367392;
+China;Smartphones, tablets and laptops;Hg;LDS;t/yr;0,020359771;0,015227977;
+China;Smartphones, tablets and laptops;Hg;HDS;t/yr;0,020359771;0,023141269;
+China;Smartphones, tablets and laptops;In;LDS;t/yr;4,137723901;3,089097153;
+China;Smartphones, tablets and laptops;In;HDS;t/yr;4,137723901;4,499108077;
+China;Smartphones, tablets and laptops;Li;LDS;t/yr;0,478976;0,361614591;
+China;Smartphones, tablets and laptops;Li;HDS;t/yr;0,478976;0,489856;
+China;Smartphones, tablets and laptops;Mg;LDS;t/yr;8477,349221;6327,541979;
+China;Smartphones, tablets and laptops;Mg;HDS;t/yr;8477,349221;9017,827066;
+China;Smartphones, tablets and laptops;Mn;LDS;t/yr;323,6849588;241,2452166;
+China;Smartphones, tablets and laptops;Mn;HDS;t/yr;323,6849588;352,0866268;
+China;Smartphones, tablets and laptops;Mo;LDS;t/yr;19,83969653;14,97423592;
+China;Smartphones, tablets and laptops;Mo;HDS;t/yr;19,83969653;20,28851794;
+China;Smartphones, tablets and laptops;Nb;LDS;t/yr;2,316077695;1,747847306;
+China;Smartphones, tablets and laptops;Nb;HDS;t/yr;2,316077695;2,371991599;
+China;Smartphones, tablets and laptops;Nd;LDS;t/yr;152,7119172;115,0040687;
+China;Smartphones, tablets and laptops;Nd;HDS;t/yr;152,7119172;160,3729079;
+China;Smartphones, tablets and laptops;Ni;LDS;t/yr;1287,506993;969,2660971;
+China;Smartphones, tablets and laptops;Ni;HDS;t/yr;1287,506993;1335,016833;
+China;Smartphones, tablets and laptops;Pb;LDS;t/yr;64,45236945;48,2419354;
+China;Smartphones, tablets and laptops;Pb;HDS;t/yr;64,45236945;72,6679833;
+China;Smartphones, tablets and laptops;Pd;LDS;t/yr;2,204188531;1,651985595;
+China;Smartphones, tablets and laptops;Pd;HDS;t/yr;2,204188531;2,377815401;
+China;Smartphones, tablets and laptops;Pr;LDS;t/yr;44,98817015;33,74145403;
+China;Smartphones, tablets and laptops;Pr;HDS;t/yr;44,98817015;46,63506923;
+China;Smartphones, tablets and laptops;Pt;LDS;t/yr;0,300528751;0,22688328;
+China;Smartphones, tablets and laptops;Pt;HDS;t/yr;0,300528751;0,307488422;
+China;Smartphones, tablets and laptops;Sb;LDS;t/yr;13,47199048;10,07798359;
+China;Smartphones, tablets and laptops;Sb;HDS;t/yr;13,47199048;15,28522025;
+China;Smartphones, tablets and laptops;Si;LDS;t/yr;5555,964593;4187,925617;
+China;Smartphones, tablets and laptops;Si;HDS;t/yr;5555,964593;5727,358681;
+China;Smartphones, tablets and laptops;Sn;LDS;t/yr;474,3150227;356,369358;
+China;Smartphones, tablets and laptops;Sn;HDS;t/yr;474,3150227;498,0245839;
+China;Smartphones, tablets and laptops;Sr;LDS;t/yr;309,2676256;232,6145715;
+China;Smartphones, tablets and laptops;Sr;HDS;t/yr;309,2676256;322,4977248;
+China;Smartphones, tablets and laptops;Ta;LDS;t/yr;42,63400806;32,03502922;
+China;Smartphones, tablets and laptops;Ta;HDS;t/yr;42,63400806;45,97394797;
+China;Smartphones, tablets and laptops;Ti;LDS;t/yr;142,3732944;106,9153613;
+China;Smartphones, tablets and laptops;Ti;HDS;t/yr;142,3732944;154,8884724;
+China;Smartphones, tablets and laptops;V;LDS;t/yr;6,679938088;5,041051777;
+China;Smartphones, tablets and laptops;V;HDS;t/yr;6,679938088;6,83788547;
+China;Smartphones, tablets and laptops;W;LDS;t/yr;142,3087759;107,4141646;
+China;Smartphones, tablets and laptops;W;HDS;t/yr;142,3087759;145,6088621;
+China;Smartphones, tablets and laptops;Y;LDS;t/yr;0,093578119;0,069314811;
+China;Smartphones, tablets and laptops;Y;HDS;t/yr;0,093578119;0,104291966;
+China;Smartphones, tablets and laptops;Zn;LDS;t/yr;573,137442;428,5543237;
+China;Smartphones, tablets and laptops;Zn;HDS;t/yr;573,137442;608,6885644;
+China;Smartphones, tablets and laptops;Zr;LDS;t/yr;20,715712;15,63983105;
+China;Smartphones, tablets and laptops;Zr;HDS;t/yr;20,715712;21,186272;
+World;Smartphones, tablets and laptops;Ag;LDS;t/yr;161,9869505;135,032754;
+World;Smartphones, tablets and laptops;Ag;HDS;t/yr;161,9869505;190,6732476;
+World;Smartphones, tablets and laptops;Al;LDS;t/yr;100537,3791;84392,86638;
+World;Smartphones, tablets and laptops;Al;HDS;t/yr;100537,3791;119307,3577;
+World;Smartphones, tablets and laptops;As;LDS;t/yr;18,98974376;16,07196304;
+World;Smartphones, tablets and laptops;As;HDS;t/yr;18,98974376;23,01024756;
+World;Smartphones, tablets and laptops;Au;LDS;t/yr;77,74112521;64,39960317;
+World;Smartphones, tablets and laptops;Au;HDS;t/yr;77,74112521;92,14776972;
+World;Smartphones, tablets and laptops;B;LDS;t/yr;597,5559782;516,8043429;
+World;Smartphones, tablets and laptops;B;HDS;t/yr;597,5559782;731,569656;
+World;Smartphones, tablets and laptops;Ba;LDS;t/yr;1818,525457;1517,869492;
+World;Smartphones, tablets and laptops;Ba;HDS;t/yr;1818,525457;2169,804022;
+World;Smartphones, tablets and laptops;Be;LDS;t/yr;1,276323407;1,068581858;
+World;Smartphones, tablets and laptops;Be;HDS;t/yr;1,276323407;1,500400585;
+World;Smartphones, tablets and laptops;Bi;LDS;t/yr;13,60872741;11,66860021;
+World;Smartphones, tablets and laptops;Bi;HDS;t/yr;13,60872741;16,54611999;
+World;Smartphones, tablets and laptops;Br;LDS;t/yr;4298,7;3717,788642;
+World;Smartphones, tablets and laptops;Br;HDS;t/yr;4298,7;5262,768;
+World;Smartphones, tablets and laptops;Cd;LDS;t/yr;0,087986181;0,076096034;
+World;Smartphones, tablets and laptops;Cd;HDS;t/yr;0,087986181;0,107718812;
+World;Smartphones, tablets and laptops;Ce;LDS;t/yr;59,34929191;50,52663929;
+World;Smartphones, tablets and laptops;Ce;HDS;t/yr;59,34929191;72,1120091;
+World;Smartphones, tablets and laptops;Cl;LDS;t/yr;122,82;106,2225326;
+World;Smartphones, tablets and laptops;Cl;HDS;t/yr;122,82;150,3648;
+World;Smartphones, tablets and laptops;Co;LDS;t/yr;2651,686508;1770,568094;
+World;Smartphones, tablets and laptops;Co;HDS;t/yr;2651,686508;2330,5237;
+World;Smartphones, tablets and laptops;Cr;LDS;t/yr;5586,968449;4617,466055;
+World;Smartphones, tablets and laptops;Cr;HDS;t/yr;5586,968449;6688,510074;
+World;Smartphones, tablets and laptops;Cu;LDS;t/yr;30960,23711;24740,4351;
+World;Smartphones, tablets and laptops;Cu;HDS;t/yr;30960,23711;35050,73022;
+World;Smartphones, tablets and laptops;Dy;LDS;t/yr;39,75612444;32,96876924;
+World;Smartphones, tablets and laptops;Dy;HDS;t/yr;39,75612444;47,57209306;
+World;Smartphones, tablets and laptops;Eu;LDS;t/yr;0,04905;0,032437306;
+World;Smartphones, tablets and laptops;Eu;HDS;t/yr;0,04905;0,04245;
+World;Smartphones, tablets and laptops;Steel;LDS;t/yr;85885,8788;70615,28805;
+World;Smartphones, tablets and laptops;Steel;HDS;t/yr;85885,8788;100459,9282;
+World;Smartphones, tablets and laptops;Ga;LDS;t/yr;20,71300804;17,02026331;
+World;Smartphones, tablets and laptops;Ga;HDS;t/yr;20,71300804;24,71111475;
+World;Smartphones, tablets and laptops;Gd;LDS;t/yr;18,417308;14,93843979;
+World;Smartphones, tablets and laptops;Gd;HDS;t/yr;18,417308;21,84054327;
+World;Smartphones, tablets and laptops;Ge;LDS;t/yr;0,701184821;0,56508174;
+World;Smartphones, tablets and laptops;Ge;HDS;t/yr;0,701184821;0,823695276;
+World;Smartphones, tablets and laptops;Hf;LDS;t/yr;1,341548752;1,089941954;
+World;Smartphones, tablets and laptops;Hf;HDS;t/yr;1,341548752;1,594753513;
+World;Smartphones, tablets and laptops;Hg;LDS;t/yr;0,153272939;0,132560167;
+World;Smartphones, tablets and laptops;Hg;HDS;t/yr;0,153272939;0,187647409;
+World;Smartphones, tablets and laptops;In;LDS;t/yr;25,75198384;21,50897134;
+World;Smartphones, tablets and laptops;In;HDS;t/yr;25,75198384;30,47481548;
+World;Smartphones, tablets and laptops;Li;LDS;t/yr;1,78873167;1,453255939;
+World;Smartphones, tablets and laptops;Li;HDS;t/yr;1,78873167;2,126338017;
+World;Smartphones, tablets and laptops;Mg;LDS;t/yr;47148,28343;38560,21946;
+World;Smartphones, tablets and laptops;Mg;HDS;t/yr;47148,28343;54720,74005;
+World;Smartphones, tablets and laptops;Mn;LDS;t/yr;2049,390761;1703,95469;
+World;Smartphones, tablets and laptops;Mn;HDS;t/yr;2049,390761;2408,986194;
+World;Smartphones, tablets and laptops;Mo;LDS;t/yr;74,36080766;60,3274755;
+World;Smartphones, tablets and laptops;Mo;HDS;t/yr;74,36080766;88,20961518;
+World;Smartphones, tablets and laptops;Nb;LDS;t/yr;8,799679375;7,1509388;
+World;Smartphones, tablets and laptops;Nb;HDS;t/yr;8,799679375;10,44617658;
+World;Smartphones, tablets and laptops;Nd;LDS;t/yr;712,2749249;592,6384999;
+World;Smartphones, tablets and laptops;Nd;HDS;t/yr;712,2749249;855,2650345;
+World;Smartphones, tablets and laptops;Ni;LDS;t/yr;5541,668326;4535,103476;
+World;Smartphones, tablets and laptops;Ni;HDS;t/yr;5541,668326;6561,736593;
+World;Smartphones, tablets and laptops;Pb;LDS;t/yr;465,6661795;401,6960823;
+World;Smartphones, tablets and laptops;Pb;HDS;t/yr;465,6661795;569,3583016;
+World;Smartphones, tablets and laptops;Pd;LDS;t/yr;12,68959363;10,65419109;
+World;Smartphones, tablets and laptops;Pd;HDS;t/yr;12,68959363;15,18651786;
+World;Smartphones, tablets and laptops;Pr;LDS;t/yr;202,9231144;163,594892;
+World;Smartphones, tablets and laptops;Pr;HDS;t/yr;202,9231144;234,9457794;
+World;Smartphones, tablets and laptops;Pt;LDS;t/yr;1,126755912;0,915894566;
+World;Smartphones, tablets and laptops;Pt;HDS;t/yr;1,126755912;1,339733142;
+World;Smartphones, tablets and laptops;Sb;LDS;t/yr;100,5116252;86,88195758;
+World;Smartphones, tablets and laptops;Sb;HDS;t/yr;100,5116252;123,0215575;
+World;Smartphones, tablets and laptops;Si;LDS;t/yr;22550,92756;18405,66937;
+World;Smartphones, tablets and laptops;Si;HDS;t/yr;22550,92756;26750,11741;
+World;Smartphones, tablets and laptops;Sn;LDS;t/yr;2272,927248;1874,210252;
+World;Smartphones, tablets and laptops;Sn;HDS;t/yr;2272,927248;2693,425149;
+World;Smartphones, tablets and laptops;Sr;LDS;t/yr;1399,114517;1149,073133;
+World;Smartphones, tablets and laptops;Sr;HDS;t/yr;1399,114517;1657,163168;
+World;Smartphones, tablets and laptops;Ta;LDS;t/yr;238,6755511;202,0124204;
+World;Smartphones, tablets and laptops;Ta;HDS;t/yr;238,6755511;289,0330603;
+World;Smartphones, tablets and laptops;Ti;LDS;t/yr;840,8184332;715,274837;
+World;Smartphones, tablets and laptops;Ti;HDS;t/yr;840,8184332;1021,309464;
+World;Smartphones, tablets and laptops;V;LDS;t/yr;25,286262;20,53290131;
+World;Smartphones, tablets and laptops;V;HDS;t/yr;25,286262;30,00022526;
+World;Smartphones, tablets and laptops;W;LDS;t/yr;535,3121506;434,7557184;
+World;Smartphones, tablets and laptops;W;HDS;t/yr;535,3121506;635,6202243;
+World;Smartphones, tablets and laptops;Y;LDS;t/yr;0,696839857;0,580956793;
+World;Smartphones, tablets and laptops;Y;HDS;t/yr;0,696839857;0,814841064;
+World;Smartphones, tablets and laptops;Zn;LDS;t/yr;3101,25324;2546,407198;
+World;Smartphones, tablets and laptops;Zn;HDS;t/yr;3101,25324;3623,920924;
+World;Smartphones, tablets and laptops;Zr;LDS;t/yr;77,36264472;62,85331937;
+World;Smartphones, tablets and laptops;Zr;HDS;t/yr;77,36264472;91,96411923;

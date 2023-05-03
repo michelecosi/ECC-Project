@@ -71,11 +71,10 @@ prodpp('gas',t,n)$(year(t) > 2100) = sum(nn,Q_FUEL.l('gas',t,nn)) * valuein(2100
 
 $ifthen.ssp set nogastrade
 Q_OUT.fx('gas',t,n)$(not tfix(t)) = 0;
-FPRICE.l('gas',t)$(not tfix(t)) = cexs('gas','scl') * 
-                                  (cexs('gas','a') + cexs('gas','c') * (wcum('gas',t) /
-                                  (cexs('gas','fast') * cexs('gas','res0') )
-                                  )**cexs('gas','exp')) +
-                                  cexs('gas','extra');
+FPRICE.l('gas',t)$(not tfix(t)) = cexs('gas','scl') * (cexs('gas','a') + cexs('gas','c') * (wcum('gas',t) /
+                                                                                   (cexs('gas','fast') * cexs('gas','res0') )
+                                                                                 )**cexs('gas','exp')
+                                          ) + cexs('gas','extra');
 $else.ssp
 Q_OUT.fx('gas',t,n)$(not tfix(t)) = prodpp('gas',t,n);
 $endif.ssp

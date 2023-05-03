@@ -4,8 +4,8 @@
 
 $ifthen %phase%=='sets'
 
-set fuel       'All energy carriers' / oil, coal, gas, uranium,lit /
-    f(fuel)    'Primary energy sources' / oil, coal, gas, uranium,lit /
+set fuel       'All energy carriers' / oil, coal, gas, uranium /
+    f(fuel)    'Primary energy sources' / oil, coal, gas, uranium /
     s(fuel)    'Secondary energy sources' / /
     extract(f) 'Primary energy fuels with an extraction sector'
     f_mkt(f)   'Fuel markets' / oil /;

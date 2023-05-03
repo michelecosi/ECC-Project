@@ -43,9 +43,6 @@ $batinclude '%mp%/pol_techno_ssp'
 
 $batinclude '%mp%/mod_oil'
 $batinclude '%mp%/mod_uranium'
-##
-$batinclude '%mp%/mod_material_global'
-##
 $batinclude '%mp%/mod_gas'
 $batinclude '%mp%/mod_coal'
 

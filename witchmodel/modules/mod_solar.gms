@@ -163,7 +163,6 @@ loadvarbnd(I_EN_CSP,'(solar_dist,solar_class,t,n)',1e-8,1e-8,1e8);
 I_EN_CSP.lo(solar_dist,solar_class,t,n) = 1e-8;
 I_EN_CSP.up(solar_dist,solar_class,t,n) = max(1e-8,csp_pot(n,solar_dist,solar_class) * mcost_inv0('elcsp',n));
 
-*** Electric capacity PV
 variable K_EN_PV(solar_dist,solar_class,t,n);
 loadvarbnd(K_EN_PV,'(solar_dist,solar_class,t,n)',1e-6,1e-6,1e6);
 K_EN_PV.fx('near',solar_class,t,n)$(year(t) le 2015) = max(1e-6,k_en0_pv(solar_class,t,n));
@@ -183,9 +182,7 @@ K_EN.fx('elcsp',tfirst(t),n) = sum((solar_dist,solar_class),K_EN_CSP.l(solar_dis
 
 K_EN.lo(jel_solar,t,n)$((K_EN.lo(jel_solar,t,n) lt K_EN.up(jel_solar,t,n)) and (year(t) ge 2020)) = valuein(2020, k_en_valid_tot(jel_solar,t,n));
 
-*** Electric energy generation PV
 variable Q_EN_PV(solar_dist,solar_class,t,n);
-*** use loadvarbnd to set a default
 loadvarbnd(Q_EN_PV,'(solar_dist,solar_class,t,n)',1,1e-8,1e8);
 Q_EN_PV.up(solar_dist,solar_class,t,n) = max(1e-8,pv_pot(n,solar_dist,solar_class)*solar_mu(solar_class,'elpv'));
 
