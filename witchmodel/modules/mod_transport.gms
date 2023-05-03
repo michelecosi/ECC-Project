@@ -455,6 +455,9 @@ co2_transport(t,n) = sum((fuel,jfed)$(csi(fuel,jfed,t,n) and (jveh(jfed) or jfrt
 
 $elseif %phase%=='gdx_items'
 
+* Variables
+BATTERY_COST_END
+
 * Sets
 jveh
 jveh_inv
@@ -462,7 +465,6 @@ jveh_invfix
 
 * Parameters
 
-battery_cost_new
 ai
 battery_cost
 biofuel_2005_2010
