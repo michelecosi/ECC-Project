@@ -220,11 +220,8 @@ $loaddc size_battery
 parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery cost [US$2005/kWh]';
 $loaddc battery_cost
 
-
-
-parameter battery_cost_new(t);
 parameters 
-    asymptote /10/
+    floor_price /10/
     coeff_exp /10/
     costant_price_lith /50/;
 
@@ -325,11 +322,9 @@ csi('advbiofuel',jfedveh,t,n) = 1;
 *-------------------------------------------------------------------------------
 $elseif %phase%=='vars'
 
-
-* battery cost
-battery_cost_new(t) =  asymptote+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t); 
-
-
+* battery cost endogenized
+variable BATTERY_COST_END(t);
+ 
 variable ELMOTOR_COST(t) '$/kw' ;
 ELMOTOR_COST.fx(t) $(year(t) le 2010) = 243 ;
 ELMOTOR_COST.fx(t) $(year(t) ge 2010 and year(t) le 2030) = 40 ;
@@ -381,9 +376,14 @@ eqq_el_edv_%clt%
 eqmcost_inv_hybrid_%clt%
 eqmcost_inv_plghybrid_%clt%
 eqmcost_inv_edv_%clt%
+eq_batt_cost_end
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='eqs'
+
+*- endogenous cost of battery
+eq_batt_cost_end(t)..
+BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
 
 *- Number of light duty vehicles
 eqnb_veh_%clt%(t,n)$(mapn_th('%clt%'))..
