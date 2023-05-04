@@ -359,12 +359,12 @@ K_EN.fx('battery',t,n) = 0;
 Q_EN.fx('battery',t,n) = 0;
 
 MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst);
-MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = BATTERY_COST_END(t);
-MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*BATTERY_COST_END(t)*bat_multip('hybrid',n)
+MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = BATTERY_COST_END(t).l;
+MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*BATTERY_COST_END(t).l*bat_multip('hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('hybrid') + ice_cost*size_ice('hybrid') + tank_cost('hybrid')))/(1e6);
-MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*BATTERY_COST_END(t)*bat_multip('plg_hybrid',n)
+MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*BATTERY_COST_END(t).l*bat_multip('plg_hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('plg_hybrid') + ice_cost*size_ice('plg_hybrid') + tank_cost('plg_hybrid') + charger_cost ))/1e6;
-MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*BATTERY_COST_END(t)
+MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*BATTERY_COST_END(t).l
  + ELMOTOR_COST.l(t)*size_elmotor('edv') + charger_cost+ charging_station)/1e6;
 
 *-------------------------------------------------------------------------------
