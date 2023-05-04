@@ -22,6 +22,30 @@
         },
         {
             "codecMib": 106,
+            "file": "modules/mod_climate.gms",
+            "name": "mod_climate.gms",
+            "type": "gms"
+        },
+        {
+            "codecMib": 106,
+            "file": "modules/mod_material_regional.gms",
+            "name": "mod_material_regional.gms",
+            "type": "gms"
+        },
+        {
+            "codecMib": 106,
+            "file": "modules.gms",
+            "name": "modules.gms",
+            "type": "gms"
+        },
+        {
+            "codecMib": 106,
+            "file": "resultsall_data_temp_=default_only_lit.gdx",
+            "name": "resultsall_data_temp_=default_only_lit.gdx",
+            "type": "gdx"
+        },
+        {
+            "codecMib": 106,
             "file": "run_witch.gms",
             "name": "run_witch.gms",
             "type": "gms"
@@ -34,7 +58,9 @@
         }
     ],
     "options": [
-        "--nameout==prova1_battery_new_only"
+        "--nameout==prova1_battery_new_only",
+        "--nameout==default_only_lit",
+        "--nameout==regional_lit"
     ],
     "path": ".",
     "workDir": "."

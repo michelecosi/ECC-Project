@@ -10,7 +10,7 @@ $elseif %phase%=='sets'
 
 set fuel /lit/;
 set f /lit/;
-set extract(f) / lit/;
+set extract(f) /lit/;
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='compute_data'
