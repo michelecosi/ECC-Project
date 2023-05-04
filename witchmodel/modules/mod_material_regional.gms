@@ -4,13 +4,19 @@
 $ifthen %phase%=='conf'
 
 * Definition of the global variable specific to the module 
-$setglobal nolittrade
-
+*$setglobal nolittrade
 *-------------------------------------------------------------------------------
 $elseif %phase%=='sets'
 
+set fuel /lit/;
+set f /lit/;
 set extract(f) / lit/;
 
+*-------------------------------------------------------------------------------
+$elseif %phase%=='compute_data'
+parameter cum_0 /27.94/
+
+parameter trade_scale_lit /1/;
 *-------------------------------------------------------------------------------
 $elseif %phase%=='include_data'
 
@@ -20,9 +26,6 @@ parameter trade_poly_lit(polydeg,n);
 $loaddc trade_poly_lit
 
 $gdxin
-
-parameter trade_scale_lit /1/;
-
 *-------------------------------------------------------------------------------
 $elseif %phase%=='vars'
 
@@ -31,8 +34,8 @@ Q_EMI_OUT.fx('lit',t,n) = 0;
 *-------------------------------------------------------------------------------
 $elseif %phase%=='compute_data'
 Parameters
- deg0/27.9416/
- deg4/7.41426e-16/;
+ deg0 /27.9416/
+ deg4 /7.41426e-16/;
 
 parameter 
   lit_price_coeff /deg0,0,0,0,deg4/;
@@ -40,8 +43,8 @@ parameter
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='before_solve'
-                                                                         ##intercept + value*(wcum('lit',t) - cum_0)**4
-FPRICE.l('lit',t)$(not tfix(t)) = max(valuein(2005,FPRICE.l('lit',tt)), poly((wcum('lit',t) - cum_0), lit_price_coeff));
+                                                 
+*FPRICE.l('lit',t)$(not tfix(t)) = max(valuein(2005,FPRICE.l('lit',tt)), deg0*(wcum('lit',t) - cum_0)+deg4*(wcum('lit',t) - cum_0)**4); #poly((wcum('lit',t) - cum_0), lit_price_coeff));
 
 * Calculate cumulative production (by means of polynomial functions)
 cum_prodpp('lit',t,n) = max(0, trade_scale_lit*

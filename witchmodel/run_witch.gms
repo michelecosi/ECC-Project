@@ -114,15 +114,15 @@ $endif.cb
 
 * directory for outputs
 
-$setglobal resdir "results"
-$ontext
+*$setglobal workdir "results"
+
 $ifthen not set workdir
 $setglobal resdir "%gams.curdir%"
 $else
 $setglobal resdir "%workdir%\"
 $if %system.filesys% == UNIX $setglobal resdir "%workdir%/"
 $endif
-$offtext
+
 *-------------------------------------------------------------------------------
 * GENERATE - SOLVE - REPORT WITCH
 *-------------------------------------------------------------------------------

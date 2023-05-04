@@ -23,6 +23,6 @@ head(mod_lit)
 
 
 ```{r}
-write.gdx("data_mod_lithium.gdx",list(trade_poly_lit=dataset), compress=F)
+write.gdx("data_mod_lithium.gdx",list(trade_poly_lit=mod_lit), compress=F)
 ```
 

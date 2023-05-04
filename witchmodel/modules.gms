@@ -47,6 +47,7 @@ $batinclude '%mp%/mod_gas'
 $batinclude '%mp%/mod_coal'
 ** new modules
 $batinclude '%mp%/mod_material_global'
+$batinclude '%mp%/mod_material_regional'
 
 $batinclude '%mp%/mod_climate'
 $if not set mod_impact $batinclude '%mp%/mod_damage'
