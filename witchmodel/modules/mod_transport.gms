@@ -219,11 +219,14 @@ $loaddc size_battery
 
 parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery cost [US$2005/kWh]';
 $loaddc battery_cost
+
 * new parameters
 parameters 
     floor_price /10/
     coeff_exp /10/
-    costant_price_lith /150/;
+    costant_price_lith /150/
+    starting_price /200/
+    ;
 
 parameter bat_multip(jveh,n) ;
 bat_multip('hybrid',n) = 2.23 ;
@@ -324,6 +327,8 @@ $elseif %phase%=='vars'
 
 * battery cost endogenized
 variable BATTERY_COST_END(t);
+
+BATTERY_COST_END.fx(tfirst) = starting_price;
  
 variable ELMOTOR_COST(t) '$/kw' ;
 ELMOTOR_COST.fx(t) $(year(t) le 2010) = 243 ;
@@ -342,7 +347,7 @@ I_EN.lo(jveh_inv,t,n)$((year(t) le 2015) and (not sameas (jveh_inv,'trad_cars'))
 MCOST_INV.fx(jveh_invfix,t,n) = inv_cost_veh(jveh_invfix)/(reg_discount_veh(n)*1e6);
 MCOST_INV.lo(jveh,t,n)$(not sameas(jveh,'trad_cars')) = 1e-5;
 MCOST_INV.up(jveh,t,n)$(not sameas(jveh,'trad_cars')) = (inv_cost_veh('trad_cars') + 
-                                                         5 * size_battery(jveh,n) * battery_cost(tfirst) +
+                                                         5 * size_battery(jveh,n) * BATTERY_COST_END.l(tfirst) +
                                                          disutility_costs_ldv(jveh,t,n)) * 1e-6;
 
 Q_IN.fx('trbiofuel','trad_cars',t,n)$(year(t) le 2010) = biofuel_2005_2010(t,n);
@@ -358,13 +363,13 @@ K_RD.lo('battery',t,n)$((not tfix(t)) and (year(t) ge 2010)) = krd0('battery',n)
 K_EN.fx('battery',t,n) = 0;
 Q_EN.fx('battery',t,n) = 0;
 
-MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst);
-MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = BATTERY_COST_END(t).l;
-MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*BATTERY_COST_END(t).l*bat_multip('hybrid',n)
+MCOST_INV.up('battery',t,n)$(not tfix(t)) = BATTERY_COST_END.l(tfirst);
+MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = BATTERY_COST_END.l(t);
+MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*BATTERY_COST_END.l(t)*bat_multip('hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('hybrid') + ice_cost*size_ice('hybrid') + tank_cost('hybrid')))/(1e6);
-MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*BATTERY_COST_END(t).l*bat_multip('plg_hybrid',n)
+MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*BATTERY_COST_END.l(t)*bat_multip('plg_hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('plg_hybrid') + ice_cost*size_ice('plg_hybrid') + tank_cost('plg_hybrid') + charger_cost ))/1e6;
-MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*BATTERY_COST_END(t).l
+MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*BATTERY_COST_END.l(t)
  + ELMOTOR_COST.l(t)*size_elmotor('edv') + charger_cost+ charging_station)/1e6;
 
 *-------------------------------------------------------------------------------
