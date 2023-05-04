@@ -222,10 +222,10 @@ $loaddc battery_cost
 
 * new parameters
 parameters 
-    floor_price /10/
-    coeff_exp /10/
-    costant_price_lith /150/
-    starting_price /200/
+    floor_price /150/
+    coeff_exp /1/
+    costant_price_lith /50/
+    starting_price /700/
     ;
 
 parameter bat_multip(jveh,n) ;
@@ -326,9 +326,9 @@ csi('advbiofuel',jfedveh,t,n) = 1;
 $elseif %phase%=='vars'
 
 * battery cost endogenized
-variable BATTERY_COST_END(t);
+*variable BATTERY_COST_END(t);
 
-BATTERY_COST_END.fx(tfirst) = starting_price;
+*BATTERY_COST_END.fx(tfirst) = starting_price;
  
 variable ELMOTOR_COST(t) '$/kw' ;
 ELMOTOR_COST.fx(t) $(year(t) le 2010) = 243 ;
@@ -347,7 +347,7 @@ I_EN.lo(jveh_inv,t,n)$((year(t) le 2015) and (not sameas (jveh_inv,'trad_cars'))
 MCOST_INV.fx(jveh_invfix,t,n) = inv_cost_veh(jveh_invfix)/(reg_discount_veh(n)*1e6);
 MCOST_INV.lo(jveh,t,n)$(not sameas(jveh,'trad_cars')) = 1e-5;
 MCOST_INV.up(jveh,t,n)$(not sameas(jveh,'trad_cars')) = (inv_cost_veh('trad_cars') + 
-                                                         5 * size_battery(jveh,n) * BATTERY_COST_END.l(tfirst) +
+                                                         5 * size_battery(jveh,n) * battery_cost(tfirst) +
                                                          disutility_costs_ldv(jveh,t,n)) * 1e-6;
 
 Q_IN.fx('trbiofuel','trad_cars',t,n)$(year(t) le 2010) = biofuel_2005_2010(t,n);
@@ -363,19 +363,19 @@ K_RD.lo('battery',t,n)$((not tfix(t)) and (year(t) ge 2010)) = krd0('battery',n)
 K_EN.fx('battery',t,n) = 0;
 Q_EN.fx('battery',t,n) = 0;
 
-MCOST_INV.up('battery',t,n)$(not tfix(t)) = BATTERY_COST_END.l(tfirst);
-MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = BATTERY_COST_END.l(t);
-MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*BATTERY_COST_END.l(t)*bat_multip('hybrid',n)
+MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst); #BATTERY_COST_END.l(tfirst)
+MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = battery_cost(t);
+MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*battery_cost(t)*bat_multip('hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('hybrid') + ice_cost*size_ice('hybrid') + tank_cost('hybrid')))/(1e6);
-MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*BATTERY_COST_END.l(t)*bat_multip('plg_hybrid',n)
+MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*battery_cost(t)*bat_multip('plg_hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('plg_hybrid') + ice_cost*size_ice('plg_hybrid') + tank_cost('plg_hybrid') + charger_cost ))/1e6;
-MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*BATTERY_COST_END.l(t)
+MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*battery_cost(t)
  + ELMOTOR_COST.l(t)*size_elmotor('edv') + charger_cost+ charging_station)/1e6;
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='eql'
 
-eq_batt_cost_end_%clt%
+*eq_batt_cost_end_%clt%
 eqnb_veh_%clt%
 eqq_en_veh_%clt%
 eqq_el_edv_%clt%
@@ -388,8 +388,8 @@ eqmcost_inv_edv_%clt%
 $elseif %phase%=='eqs'
 
 *- endogenous cost of battery
-eq_batt_cost_end_%clt%(t,n)$(mapn_th('%clt%'))..
-BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
+*eq_batt_cost_end_%clt%(t,n)$(mapn_th('%clt%'))..
+*BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
 
 *- Number of light duty vehicles
 eqnb_veh_%clt%(t,n)$(mapn_th('%clt%'))..
@@ -462,7 +462,7 @@ co2_transport(t,n) = sum((fuel,jfed)$(csi(fuel,jfed,t,n) and (jveh(jfed) or jfrt
 $elseif %phase%=='gdx_items'
 
 * Variables
-BATTERY_COST_END
+*BATTERY_COST_END
 
 * Sets
 jveh
