@@ -24,14 +24,17 @@ parameters
     scale
     exponent
 ;
-marg_cost_extr = 49.66366;
-coeff_cum_ext = 10**(-5);
-frac_price_fast = 0.75;
-res_0 = 128*(10**3);
-extra_price = 0;
-cum_0 = 0;  
-exponent = 2;
 scale = 1;
+exponent = 4;
+
+marg_cost_extr = 27.94;
+coeff_cum_ext = 7.41e-16;
+frac_price_fast = 0.85;
+res_0 = marg_cost_extr*scale;
+extra_price = 0;
+cum_0 = res_0;  
+
+
 
 resgr_m(t) = 0.006; 
 res_m(tfirst) = res_0;

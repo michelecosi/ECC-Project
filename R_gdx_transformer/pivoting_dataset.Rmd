@@ -1,0 +1,28 @@
+---
+title: "pivoting the dataframe"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+```{r}
+library(tidyverse)
+library(gdxtools)
+```
+
+```{r}
+dataset <- read.csv(file="curve.csv")
+head(dataset)
+colnames(dataset)<-c("X","n","deg0","deg4")
+
+dataset<- dataset[,2:4] %>% pivot_longer(cols=!n)
+head(dataset)
+
+mod_lit <- data.frame(dataset[2],dataset[1],dataset[3])
+head(mod_lit)
+```
+
+
+```{r}
+write.gdx("data_mod_lithium.gdx",list(trade_poly_lit=dataset), compress=F)
+```
+
