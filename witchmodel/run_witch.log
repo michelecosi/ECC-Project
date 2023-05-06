@@ -1,5 +1,5 @@
 
---- Job run_witch.gms Start 05/04/23 15:37:48 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
+--- Job run_witch.gms Start 05/04/23 16:34:39 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\42\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -12,7 +12,7 @@
     ErrorLog 99
     IDE 1
     LstTitleLeftAligned 1
-    --nameout =regional_lit
+    --nameout regional_lit
 Licensee: Course License                                 S230216|0002AO-GEN
           Fondazione CMCC, Complesso Ecotekne                       DCE1910
           C:\GAMS\42\gamslice.txt
@@ -499,7 +499,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- . modules.gms(47) 6 Mb
 --- .. mod_coal.gms(52) 6 Mb
 --- . modules.gms(49) 6 Mb
---- .. mod_material_global.gms(49) 6 Mb
+--- .. mod_material_global.gms(50) 6 Mb
 --- . modules.gms(50) 6 Mb
 --- .. mod_material_regional.gms(21) 6 Mb
 --- . modules.gms(52) 6 Mb
@@ -4584,7 +4584,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(97) 8 Mb
 --- .. modules.gms(49) 8 Mb
---- ... mod_material_global.gms(59) 8 Mb
+--- ... mod_material_global.gms(60) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(79) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -4782,7 +4782,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(97) 8 Mb
 --- .. modules.gms(49) 8 Mb
---- ... mod_material_global.gms(59) 8 Mb
+--- ... mod_material_global.gms(60) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(79) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -6424,7 +6424,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(102) 8 Mb
 --- .. modules.gms(49) 8 Mb
---- ... mod_material_global.gms(65) 8 Mb
+--- ... mod_material_global.gms(66) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(83) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -6514,253 +6514,253 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(68) 8 Mb
 --- . gdx.gms(19) 8 Mb
 --- run_witch.gms(150) 8 Mb
---- Starting execution: elapsed 0:00:01.729
---- run_witch.gms(3612) 9 Mb
+--- Starting execution: elapsed 0:00:01.863
+--- run_witch.gms(3613) 9 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
---- run_witch.gms(3615) 9 Mb
+--- run_witch.gms(3616) 9 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
---- run_witch.gms(4088) 10 Mb
+--- run_witch.gms(4089) 10 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_fgases.gdx
---- run_witch.gms(4088) 11 Mb
+--- run_witch.gms(4089) 11 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_fgases.gdx
---- run_witch.gms(4734) 11 Mb
+--- run_witch.gms(4735) 11 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_transport.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_transport.gdx
---- run_witch.gms(5096) 12 Mb
+--- run_witch.gms(5097) 12 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
---- run_witch.gms(5153) 12 Mb
+--- run_witch.gms(5154) 12 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
---- run_witch.gms(5222) 12 Mb
+--- run_witch.gms(5223) 12 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
---- run_witch.gms(6127) 14 Mb
+--- run_witch.gms(6129) 14 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6131) 14 Mb
+--- run_witch.gms(6133) 14 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6131) 15 Mb
+--- run_witch.gms(6133) 15 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6140) 15 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6143) 15 Mb
+--- run_witch.gms(6142) 15 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6147) 15 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6147) 16 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6159) 16 Mb
+--- run_witch.gms(6145) 15 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6162) 16 Mb
+--- run_witch.gms(6149) 15 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6162) 16 Mb
+--- run_witch.gms(6149) 16 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6166) 16 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6166) 17 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6170) 17 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6170) 18 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6174) 18 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6174) 18 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6181) 18 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6181) 26 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6187) 27 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6187) 28 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6190) 28 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6190) 30 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6198) 30 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6198) 31 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6235) 33 Mb
+--- run_witch.gms(6161) 16 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6238) 33 Mb
+--- run_witch.gms(6164) 16 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6164) 16 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6168) 16 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6168) 17 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6172) 17 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6172) 18 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6176) 18 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6176) 18 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6183) 18 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6183) 26 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6189) 27 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6189) 28 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6192) 28 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6192) 30 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6200) 30 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6200) 31 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6237) 33 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6245) 33 Mb
+--- run_witch.gms(6240) 33 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6260) 33 Mb
+--- run_witch.gms(6247) 33 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6268) 33 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6268) 34 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6272) 34 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6272) 35 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6276) 35 Mb
+--- run_witch.gms(6262) 33 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6280) 35 Mb
+--- run_witch.gms(6270) 33 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6280) 35 Mb 1 Error
+--- run_witch.gms(6270) 34 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6274) 34 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6274) 35 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6278) 35 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6282) 35 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6282) 35 Mb 1 Error
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 ********************************
 *** Errors have been cleared ***
 ********************************
---- run_witch.gms(6299) 36 Mb
+--- run_witch.gms(6301) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6303) 36 Mb
+--- run_witch.gms(6305) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6309) 36 Mb
+--- run_witch.gms(6311) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6386) 36 Mb
+--- run_witch.gms(6388) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6390) 36 Mb
+--- run_witch.gms(6392) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6393) 36 Mb
+--- run_witch.gms(6395) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6557) 36 Mb
+--- run_witch.gms(6559) 36 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6557) 37 Mb
+--- run_witch.gms(6559) 37 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6560) 37 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6563) 37 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6563) 38 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6625) 38 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6625) 39 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6629) 39 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6629) 42 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6633) 42 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6633) 42 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6640) 43 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6640) 45 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6650) 46 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6650) 47 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6654) 47 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6654) 48 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6658) 49 Mb
+--- run_witch.gms(6562) 37 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6680) 50 Mb
+--- run_witch.gms(6565) 37 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6680) 51 Mb
+--- run_witch.gms(6565) 38 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6686) 51 Mb
+--- run_witch.gms(6627) 38 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6686) 52 Mb
+--- run_witch.gms(6627) 39 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6691) 52 Mb
+--- run_witch.gms(6631) 39 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6691) 54 Mb
+--- run_witch.gms(6631) 42 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6698) 55 Mb
+--- run_witch.gms(6635) 42 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6698) 56 Mb
+--- run_witch.gms(6635) 42 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6710) 56 Mb
+--- run_witch.gms(6642) 43 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6710) 57 Mb
+--- run_witch.gms(6642) 45 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6714) 57 Mb
+--- run_witch.gms(6652) 46 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6714) 59 Mb
+--- run_witch.gms(6652) 47 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6745) 60 Mb
+--- run_witch.gms(6656) 47 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6656) 48 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6748) 60 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6753) 60 Mb
+--- run_witch.gms(6660) 49 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6757) 60 Mb
+--- run_witch.gms(6682) 50 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6757) 60 Mb
+--- run_witch.gms(6682) 51 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6761) 60 Mb
+--- run_witch.gms(6688) 51 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6688) 52 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6765) 60 Mb
+--- run_witch.gms(6693) 52 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6693) 54 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6771) 60 Mb
+--- run_witch.gms(6700) 55 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6771) 61 Mb
+--- run_witch.gms(6700) 56 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6775) 61 Mb
+--- run_witch.gms(6712) 56 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6712) 57 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6780) 61 Mb
+--- run_witch.gms(6716) 57 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6780) 61 Mb
+--- run_witch.gms(6716) 59 Mb
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6858) 61 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6862) 61 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6865) 61 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6865) 62 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6868) 62 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6868) 63 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6872) 63 Mb
---- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6872) 63 Mb
---- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6887) 63 Mb
+--- run_witch.gms(6747) 60 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(7635) 64 Mb  5 secs
-*** Open Error for PUTFILE RC=13 FN=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\errors_=regional_lit.txt
+--- run_witch.gms(6750) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6755) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6759) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6759) 60 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6763) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6767) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6773) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6773) 61 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6777) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6782) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6782) 61 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6860) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6864) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6867) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6867) 62 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6870) 62 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6870) 63 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6874) 63 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6874) 63 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6889) 63 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(7637) 64 Mb
+*** Open Error for PUTFILE RC=13 FN=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\results\errors_regional_lit.txt
 *** Msg=Permission denied
-*** New file name used is C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams2.put
---- run_witch.gms(41817) 68 Mb  3 secs
-*** Error at line 42746: division by zero (0)
---- run_witch.gms(41817) 69 Mb 1 Error  3 secs
-*** Error at line 42947: Execution halted: abort$1 'Please check execution errors!'
---- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
+*** New file name used is C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams5.put
+--- run_witch.gms(41819) 68 Mb  3 secs
+*** Error at line 42748: division by zero (0)
+--- run_witch.gms(41819) 69 Mb 1 Error  3 secs
+*** Error at line 42949: Execution halted: abort$1 'Please check execution errors!'
+--- run_witch.gms(41819) 69 Mb 2 Errors  3 secs
 --- Putfile opt C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\conopt.opt
---- Putfile errdat C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams2.put
---- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
+--- Putfile errdat C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams5.put
+--- run_witch.gms(41819) 69 Mb 2 Errors  3 secs
 *** Status: Execution error(s)
---- Job run_witch.gms Stop 05/04/23 15:38:00 elapsed 0:00:12.826
+--- Job run_witch.gms Stop 05/04/23 16:34:47 elapsed 0:00:07.223

@@ -1,5 +1,5 @@
 
---- Job run_witch.gms Start 05/04/23 15:23:51 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
+--- Job run_witch.gms Start 05/04/23 15:57:48 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\42\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -6514,7 +6514,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(68) 8 Mb
 --- . gdx.gms(19) 8 Mb
 --- run_witch.gms(150) 8 Mb
---- Starting execution: elapsed 0:00:01.862
+--- Starting execution: elapsed 0:00:02.341
 --- run_witch.gms(3612) 9 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
@@ -6750,13 +6750,17 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- run_witch.gms(6887) 63 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(7635) 64 Mb  5 secs
+*** Open Error for PUTFILE RC=13 FN=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\errors_=regional_lit.txt
+*** Msg=Permission denied
+*** New file name used is C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams4.put
 --- run_witch.gms(41817) 68 Mb  3 secs
 *** Error at line 42746: division by zero (0)
 --- run_witch.gms(41817) 69 Mb 1 Error  3 secs
 *** Error at line 42947: Execution halted: abort$1 'Please check execution errors!'
 --- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
 --- Putfile opt C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\conopt.opt
---- Putfile errdat C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\errors_=regional_lit.txt
+--- Putfile errdat C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams4.put
 --- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
 *** Status: Execution error(s)
---- Job run_witch.gms Stop 05/04/23 15:23:57 elapsed 0:00:06.468
+--- Job run_witch.gms Stop 05/04/23 15:58:02 elapsed 0:00:13.193

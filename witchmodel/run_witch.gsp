@@ -34,6 +34,18 @@
         },
         {
             "codecMib": 106,
+            "file": "conopt.opt",
+            "name": "conopt.opt",
+            "type": "opt"
+        },
+        {
+            "codecMib": 106,
+            "file": "gams4.put",
+            "name": "gams4.put",
+            "type": ""
+        },
+        {
+            "codecMib": 106,
             "file": "modules.gms",
             "name": "modules.gms",
             "type": "gms"
@@ -60,7 +72,8 @@
     "options": [
         "--nameout==prova1_battery_new_only",
         "--nameout==default_only_lit",
-        "--nameout==regional_lit"
+        "--nameout==regional_lit",
+        "--nameout=regional_lit"
     ],
     "path": ".",
     "workDir": "."

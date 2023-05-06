@@ -1,5 +1,5 @@
 
---- Job run_witch.gms Start 05/04/23 15:21:40 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
+--- Job run_witch.gms Start 05/04/23 15:45:41 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\42\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -84,6 +84,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(16) 2 Mb
 --- . modules.gms(47) 2 Mb
 --- .. mod_coal.gms(17) 2 Mb
+--- . modules.gms(49) 2 Mb
+--- .. mod_material_global.gms(5) 2 Mb
 --- . modules.gms(50) 2 Mb
 --- .. mod_material_regional.gms(9) 2 Mb
 --- . modules.gms(52) 2 Mb
@@ -166,6 +168,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(25) 3 Mb
 --- . modules.gms(47) 3 Mb
 --- .. mod_coal.gms(26) 3 Mb
+--- . modules.gms(49) 3 Mb
+--- .. mod_material_global.gms(13) 3 Mb
 --- . modules.gms(50) 3 Mb
 --- .. mod_material_regional.gms(16) 3 Mb
 --- . modules.gms(52) 3 Mb
@@ -322,6 +326,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_coal.gdx
 --- GDX File ($gdxIn) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_coal.gdx
 --- .. mod_coal.gms(45) 5 Mb
+--- . modules.gms(49) 5 Mb
+--- .. mod_material_global.gms(5) 5 Mb
 --- . modules.gms(50) 5 Mb
 --- .. mod_material_regional.gms(23) 5 Mb
 --- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_lithium.gdx
@@ -418,6 +424,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(5) 6 Mb
 --- . modules.gms(47) 6 Mb
 --- .. mod_coal.gms(5) 6 Mb
+--- . modules.gms(49) 6 Mb
+--- .. mod_material_global.gms(5) 6 Mb
 --- . modules.gms(50) 6 Mb
 --- .. mod_material_regional.gms(4) 6 Mb
 --- . modules.gms(52) 6 Mb
@@ -490,6 +498,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(5) 6 Mb
 --- . modules.gms(47) 6 Mb
 --- .. mod_coal.gms(52) 6 Mb
+--- . modules.gms(49) 6 Mb
+--- .. mod_material_global.gms(49) 6 Mb
 --- . modules.gms(50) 6 Mb
 --- .. mod_material_regional.gms(21) 6 Mb
 --- . modules.gms(52) 6 Mb
@@ -562,6 +572,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(47) 6 Mb
 --- . modules.gms(47) 6 Mb
 --- .. mod_coal.gms(58) 6 Mb
+--- . modules.gms(49) 6 Mb
+--- .. mod_material_global.gms(5) 6 Mb
 --- . modules.gms(50) 6 Mb
 --- .. mod_material_regional.gms(35) 6 Mb
 --- . modules.gms(52) 6 Mb
@@ -634,6 +646,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(5) 6 Mb
 --- . modules.gms(47) 6 Mb
 --- .. mod_coal.gms(5) 6 Mb
+--- . modules.gms(49) 6 Mb
+--- .. mod_material_global.gms(5) 6 Mb
 --- . modules.gms(50) 6 Mb
 --- .. mod_material_regional.gms(4) 6 Mb
 --- . modules.gms(52) 6 Mb
@@ -716,6 +730,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -788,6 +804,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -860,6 +878,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -932,6 +952,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1004,6 +1026,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1076,6 +1100,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1148,6 +1174,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1220,6 +1248,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1292,6 +1322,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1364,6 +1396,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1436,6 +1470,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1508,6 +1544,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1580,6 +1618,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1652,6 +1692,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1724,6 +1766,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1796,6 +1840,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 6 Mb
 --- ... modules.gms(47) 6 Mb
 --- .... mod_coal.gms(5) 6 Mb
+--- ... modules.gms(49) 6 Mb
+--- .... mod_material_global.gms(5) 6 Mb
 --- ... modules.gms(50) 6 Mb
 --- .... mod_material_regional.gms(4) 6 Mb
 --- ... modules.gms(52) 6 Mb
@@ -1868,6 +1914,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -1940,6 +1988,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2012,6 +2062,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2084,6 +2136,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2156,6 +2210,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2228,6 +2284,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2300,6 +2358,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2372,6 +2432,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2444,6 +2506,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2516,6 +2580,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2588,6 +2654,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2660,6 +2728,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2732,6 +2802,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2804,6 +2876,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2876,6 +2950,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -2948,6 +3024,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3020,6 +3098,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3092,6 +3172,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3164,6 +3246,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3236,6 +3320,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3308,6 +3394,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3380,6 +3468,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3452,6 +3542,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3524,6 +3616,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3596,6 +3690,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3668,6 +3764,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3740,6 +3838,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3812,6 +3912,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3884,6 +3986,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3956,6 +4060,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 7 Mb
 --- ... modules.gms(47) 7 Mb
 --- .... mod_coal.gms(5) 7 Mb
+--- ... modules.gms(49) 7 Mb
+--- .... mod_material_global.gms(5) 7 Mb
 --- ... modules.gms(50) 7 Mb
 --- .... mod_material_regional.gms(4) 7 Mb
 --- ... modules.gms(52) 7 Mb
@@ -3981,8 +4087,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(19) 7 Mb
 --- .... core_welfare.gms(108) 7 Mb
 --- ... modules.gms(20) 7 Mb
---- .... core_economy.gms(205) 7 Mb
---- ... modules.gms(21) 7 Mb
+--- .... core_economy.gms(205) 8 Mb
+--- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(488) 8 Mb
 --- ... modules.gms(22) 8 Mb
 --- .... core_emissions.gms(151) 8 Mb
@@ -4028,6 +4134,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -4100,6 +4208,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -4172,6 +4282,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -4244,6 +4356,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -4316,6 +4430,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -4393,6 +4509,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(5) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(5) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(5) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(4) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -4465,12 +4583,9 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(84) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(97) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(59) 8 Mb
 --- .. modules.gms(50) 8 Mb
---- ... mod_material_regional.gms(47) 8 Mb 2 Errors
-*** Error 140 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\modules\mod_material_regional.gms
-    Unknown symbol
-*** Error 140 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\modules\mod_material_regional.gms
-    Unknown symbol
 --- ... mod_material_regional.gms(79) 8 Mb
 --- .. modules.gms(52) 8 Mb
 --- ... mod_climate.gms(221) 8 Mb
@@ -4488,684 +4603,17 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... conv_admm.gms(57) 8 Mb
 --- .. conv.gms(220) 8 Mb
 --- . algorithm.gms(48) 8 Mb
---- .. solve.gms(125) 8 Mb 3 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 4 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 5 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 6 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 7 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 8 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 9 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 10 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 11 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 12 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 13 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 14 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 15 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 16 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 17 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 18 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(125) 8 Mb 19 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
---- .. solve.gms(167) 8 Mb 37 Errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 257 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Solve statement not checked because of previous errors
-*** Error 300 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\solve.gms
-    Remaining errors not printed for this line
 --- .. solve.gms(181) 8 Mb
 --- . algorithm.gms(50) 8 Mb
 --- .. compute_marginal.gms(4) 8 Mb
---- ... get_marginal.gms(24) 8 Mb 38 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 39 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 40 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 41 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 42 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 43 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 44 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 45 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 46 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 47 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 48 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 49 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 50 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 51 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 52 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 53 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 54 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. compute_marginal.gms(5) 8 Mb
---- ... get_marginal.gms(14) 8 Mb 55 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 56 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 57 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 58 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 59 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 60 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 61 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 62 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 63 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 64 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 65 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 66 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 67 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 68 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 69 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 70 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(14) 8 Mb 71 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. compute_marginal.gms(6) 8 Mb
---- ... get_marginal.gms(22) 8 Mb 72 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 73 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 74 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 75 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 76 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 77 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 78 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 79 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 80 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 81 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 82 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 83 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 84 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 85 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 86 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 87 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 88 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. compute_marginal.gms(7) 8 Mb
---- ... get_marginal.gms(22) 8 Mb 89 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 90 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 91 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 92 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 93 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 94 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 95 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 96 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 97 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 98 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 99 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 100 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 101 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 102 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 103 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 104 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 105 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. compute_marginal.gms(8) 8 Mb
---- ... get_marginal.gms(22) 8 Mb 106 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 107 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 108 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 109 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 110 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 111 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 112 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 113 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 114 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 115 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 116 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 117 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 118 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 119 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 120 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 121 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(22) 8 Mb 122 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. compute_marginal.gms(8) 8 Mb
 --- . algorithm.gms(52) 8 Mb
@@ -5176,125 +4624,6 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. conv.gms(99) 8 Mb
 --- ... get_marginal.gms(11) 8 Mb
 --- .. conv.gms(100) 8 Mb
---- ... get_marginal.gms(24) 8 Mb 123 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 124 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 125 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 126 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 127 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 128 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 129 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 130 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 131 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 132 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 133 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 134 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 135 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 136 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 137 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 138 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
---- ... get_marginal.gms(24) 8 Mb 139 Errors
-*** Error 141 in C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\algo\get_marginal.gms
-    Symbol declared but no values have been assigned. Check for missing
-       data definition, assignment, data loading or implicit assignment
-       via a solve statement.
-       A wild shot: You may have spurious commas in the explanatory
-       text of a declaration. Check symbol reference list.
 --- ... get_marginal.gms(11) 8 Mb
 --- .. conv.gms(220) 8 Mb
 --- ... conv_admm.gms(7) 8 Mb
@@ -5374,6 +4703,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(5) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(5) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(5) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(4) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -5450,6 +4781,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(84) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(97) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(59) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(79) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -5522,6 +4855,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(5) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(5) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(5) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(4) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -5598,6 +4933,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(5) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(5) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(5) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(4) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -5675,6 +5012,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(5) 8 Mb
 --- . modules.gms(47) 8 Mb
 --- .. mod_coal.gms(5) 8 Mb
+--- . modules.gms(49) 8 Mb
+--- .. mod_material_global.gms(5) 8 Mb
 --- . modules.gms(50) 8 Mb
 --- .. mod_material_regional.gms(4) 8 Mb
 --- . modules.gms(52) 8 Mb
@@ -5747,6 +5086,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. mod_gas.gms(5) 8 Mb
 --- . modules.gms(47) 8 Mb
 --- .. mod_coal.gms(5) 8 Mb
+--- . modules.gms(49) 8 Mb
+--- .. mod_material_global.gms(5) 8 Mb
 --- . modules.gms(50) 8 Mb
 --- .. mod_material_regional.gms(4) 8 Mb
 --- . modules.gms(52) 8 Mb
@@ -5823,6 +5164,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -5895,6 +5238,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -5967,6 +5312,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6039,6 +5386,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6111,6 +5460,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6183,6 +5534,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6255,6 +5608,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6327,6 +5682,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6399,6 +5756,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6471,6 +5830,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6543,6 +5904,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6615,6 +5978,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6687,6 +6052,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6759,6 +6126,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6831,6 +6200,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6903,6 +6274,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -6975,6 +6348,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .... mod_gas.gms(5) 8 Mb
 --- ... modules.gms(47) 8 Mb
 --- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(49) 8 Mb
+--- .... mod_material_global.gms(5) 8 Mb
 --- ... modules.gms(50) 8 Mb
 --- .... mod_material_regional.gms(4) 8 Mb
 --- ... modules.gms(52) 8 Mb
@@ -7048,6 +6423,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(89) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(102) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(65) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(83) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -7120,6 +6497,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_gas.gms(5) 8 Mb
 --- .. modules.gms(47) 8 Mb
 --- ... mod_coal.gms(5) 8 Mb
+--- .. modules.gms(49) 8 Mb
+--- ... mod_material_global.gms(5) 8 Mb
 --- .. modules.gms(50) 8 Mb
 --- ... mod_material_regional.gms(4) 8 Mb
 --- .. modules.gms(52) 8 Mb
@@ -7134,6 +6513,254 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... mod_trbiomass.gms(7) 8 Mb
 --- .. modules.gms(68) 8 Mb
 --- . gdx.gms(19) 8 Mb
---- run_witch.gms(150) 8 Mb 139 Errors
-*** Status: Compilation error(s)
---- Job run_witch.gms Stop 05/04/23 15:21:42 elapsed 0:00:02.154
+--- run_witch.gms(150) 8 Mb
+--- Starting execution: elapsed 0:00:01.889
+--- run_witch.gms(3612) 9 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
+--- run_witch.gms(3615) 9 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
+--- run_witch.gms(4088) 10 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_fgases.gdx
+--- run_witch.gms(4088) 11 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_fgases.gdx
+--- run_witch.gms(4734) 11 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_transport.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_mod_transport.gdx
+--- run_witch.gms(5096) 12 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- run_witch.gms(5153) 12 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- run_witch.gms(5222) 12 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\data_tfp_ssp2.gdx
+--- run_witch.gms(6127) 14 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6131) 14 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6131) 15 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6140) 15 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6143) 15 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6147) 15 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6147) 16 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6159) 16 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6162) 16 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6162) 16 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6166) 16 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6166) 17 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6170) 17 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6170) 18 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6174) 18 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6174) 18 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6181) 18 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6181) 26 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6187) 27 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6187) 28 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6190) 28 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6190) 30 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6198) 30 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6198) 31 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6235) 33 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6238) 33 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6245) 33 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6260) 33 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6268) 33 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6268) 34 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6272) 34 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6272) 35 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6276) 35 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6280) 35 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6280) 35 Mb 1 Error
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+********************************
+*** Errors have been cleared ***
+********************************
+--- run_witch.gms(6299) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6303) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6309) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6386) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6390) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6393) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6557) 36 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6557) 37 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6560) 37 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6563) 37 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6563) 38 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6625) 38 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6625) 39 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6629) 39 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6629) 42 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6633) 42 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6633) 42 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6640) 43 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6640) 45 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6650) 46 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6650) 47 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6654) 47 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6654) 48 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6658) 49 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6680) 50 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6680) 51 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6686) 51 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6686) 52 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6691) 52 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6691) 54 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6698) 55 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6698) 56 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6710) 56 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6710) 57 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6714) 57 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6714) 59 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6745) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6748) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6753) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6757) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6757) 60 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6761) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6765) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6771) 60 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6771) 61 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6775) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6780) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6780) 61 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6858) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6862) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6865) 61 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6865) 62 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6868) 62 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6868) 63 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6872) 63 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6872) 63 Mb
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6887) 63 Mb
+--- GDXin=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- GDX File (execute_load) C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(7635) 64 Mb  4 secs
+*** Open Error for PUTFILE RC=13 FN=C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\errors_=regional_lit.txt
+*** Msg=Permission denied
+*** New file name used is C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams3.put
+--- run_witch.gms(41817) 68 Mb  3 secs
+*** Error at line 42746: division by zero (0)
+--- run_witch.gms(41817) 69 Mb 1 Error  3 secs
+*** Error at line 42947: Execution halted: abort$1 'Please check execution errors!'
+--- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
+--- Putfile opt C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\conopt.opt
+--- Putfile errdat C:\Users\modin\Desktop\Ettore\UNIVERSITA\ECC_GAMS\ECC-Project\witchmodel\gams3.put
+--- run_witch.gms(41817) 69 Mb 2 Errors  3 secs
+*** Status: Execution error(s)
+--- Job run_witch.gms Stop 05/04/23 15:45:53 elapsed 0:00:11.194

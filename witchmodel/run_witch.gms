@@ -114,7 +114,7 @@ $endif.cb
 
 * directory for outputs
 
-*$setglobal workdir "results"
+$setglobal workdir "results"
 
 $ifthen not set workdir
 $setglobal resdir "%gams.curdir%"

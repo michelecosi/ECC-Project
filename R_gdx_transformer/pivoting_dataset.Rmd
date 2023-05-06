@@ -10,7 +10,7 @@ library(gdxtools)
 ```
 
 ```{r}
-dataset <- read.csv(file="curve.csv")
+dataset <- read.csv(file="curve2.csv")
 head(dataset)
 colnames(dataset)<-c("X","n","deg0","deg4")
 

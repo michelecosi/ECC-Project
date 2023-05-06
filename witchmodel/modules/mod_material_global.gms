@@ -30,6 +30,7 @@ exponent = 4;
 marg_cost_extr = 27.94;
 coeff_cum_ext = 7.41e-16;
 frac_price_fast = 0.85;
+
 res_0 = marg_cost_extr*scale;
 extra_price = 0;
 cum_0 = res_0;  
