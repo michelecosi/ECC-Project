@@ -52,12 +52,6 @@
         },
         {
             "codecMib": 106,
-            "file": "resultsall_data_temp_=default_only_lit.gdx",
-            "name": "resultsall_data_temp_=default_only_lit.gdx",
-            "type": "gdx"
-        },
-        {
-            "codecMib": 106,
             "file": "run_witch.gms",
             "name": "run_witch.gms",
             "type": "gms"

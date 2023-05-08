@@ -186,7 +186,9 @@ rd_coef('battery','b')    = 0.85;
 rd_coef('battery','c')    = 0;
 rd_coef('battery','d')    = 0.15;
 rd_coef('battery','lbr')  = -0.193;
+
 rd_coef('battery','lbd')  = -0.160;
+
 rd_coef('battery','wcum0') = sum(n, k_veh_2005_2015('hybrid',tfirst,n));
 rd_cooperation('battery',clt) = no;
 rd_delta('battery') = 0.05;
@@ -390,6 +392,8 @@ $elseif %phase%=='eqs'
 *- endogenous cost of battery
 *eq_batt_cost_end_%clt%(t,n)$(mapn_th('%clt%'))..
 *BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
+BATTERY_COST_END(t) =e= battery_cost(tfirst)*(wcum('battery',t)/wcum('battery',tfirst))**rd_coef('battery','lbd') - costant_price_lith+FPRICE.l('lit',t)
+
 
 *- Number of light duty vehicles
 eqnb_veh_%clt%(t,n)$(mapn_th('%clt%'))..
