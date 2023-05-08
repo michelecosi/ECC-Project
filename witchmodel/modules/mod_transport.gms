@@ -392,6 +392,9 @@ $elseif %phase%=='eqs'
 *- endogenous cost of battery
 *eq_batt_cost_end_%clt%(t,n)$(mapn_th('%clt%'))..
 *BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
+
+* but maybe its already taken into account in core_knowledge 141
+* but in wind and solar there is an equation for lbd and cost of investments
 BATTERY_COST_END(t) =e= battery_cost(tfirst)*(wcum('battery',t)/wcum('battery',tfirst))**rd_coef('battery','lbd') - costant_price_lith+FPRICE.l('lit',t)
 
 
