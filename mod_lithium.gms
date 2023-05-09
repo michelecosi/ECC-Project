@@ -75,15 +75,6 @@ Variables
     MCOST_LIT(t,n)
     COST_LIT(t,n)
 
-   
-
-
-
-
-* No emissions associated with extraction
-Q_EMI_OUT.fx(t,n) = 0;
-
-
 
 *-------------------------------------------------------------------------------
 $elseif %phase%=='before_solve'
