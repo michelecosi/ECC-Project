@@ -170,6 +170,8 @@ $if set damage_feedback / OMEGA(t,n)
                    - sum(ghg, ctax(ghg,t,n) * (Q_EMI(ghg,t,n) - Q_EMI.l(ghg,t,n)))
                    ## Additionnal costs on gross product
                    - sum(ccy, COST_Y(ccy,t,n))
+                   ## LIT
+                   - COST_LIT(t,n)
 ;
 
 * Consumption
