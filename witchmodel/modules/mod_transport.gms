@@ -220,8 +220,6 @@ $loaddc size_battery
 parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery cost [US$2005/kWh]';
 $loaddc battery_cost
 
-
-
 parameter bat_multip(jveh,n) ;
 bat_multip('hybrid',n) = 2.23 ;
 bat_multip('plg_hybrid',n) = 1.2 ;
@@ -273,7 +271,7 @@ parameter battery_cost_new(t,n);
 $elseif %phase%=='compute_data'
 
 *** new code
-battery_cost_new(t,n)$(not sameas (n,'China')) = 1.5*battery_cost(t);
+battery_cost_new(t,n) = battery_cost(t);
 ***
 
 krd0('battery',n) = sum(nn,krd0('en',nn))*0.0141*0.076923077;
