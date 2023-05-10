@@ -186,9 +186,7 @@ rd_coef('battery','b')    = 0.85;
 rd_coef('battery','c')    = 0;
 rd_coef('battery','d')    = 0.15;
 rd_coef('battery','lbr')  = -0.193;
-
 rd_coef('battery','lbd')  = -0.160;
-
 rd_coef('battery','wcum0') = sum(n, k_veh_2005_2015('hybrid',tfirst,n));
 rd_cooperation('battery',clt) = no;
 rd_delta('battery') = 0.05;
@@ -221,14 +219,6 @@ $loaddc size_battery
 
 parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery cost [US$2005/kWh]';
 $loaddc battery_cost
-
-* new parameters
-parameters 
-    floor_price /150/
-    coeff_exp /1/
-    costant_price_lith /50/
-    starting_price /700/
-    ;
 
 parameter bat_multip(jveh,n) ;
 bat_multip('hybrid',n) = 2.23 ;
@@ -327,11 +317,6 @@ csi('advbiofuel',jfedveh,t,n) = 1;
 *-------------------------------------------------------------------------------
 $elseif %phase%=='vars'
 
-* battery cost endogenized
-*variable BATTERY_COST_END(t);
-
-*BATTERY_COST_END.fx(tfirst) = starting_price;
- 
 variable ELMOTOR_COST(t) '$/kw' ;
 ELMOTOR_COST.fx(t) $(year(t) le 2010) = 243 ;
 ELMOTOR_COST.fx(t) $(year(t) ge 2010 and year(t) le 2030) = 40 ;
@@ -365,7 +350,7 @@ K_RD.lo('battery',t,n)$((not tfix(t)) and (year(t) ge 2010)) = krd0('battery',n)
 K_EN.fx('battery',t,n) = 0;
 Q_EN.fx('battery',t,n) = 0;
 
-MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst); #BATTERY_COST_END.l(tfirst)
+MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst);
 MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = battery_cost(t);
 MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*battery_cost(t)*bat_multip('hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('hybrid') + ice_cost*size_ice('hybrid') + tank_cost('hybrid')))/(1e6);
@@ -377,7 +362,6 @@ MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'
 *-------------------------------------------------------------------------------
 $elseif %phase%=='eql'
 
-*eq_batt_cost_end_%clt%
 eqnb_veh_%clt%
 eqq_en_veh_%clt%
 eqq_el_edv_%clt%
@@ -385,18 +369,8 @@ eqmcost_inv_hybrid_%clt%
 eqmcost_inv_plghybrid_%clt%
 eqmcost_inv_edv_%clt%
 
-
 *-------------------------------------------------------------------------------
 $elseif %phase%=='eqs'
-
-*- endogenous cost of battery
-*eq_batt_cost_end_%clt%(t,n)$(mapn_th('%clt%'))..
-*BATTERY_COST_END(t) =e=  floor_price+coeff_exp*exp(-ord(t)) -costant_price_lith + FPRICE.l('lit',t);
-
-* but maybe its already taken into account in core_knowledge 141
-* but in wind and solar there is an equation for lbd and cost of investments
-BATTERY_COST_END(t) =e= battery_cost(tfirst)*(wcum('battery',t)/wcum('battery',tfirst))**rd_coef('battery','lbd') - costant_price_lith+FPRICE.l('lit',t)
-
 
 *- Number of light duty vehicles
 eqnb_veh_%clt%(t,n)$(mapn_th('%clt%'))..
@@ -468,16 +442,12 @@ co2_transport(t,n) = sum((fuel,jfed)$(csi(fuel,jfed,t,n) and (jveh(jfed) or jfrt
 
 $elseif %phase%=='gdx_items'
 
-* Variables
-*BATTERY_COST_END
-
 * Sets
 jveh
 jveh_inv
 jveh_invfix
 
 * Parameters
-
 ai
 battery_cost
 biofuel_2005_2010
