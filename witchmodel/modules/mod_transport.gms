@@ -325,6 +325,30 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 
 * 1) Vehicles
 
+*** 
+*newcode 
+*Global zero-emission vehicle mandates and internal combustion engine bans
+
+*Policy:
+*100% ZEV sales after 2035 (ZEV=Zero Emission Vehicles = Electric + Hybrid).Sales=limito gli investimenti I
+I_EN.fx('trad_cars',t,'europe')$(year(t) gt 2035) = 1e-9;
+*EU è già a posto così 
+
+*ICE ban (ban on internal combustion engine cars, aka traditional cars). Ban=limito la quantità K
+K_EN.fx('trad_cars',t,'denmark')$(year(t) gt 2030) = 1e-9;
+K_EN.fx('trad_cars',t,'chile')$(year(t) gt 2035) = 1e-9;
+K_EN.fx('trad_cars',t,'argentina')$(year(t) gt 2040) = 1e-9;
+
+*100% electrified sales (only electric vehicles, no hybrid). Sales=limito gli investimenti I
+I_EN.fx(jveh_inv,t,'iceland')$((year(t) gt 2040) and (not sameas (jveh_inv,'edv'))) = 1e-9;
+
+*100% electrified stock. Stock=limito la quantità K
+K_EN.fx(jveh_inv,t,'sri_lanka')$((year(t) gt 2030) and (not sameas (jveh_inv,'edv'))) = 1e-9;
+
+****
+
+
+
 K_EN.lo(jveh,t,n) = 1e-6;
 K_EN.up(jveh,t,n) = ldv_total(t,n);
 K_EN.fx(jveh,t,n)$((year(t) le 2015) and (not sameas (jveh,'trad_cars'))) = k_veh_2005_2015(jveh,t,n);
