@@ -326,7 +326,7 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 * 1) Vehicles
 
 *** 
-*newcode 
+*newcode *
 *Global zero-emission vehicle mandates and internal combustion engine bans
 
 *Policy:
