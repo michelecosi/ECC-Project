@@ -339,7 +339,7 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 *** newcode 
 *Global zero-emission vehicle mandates and internal combustion engine bans
 
-*Policy:
+**Policy:
 *100% ZEV sales after 2035 (ZEV=Zero Emission Vehicles = Electric + Hybrid).Sales=limito gli investimenti I
 *I_EN.fx('trad_cars',t,'europe')$(year(t) ge 2035) = 1e-9;
 
