@@ -220,6 +220,8 @@ $loaddc size_battery
 parameter battery_cost(t) 'Historical (2005-2015) and then upper bound battery cost [US$2005/kWh]';
 $loaddc battery_cost
 
+
+
 parameter bat_multip(jveh,n) ;
 bat_multip('hybrid',n) = 2.23 ;
 bat_multip('plg_hybrid',n) = 1.2 ;
@@ -262,8 +264,15 @@ $gdxin
 
 scalar smooth_ldv / 1.25 /;
 
+*** new code
+parameter battery_cost_new(t,n);
+
+
 *-------------------------------------------------------------------------------
 $elseif %phase%=='compute_data'
+
+*** new code
+battery_cost_new(t,n)$(not sameas (n,'China')) = 1.5*battery_cost(t);
 
 krd0('battery',n) = sum(nn,krd0('en',nn))*0.0141*0.076923077;
 
@@ -326,25 +335,27 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 * 1) Vehicles
 
 *** 
-*newcode *
+*newcode 
 *Global zero-emission vehicle mandates and internal combustion engine bans
 
 *Policy:
 *100% ZEV sales after 2035 (ZEV=Zero Emission Vehicles = Electric + Hybrid).Sales=limito gli investimenti I
-I_EN.fx('trad_cars',t,'europe')$(year(t) gt 2035) = 1e-9;
+*I_EN.fx('trad_cars',t,'europe')$(year(t) ge 2035) = 1e-9;
+
+*K_EN.l('trad_cars',t,'europe')$(year(t) eq 2040) = 0.95*K_EN.l('trad_cars',t,'europe')$(year(t) eq 2035);
 *EU è già a posto così 
 
 *ICE ban (ban on internal combustion engine cars, aka traditional cars). Ban=limito la quantità K
-K_EN.fx('trad_cars',t,'denmark')$(year(t) gt 2030) = 1e-9;
-K_EN.fx('trad_cars',t,'chile')$(year(t) gt 2035) = 1e-9;
-K_EN.fx('trad_cars',t,'argentina')$(year(t) gt 2040) = 1e-9;
+*K_EN.fx('trad_cars',t,'denmark')$(year(t) gt 2030) = 1e-9;
+*K_EN.fx('trad_cars',t,'chile')$(year(t) gt 2035) = 1e-9;
+*K_EN.fx('trad_cars',t,'argentina')$(year(t) gt 2040) = 1e-9;
 
 *100% electrified sales (only electric vehicles, no hybrid). Sales=limito gli investimenti I
-I_EN.fx(jveh_inv,t,'iceland')$((year(t) gt 2040) and (not sameas (jveh_inv,'edv'))) = 1e-9;
+*I_EN.fx(jveh_inv,t,'iceland')$((year(t) gt 2040) and (not sameas (jveh_inv,'edv'))) = 1e-9;
 
 *100% electrified stock. Stock=limito la quantità K
-K_EN.fx(jveh_inv,t,'sri_lanka')$((year(t) gt 2030) and (not sameas (jveh_inv,'edv'))) = 1e-9;
-
+*K_EN.fx(jveh_inv,t,'sri_lanka')$((year(t) gt 2030) and (not sameas (jveh_inv,'edv'))) = 1e-9;
+I_EN.fx('trad_cars',t,'europe')$(year(t) ge 2035) = 1e-9;
 ****
 
 
