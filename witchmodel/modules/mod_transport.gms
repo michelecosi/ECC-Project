@@ -266,6 +266,7 @@ scalar smooth_ldv / 1.25 /;
 
 *** new code
 parameter battery_cost_new(t,n);
+***
 
 
 *-------------------------------------------------------------------------------
@@ -273,6 +274,7 @@ $elseif %phase%=='compute_data'
 
 *** new code
 battery_cost_new(t,n)$(not sameas (n,'China')) = 1.5*battery_cost(t);
+***
 
 krd0('battery',n) = sum(nn,krd0('en',nn))*0.0141*0.076923077;
 
@@ -334,8 +336,7 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 
 * 1) Vehicles
 
-*** 
-*newcode 
+*** newcode 
 *Global zero-emission vehicle mandates and internal combustion engine bans
 
 *Policy:
@@ -355,7 +356,9 @@ ELMOTOR_COST.fx(t) $(year(t) ge 2050) = 23 ;
 
 *100% electrified stock. Stock=limito la quantità K
 *K_EN.fx(jveh_inv,t,'sri_lanka')$((year(t) gt 2030) and (not sameas (jveh_inv,'edv'))) = 1e-9;
-I_EN.fx('trad_cars',t,'europe')$(year(t) ge 2035) = 1e-9;
+
+*** newcode 
+I_EN.up('trad_cars',t,'europe')$(year(t) ge 2035) = 0.1;
 ****
 
 
@@ -369,7 +372,7 @@ I_EN.lo(jveh_inv,t,n)$((year(t) le 2015) and (not sameas (jveh_inv,'trad_cars'))
 MCOST_INV.fx(jveh_invfix,t,n) = inv_cost_veh(jveh_invfix)/(reg_discount_veh(n)*1e6);
 MCOST_INV.lo(jveh,t,n)$(not sameas(jveh,'trad_cars')) = 1e-5;
 MCOST_INV.up(jveh,t,n)$(not sameas(jveh,'trad_cars')) = (inv_cost_veh('trad_cars') + 
-                                                         5 * size_battery(jveh,n) * battery_cost(tfirst) +
+                                                         5 * size_battery(jveh,n) * battery_cost_new(tfirst,n) +
                                                          disutility_costs_ldv(jveh,t,n)) * 1e-6;
 
 Q_IN.fx('trbiofuel','trad_cars',t,n)$(year(t) le 2010) = biofuel_2005_2010(t,n);
@@ -385,13 +388,13 @@ K_RD.lo('battery',t,n)$((not tfix(t)) and (year(t) ge 2010)) = krd0('battery',n)
 K_EN.fx('battery',t,n) = 0;
 Q_EN.fx('battery',t,n) = 0;
 
-MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost(tfirst);
-MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = battery_cost(t);
-MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*battery_cost(t)*bat_multip('hybrid',n)
+MCOST_INV.up('battery',t,n)$(not tfix(t)) = battery_cost_new(tfirst,n);
+MCOST_INV.fx('battery',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = battery_cost_new(t,n);
+MCOST_INV.fx('hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost+(size_battery('hybrid',n)*battery_cost_new(t,n)*bat_multip('hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('hybrid') + ice_cost*size_ice('hybrid') + tank_cost('hybrid')))/(1e6);
-MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*battery_cost(t)*bat_multip('plg_hybrid',n)
+MCOST_INV.fx('plg_hybrid',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + (size_battery('plg_hybrid',n)*battery_cost_new(t,n)*bat_multip('plg_hybrid',n)
  + ELMOTOR_COST.l(t)*size_elmotor('plg_hybrid') + ice_cost*size_ice('plg_hybrid') + tank_cost('plg_hybrid') + charger_cost ))/1e6;
-MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*battery_cost(t)
+MCOST_INV.fx('edv',t,n)$((not tfix(t)) and (year(t) lt rd_time('battery','start'))) = (glider_manufacture_cost + size_battery('edv',n)*battery_cost_new(t,n)
  + ELMOTOR_COST.l(t)*size_elmotor('edv') + charger_cost+ charging_station)/1e6;
 
 *-------------------------------------------------------------------------------
@@ -483,6 +486,9 @@ jveh_inv
 jveh_invfix
 
 * Parameters
+*** newcode
+battery_cost_new
+
 ai
 battery_cost
 biofuel_2005_2010
