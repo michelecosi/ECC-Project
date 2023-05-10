@@ -263,6 +263,8 @@ $gdxin
 scalar smooth_ldv / 1.25 /;
 
 *** new code
+parameter carshare(t,n);
+
 parameter 
     battery_cost_new(t,n);
 
@@ -312,10 +314,12 @@ loop((tm1,t,n)$(pre(tm1,t) and year(t) gt 2015),
         ldv_pthc(t,n)$(ldv_pthc(tm1,n) gt 600) = ldv_pthc(tm1,n)*(1+(gdppc(t,n)/gdppc(tm1,n)-1)*oge('c5'))+ai('c5');
     );
 );
-
-ldv_pthc(t,n) = ldv_pthc(t,n) * coeff_ldv(t,n);
+*** newcode CARSHARING
+carshare(t,n) = 1;
+ldv_pthc(t,n) = ldv_pthc(t,n) * coeff_ldv(t,n) * carshare(t,n);
 
 ldv_total(t,n) = ldv_pthc(t,n)*l(t,n)/1e3;
+***
 
 * 2) Calculation of demand and consumption
 
