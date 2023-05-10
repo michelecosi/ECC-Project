@@ -263,15 +263,33 @@ $gdxin
 scalar smooth_ldv / 1.25 /;
 
 *** new code
-parameter battery_cost_new(t,n);
+parameter 
+    battery_cost_new(t,n);
+
+parameter perc_raremat_battery
+    p_rmb /0.10/;
+
+parameter perc_incr_price_lith  #setglobal
+    pi_lprice /0.50/;  
+
+*parameter increase_price_rare_material(t);
+
+
+$gdxin '%datapath%data_battery.gdx'
+parameter increase_price_rare_material(t);
+$loaddc increase_price_rare_material
+$gdxin
+
 ***
-
-
 *-------------------------------------------------------------------------------
 $elseif %phase%=='compute_data'
 
 *** new code
+*increase_price_rare_material = 1+p_rmb*pi_lprice*(1-exp(-5/(2000*30)*year(t)));
+*increase_price_rare_material  = 1.5;
+
 battery_cost_new(t,n) = battery_cost(t);
+battery_cost_new(t,n)$(sameas (n,'mexico')) = increase_price_rare_material(t)*battery_cost(t);
 ***
 
 krd0('battery',n) = sum(nn,krd0('en',nn))*0.0141*0.076923077;
