@@ -1,0 +1,178 @@
+B 3 C o m p i l a t i o n
+B 126 Include File Summary
+B 3198 E x e c u t i o n
+B 3206 Setup/Generation    SOLVE witch_c_brazil Using NLP From line 42085
+B 3213 Range Statistics    SOLVE witch_c_brazil Using NLP From line 42085
+B 3224 Model Statistics    SOLVE witch_c_brazil Using NLP From line 42085
+B 3242 Setup/Generation    SOLVE witch_c_canada Using NLP From line 42090
+B 3249 Range Statistics    SOLVE witch_c_canada Using NLP From line 42090
+B 3260 Model Statistics    SOLVE witch_c_canada Using NLP From line 42090
+B 3278 Setup/Generation    SOLVE witch_c_china Using NLP From line 42095
+B 3285 Range Statistics    SOLVE witch_c_china Using NLP From line 42095
+B 3296 Model Statistics    SOLVE witch_c_china Using NLP From line 42095
+B 3314 Setup/Generation    SOLVE witch_c_europe Using NLP From line 42100
+B 3321 Range Statistics    SOLVE witch_c_europe Using NLP From line 42100
+B 3332 Model Statistics    SOLVE witch_c_europe Using NLP From line 42100
+B 3350 Setup/Generation    SOLVE witch_c_india Using NLP From line 42105
+B 3357 Range Statistics    SOLVE witch_c_india Using NLP From line 42105
+B 3368 Model Statistics    SOLVE witch_c_india Using NLP From line 42105
+B 3386 Setup/Generation    SOLVE witch_c_indonesia Using NLP From line 42110
+B 3393 Range Statistics    SOLVE witch_c_indonesia Using NLP From line 42110
+B 3404 Model Statistics    SOLVE witch_c_indonesia Using NLP From line 42110
+B 3422 Setup/Generation    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 3429 Range Statistics    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 3440 Model Statistics    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 3458 Setup/Generation    SOLVE witch_c_laca Using NLP From line 42120
+B 3465 Range Statistics    SOLVE witch_c_laca Using NLP From line 42120
+B 3476 Model Statistics    SOLVE witch_c_laca Using NLP From line 42120
+B 3494 Setup/Generation    SOLVE witch_c_mena Using NLP From line 42125
+B 3501 Range Statistics    SOLVE witch_c_mena Using NLP From line 42125
+B 3512 Model Statistics    SOLVE witch_c_mena Using NLP From line 42125
+B 3530 Setup/Generation    SOLVE witch_c_mexico Using NLP From line 42130
+B 3537 Range Statistics    SOLVE witch_c_mexico Using NLP From line 42130
+B 3548 Model Statistics    SOLVE witch_c_mexico Using NLP From line 42130
+B 3566 Setup/Generation    SOLVE witch_c_oceania Using NLP From line 42135
+B 3573 Range Statistics    SOLVE witch_c_oceania Using NLP From line 42135
+B 3584 Model Statistics    SOLVE witch_c_oceania Using NLP From line 42135
+B 3602 Setup/Generation    SOLVE witch_c_sasia Using NLP From line 42140
+B 3609 Range Statistics    SOLVE witch_c_sasia Using NLP From line 42140
+B 3620 Model Statistics    SOLVE witch_c_sasia Using NLP From line 42140
+B 3638 Setup/Generation    SOLVE witch_c_seasia Using NLP From line 42145
+B 3645 Range Statistics    SOLVE witch_c_seasia Using NLP From line 42145
+B 3656 Model Statistics    SOLVE witch_c_seasia Using NLP From line 42145
+B 3674 Setup/Generation    SOLVE witch_c_southafrica Using NLP From line 42150
+B 3681 Range Statistics    SOLVE witch_c_southafrica Using NLP From line 42150
+B 3692 Model Statistics    SOLVE witch_c_southafrica Using NLP From line 42150
+B 3710 Setup/Generation    SOLVE witch_c_ssa Using NLP From line 42155
+B 3717 Range Statistics    SOLVE witch_c_ssa Using NLP From line 42155
+B 3728 Model Statistics    SOLVE witch_c_ssa Using NLP From line 42155
+B 3746 Setup/Generation    SOLVE witch_c_te Using NLP From line 42160
+B 3753 Range Statistics    SOLVE witch_c_te Using NLP From line 42160
+B 3764 Model Statistics    SOLVE witch_c_te Using NLP From line 42160
+B 3782 Setup/Generation    SOLVE witch_c_usa Using NLP From line 42165
+B 3789 Range Statistics    SOLVE witch_c_usa Using NLP From line 42165
+B 3800 Model Statistics    SOLVE witch_c_usa Using NLP From line 42165
+B 3818 Range Statistics    SOLVE witch_c_canada Using NLP From line 42208
+B 3829 Model Statistics    SOLVE witch_c_canada Using NLP From line 42208
+B 3857 Solution Report     SOLVE witch_c_canada Using NLP From line 42208
+B 3916 Range Statistics    SOLVE witch_c_china Using NLP From line 42208
+B 3927 Model Statistics    SOLVE witch_c_china Using NLP From line 42208
+B 3955 Solution Report     SOLVE witch_c_china Using NLP From line 42208
+B 4014 Range Statistics    SOLVE witch_c_europe Using NLP From line 42208
+B 4025 Model Statistics    SOLVE witch_c_europe Using NLP From line 42208
+B 4053 Solution Report     SOLVE witch_c_europe Using NLP From line 42208
+B 4112 Range Statistics    SOLVE witch_c_india Using NLP From line 42208
+B 4123 Model Statistics    SOLVE witch_c_india Using NLP From line 42208
+B 4151 Solution Report     SOLVE witch_c_india Using NLP From line 42208
+B 4210 Range Statistics    SOLVE witch_c_indonesia Using NLP From line 42208
+B 4221 Model Statistics    SOLVE witch_c_indonesia Using NLP From line 42208
+B 4249 Solution Report     SOLVE witch_c_indonesia Using NLP From line 42208
+B 4308 Range Statistics    SOLVE witch_c_jpnkor Using NLP From line 42208
+B 4319 Model Statistics    SOLVE witch_c_jpnkor Using NLP From line 42208
+B 4347 Solution Report     SOLVE witch_c_jpnkor Using NLP From line 42208
+B 4406 Range Statistics    SOLVE witch_c_laca Using NLP From line 42208
+B 4417 Model Statistics    SOLVE witch_c_laca Using NLP From line 42208
+B 4445 Solution Report     SOLVE witch_c_laca Using NLP From line 42208
+B 4504 Range Statistics    SOLVE witch_c_mena Using NLP From line 42208
+B 4515 Model Statistics    SOLVE witch_c_mena Using NLP From line 42208
+B 4543 Solution Report     SOLVE witch_c_mena Using NLP From line 42208
+B 4600 Range Statistics    SOLVE witch_c_mexico Using NLP From line 42208
+B 4611 Model Statistics    SOLVE witch_c_mexico Using NLP From line 42208
+B 4639 Solution Report     SOLVE witch_c_mexico Using NLP From line 42208
+B 4698 Range Statistics    SOLVE witch_c_oceania Using NLP From line 42208
+B 4709 Model Statistics    SOLVE witch_c_oceania Using NLP From line 42208
+B 4737 Solution Report     SOLVE witch_c_oceania Using NLP From line 42208
+B 4796 Range Statistics    SOLVE witch_c_seasia Using NLP From line 42208
+B 4807 Model Statistics    SOLVE witch_c_seasia Using NLP From line 42208
+B 4835 Solution Report     SOLVE witch_c_seasia Using NLP From line 42208
+B 4894 Range Statistics    SOLVE witch_c_te Using NLP From line 42208
+B 4905 Model Statistics    SOLVE witch_c_te Using NLP From line 42208
+B 4933 Solution Report     SOLVE witch_c_te Using NLP From line 42208
+B 4992 Range Statistics    SOLVE witch_c_usa Using NLP From line 42208
+B 5003 Model Statistics    SOLVE witch_c_usa Using NLP From line 42208
+B 5031 Solution Report     SOLVE witch_c_usa Using NLP From line 42208
+B 5089 Range Statistics    SOLVE witch_c_canada Using NLP From line 42208
+B 5100 Model Statistics    SOLVE witch_c_canada Using NLP From line 42208
+B 5128 Solution Report     SOLVE witch_c_canada Using NLP From line 42208
+B 5187 Range Statistics    SOLVE witch_c_china Using NLP From line 42208
+B 5198 Model Statistics    SOLVE witch_c_china Using NLP From line 42208
+B 5226 Solution Report     SOLVE witch_c_china Using NLP From line 42208
+B 5283 Range Statistics    SOLVE witch_c_europe Using NLP From line 42208
+B 5294 Model Statistics    SOLVE witch_c_europe Using NLP From line 42208
+B 5322 Solution Report     SOLVE witch_c_europe Using NLP From line 42208
+B 5381 Range Statistics    SOLVE witch_c_india Using NLP From line 42208
+B 5392 Model Statistics    SOLVE witch_c_india Using NLP From line 42208
+B 5420 Solution Report     SOLVE witch_c_india Using NLP From line 42208
+B 5479 Range Statistics    SOLVE witch_c_indonesia Using NLP From line 42208
+B 5490 Model Statistics    SOLVE witch_c_indonesia Using NLP From line 42208
+B 5518 Solution Report     SOLVE witch_c_indonesia Using NLP From line 42208
+B 5577 Range Statistics    SOLVE witch_c_jpnkor Using NLP From line 42208
+B 5588 Model Statistics    SOLVE witch_c_jpnkor Using NLP From line 42208
+B 5616 Solution Report     SOLVE witch_c_jpnkor Using NLP From line 42208
+B 5675 Range Statistics    SOLVE witch_c_laca Using NLP From line 42208
+B 5686 Model Statistics    SOLVE witch_c_laca Using NLP From line 42208
+B 5714 Solution Report     SOLVE witch_c_laca Using NLP From line 42208
+B 5773 Range Statistics    SOLVE witch_c_mexico Using NLP From line 42208
+B 5784 Model Statistics    SOLVE witch_c_mexico Using NLP From line 42208
+B 5812 Solution Report     SOLVE witch_c_mexico Using NLP From line 42208
+B 5869 Range Statistics    SOLVE witch_c_oceania Using NLP From line 42208
+B 5880 Model Statistics    SOLVE witch_c_oceania Using NLP From line 42208
+B 5908 Solution Report     SOLVE witch_c_oceania Using NLP From line 42208
+B 5967 Range Statistics    SOLVE witch_c_seasia Using NLP From line 42208
+B 5978 Model Statistics    SOLVE witch_c_seasia Using NLP From line 42208
+B 6006 Solution Report     SOLVE witch_c_seasia Using NLP From line 42208
+B 6065 Range Statistics    SOLVE witch_c_te Using NLP From line 42208
+B 6076 Model Statistics    SOLVE witch_c_te Using NLP From line 42208
+B 6104 Solution Report     SOLVE witch_c_te Using NLP From line 42208
+B 6162 Setup/Generation    SOLVE witch_c_brazil Using NLP From line 42085
+B 6169 Range Statistics    SOLVE witch_c_brazil Using NLP From line 42085
+B 6180 Model Statistics    SOLVE witch_c_brazil Using NLP From line 42085
+B 6198 Setup/Generation    SOLVE witch_c_canada Using NLP From line 42090
+B 6205 Range Statistics    SOLVE witch_c_canada Using NLP From line 42090
+B 6216 Model Statistics    SOLVE witch_c_canada Using NLP From line 42090
+B 6234 Setup/Generation    SOLVE witch_c_china Using NLP From line 42095
+B 6241 Range Statistics    SOLVE witch_c_china Using NLP From line 42095
+B 6252 Model Statistics    SOLVE witch_c_china Using NLP From line 42095
+B 6270 Setup/Generation    SOLVE witch_c_europe Using NLP From line 42100
+B 6277 Range Statistics    SOLVE witch_c_europe Using NLP From line 42100
+B 6288 Model Statistics    SOLVE witch_c_europe Using NLP From line 42100
+B 6306 Setup/Generation    SOLVE witch_c_india Using NLP From line 42105
+B 6313 Range Statistics    SOLVE witch_c_india Using NLP From line 42105
+B 6324 Model Statistics    SOLVE witch_c_india Using NLP From line 42105
+B 6342 Setup/Generation    SOLVE witch_c_indonesia Using NLP From line 42110
+B 6349 Range Statistics    SOLVE witch_c_indonesia Using NLP From line 42110
+B 6360 Model Statistics    SOLVE witch_c_indonesia Using NLP From line 42110
+B 6378 Setup/Generation    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 6385 Range Statistics    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 6396 Model Statistics    SOLVE witch_c_jpnkor Using NLP From line 42115
+B 6414 Setup/Generation    SOLVE witch_c_laca Using NLP From line 42120
+B 6421 Range Statistics    SOLVE witch_c_laca Using NLP From line 42120
+B 6432 Model Statistics    SOLVE witch_c_laca Using NLP From line 42120
+B 6450 Setup/Generation    SOLVE witch_c_mena Using NLP From line 42125
+B 6457 Range Statistics    SOLVE witch_c_mena Using NLP From line 42125
+B 6468 Model Statistics    SOLVE witch_c_mena Using NLP From line 42125
+B 6486 Setup/Generation    SOLVE witch_c_mexico Using NLP From line 42130
+B 6493 Range Statistics    SOLVE witch_c_mexico Using NLP From line 42130
+B 6504 Model Statistics    SOLVE witch_c_mexico Using NLP From line 42130
+B 6522 Setup/Generation    SOLVE witch_c_oceania Using NLP From line 42135
+B 6529 Range Statistics    SOLVE witch_c_oceania Using NLP From line 42135
+B 6540 Model Statistics    SOLVE witch_c_oceania Using NLP From line 42135
+B 6558 Setup/Generation    SOLVE witch_c_sasia Using NLP From line 42140
+B 6565 Range Statistics    SOLVE witch_c_sasia Using NLP From line 42140
+B 6576 Model Statistics    SOLVE witch_c_sasia Using NLP From line 42140
+B 6594 Setup/Generation    SOLVE witch_c_seasia Using NLP From line 42145
+B 6601 Range Statistics    SOLVE witch_c_seasia Using NLP From line 42145
+B 6612 Model Statistics    SOLVE witch_c_seasia Using NLP From line 42145
+B 6630 Setup/Generation    SOLVE witch_c_southafrica Using NLP From line 42150
+B 6637 Range Statistics    SOLVE witch_c_southafrica Using NLP From line 42150
+B 6648 Model Statistics    SOLVE witch_c_southafrica Using NLP From line 42150
+B 6666 Setup/Generation    SOLVE witch_c_ssa Using NLP From line 42155
+B 6673 Range Statistics    SOLVE witch_c_ssa Using NLP From line 42155
+B 6684 Model Statistics    SOLVE witch_c_ssa Using NLP From line 42155
+B 6702 Setup/Generation    SOLVE witch_c_te Using NLP From line 42160
+B 6709 Range Statistics    SOLVE witch_c_te Using NLP From line 42160
+B 6720 Model Statistics    SOLVE witch_c_te Using NLP From line 42160
+B 6738 Setup/Generation    SOLVE witch_c_usa Using NLP From line 42165
+B 6745 Range Statistics    SOLVE witch_c_usa Using NLP From line 42165
+B 6756 Model Statistics    SOLVE witch_c_usa Using NLP From line 42165
+B 6774 E x e c u t i o n

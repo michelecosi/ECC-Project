@@ -49,7 +49,8 @@
         "--nameout==prova1_battery_new_only",
         "--nameout==default_only_lit",
         "--nameout==regional_lit",
-        "--nameout=regional_lit"
+        "--nameout=regional_lit",
+        "--nameout=emicap_usa_1e-3"
     ],
     "path": ".",
     "workDir": "."
