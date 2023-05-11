@@ -1,0 +1,144 @@
+---
+title: "Data visulaization gdx: tryal"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+## 0. Settings
+
+```{r, warning=FALSE, message=FALSE}
+#setwd("C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/R STUDIO")
+rm( list = ls() )
+
+list.files()
+graphics.off() # chiude tutti i device grafici
+cat("\014") #pulisci console
+
+library(tidyverse)
+library(gdxtools)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(ggrepel)
+library(ggsci) # scientific colors
+library(viridis) #looks good and includes many options
+library(RColorBrewer) # wide choice
+library(countrycode) # Country name tools
+
+```
+```{r}
+lith = c(1.426024955,2.200011901,3.252693262,3.94243512,4.585833428,3.749943315,3.645069268,3.683428751,3.900433516,3.78042719,4.12688361,7.02276395,9.358695741,11.09685768,8.432977442,4.993804561,7.561162264)
+
+cost_lith = c(7.807486631,12.04506516,17.80849561,21.58483228,25.10743802,20.53093965,19.95675424,20.16677241,21.3548735,20.69783887,22.59468776,38.44963262,51.23885918,60.75529578,46.1705515,27.34107997,41.39736339)
+x = seq(2005,2021)
+plot(x,lith,pch = 16)
+```
+
+# battery cost
+```{r}
+res <- batch_extract(variables, files = myfiles) # load GHG emissions
+plot(res$battery_cost[,c(1:2)],pch = 16)
+res$battery_cost[,c(1:2)]
+res$battery_cost[which(res$battery_cost[,2]==min(res$battery_cost[,2])),1]
+
+t0 = 1
+t1 = 30
+y_t0=res$battery_cost[which(res$battery_cost[,1]==t0),2]
+y_t1=res$battery_cost[which(res$battery_cost[,1]==t1),2]
+
+x=seq(from=1,to=30,length.out=30)
+y = res$battery_cost[,2]
+model <- lm(y~exp(1/x))
+summary(model)
+
+#use the model to predict the y-values based on the x-values
+yy=predict(model,newdata = list(x=seq(30), interval="confidence"))
+
+#add the fitted regression line to the plot (lwd specifies the width of the line)
+matlines(x,y_t1+100*exp(1/x))
+#points(x,y_t1-b/log(x),col = "gold",pch = 16)
+
+```
+# Extract and combine data from different gdx
+```{r}
+path <- "C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/ECC-Project/witchmodel"
+#path <- "C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/RICE/RICE50x_v1_portable/results"
+
+files <- list.files(path,pattern = ".gdx")
+myfiles <- file.path(path, files)
+myfiles = myfiles %>% str_subset(pattern = "results.*\\.gdx")
+myfiles
+#myfiles=myfiles[1]
+
+```
+
+# choose variable of interest, multiple variables is still buggy
+```{r}
+variables = c("battery_cost_new")
+tstep = 5
+first_year = 2000
+max_year = 2100
+res <- batch_extract(variables, files = myfiles[1]) # load GHG emissions
+```
+
+
+```{r}
+v = variables # rename for semplicity
+#for (v in variables){
+  data= res[[v]] %>% as_tibble()
+  
+  data <- data %>%
+    # Transform time period into year, t0 and tsep could be different
+  mutate(year = as.numeric(t) * tstep + first_year) %>% 
+  # Transform the filename into a scenario name
+  ## would be cool to subdivide each sub scenario indipendently but don't know if it's even worth it
+  ## NB: save different analysis in different folders
+  mutate(scen = basename(gdx)) %>% 
+  mutate(scen = str_replace(scen, ".gdx", "")) %>%
+  mutate(scen = str_replace(scen, "results_", ""))
+  
+  levs = unique(data$scen)
+  data <- data %>% mutate(scen = factor(scen, levels = levs))
+  
+  
+  ## group regiondata into worlddata
+  if (v=="E"){
+    data <- data %>% group_by(scen,year) %>% summarise(value = sum(value))
+  }
+  
+  
+  ggplot(data %>% filter(year <= max_year),
+        aes(x = year, y = value, color = scen)) +
+    
+  geom_line() +
+    
+  #facet_wrap(~fuel, ncol = 3, scales='free') +
+    
+  geom_point() + # NEW GEOMETRY, SAME DATA AND MAPPING
+    
+  geom_hline(yintercept = 0, color = 'Black', size = 0.8) +
+    
+  labs(x = "", y = v, title = v) +
+    
+  theme_bw() +
+    
+  scale_x_continuous(limits=c(first_year+tstep, max_year),
+                      breaks=seq(first_year+tstep, max_year,by = 5), # Define the axis tiks breaks
+                      guide = guide_axis(n.dodge = 2)) + # avoid overlapping
+    
+  #scale_y_continuous(limits=c(-5, 50)) +
+    
+  scale_color_discrete(name = "Scenario")
+
+#}
+
+
+```
+
+
+
+
+
+
+
