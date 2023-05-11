@@ -276,6 +276,9 @@ parameter perc_incr_price_lith  #setglobal
 
 *parameter increase_price_rare_material(t);
 
+parameter
+    dec_inv(t,n);
+
 
 $gdxin '%datapath%data_battery.gdx'
 parameter increase_price_rare_material(t);
@@ -287,6 +290,7 @@ $gdxin
 $elseif %phase%=='compute_data'
 
 *** new code
+dec_inv(t,n) = 1;
 *increase_price_rare_material = 1+p_rmb*pi_lprice*(1-exp(-5/(2000*30)*year(t)));
 *increase_price_rare_material  = 1.5;
 
@@ -315,6 +319,7 @@ loop((tm1,t,n)$(pre(tm1,t) and year(t) gt 2015),
     );
 );
 *** newcode CARSHARING
+* da trasformare in variabile per poter inserire unvestimenti
 carshare(t,n) = 1;
 ldv_pthc(t,n) = ldv_pthc(t,n) * coeff_ldv(t,n) * carshare(t,n);
 
@@ -426,10 +431,17 @@ eqq_el_edv_%clt%
 eqmcost_inv_hybrid_%clt%
 eqmcost_inv_plghybrid_%clt%
 eqmcost_inv_edv_%clt%
-
+*** newcode
+eqq_inv_red_ban_%clt%
+***
 *-------------------------------------------------------------------------------
 $elseif %phase%=='eqs'
 
+*** newcode
+eqq_inv_red_ban_%clt%(t,n)$(mapn_th('%clt%'))..
+    I_EN('trad_cars',t,n)$(year(t) ge 2025) =l= dec_inv(t,n)*I_EN('trad_cars',t-1,n)$(year(t) ge 2025);
+
+***
 *- Number of light duty vehicles
 eqnb_veh_%clt%(t,n)$(mapn_th('%clt%'))..
     sum(jveh,K_EN(jveh,t,n)) =e= ldv_total(t,n);

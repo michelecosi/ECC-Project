@@ -10,6 +10,12 @@ library(gdxtools)
 ```
 
 ```{r}
+path <- "C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/ECC-Project/witchmodel"
+#path <- "C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/RICE/RICE50x_v1_portable/results"
+
+files <- list.files(path,pattern = ".gdx")
+myfiles <- file.path(path, files)
+myfiles = myfiles %>% str_subset(pattern = "results.*\\.gdx")
 dataset <- read.csv(file="curve2.csv")
 head(dataset)
 colnames(dataset)<-c("X","n","deg0","deg4")
@@ -19,10 +25,44 @@ head(dataset)
 
 mod_lit <- data.frame(dataset[2],dataset[1],dataset[3])
 head(mod_lit)
+write.gdx("data_mod_lithium.gdx",list(trade_poly_lit=mod_lit), compress=F)
 ```
 
 
 ```{r}
-write.gdx("data_mod_lithium.gdx",list(trade_poly_lit=mod_lit), compress=F)
+path <- "C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/ECC-Project/witchmodel/modules"
+
+files <- list.files(path,pattern = ".gdx")
+myfiles <- file.path(path, files)
+myfiles = myfiles %>% str_subset(pattern = "results.*\\.gdx")
+dataset <- read.csv(file="curve2.csv")
+head(dataset)
+
+head(dataset)
+colnames(dataset)<-c("X","n","deg0","deg4")
+
+dataset<- dataset[,2:4] %>% pivot_longer(cols=!n)
+head(dataset)
+
+mod_lit <- data.frame(dataset[2],dataset[1],dataset[3])
+head(mod_lit)
+#write.gdx("data_battery.gdx",list(increase_price_rare_material=df), compress=F)
 ```
+
+
+```{r}
+t = seq(1,30)
+p_rmb = 0.1
+pi_lprice = 0.5
+
+growth_rate = (1-exp(-5/(30)*t))
+growth_rate=1
+inc_prmat =  1+p_rmb*pi_lprice*growth_rate
+papth_data="C:/Users/modin/Desktop/Ettore/UNIVERSITA/ECC_GAMS/ECC-Project/witchmodel/data_witch17"
+df = data.frame(t,value=inc_prmat)
+path_save_data = paste0(papth_data,"data_battery.gdx")
+write.gdx(path_save_data,list(increase_price_rare_material=df), compress=F)
+ ```
+
+
 
