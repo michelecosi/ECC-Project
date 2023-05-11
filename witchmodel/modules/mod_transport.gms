@@ -291,8 +291,6 @@ $elseif %phase%=='compute_data'
 
 *** new code
 dec_inv(t,n) = 1;
-*increase_price_rare_material = 1+p_rmb*pi_lprice*(1-exp(-5/(2000*30)*year(t)));
-*increase_price_rare_material  = 1.5;
 
 battery_cost_new(t,n) = battery_cost(t);
 battery_cost_new(t,n)$(sameas (n,'mexico')) = increase_price_rare_material(t)*battery_cost(t);
@@ -318,6 +316,7 @@ loop((tm1,t,n)$(pre(tm1,t) and year(t) gt 2015),
         ldv_pthc(t,n)$(ldv_pthc(tm1,n) gt 600) = ldv_pthc(tm1,n)*(1+(gdppc(t,n)/gdppc(tm1,n)-1)*oge('c5'))+ai('c5');
     );
 );
+
 *** newcode CARSHARING
 * da trasformare in variabile per poter inserire unvestimenti
 carshare(t,n) = 1;
