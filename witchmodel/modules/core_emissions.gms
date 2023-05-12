@@ -109,6 +109,9 @@ parameter emi_bio_harv(t) 'Emissions from harvest and collection of biomass';
 $elseif %phase%=='eql'
 
 eqq_emi_lim_%clt%
+***newcode
+eqq_emi_lim_USA%clt%
+***
 eqq_emi_tree_%clt%
 eqq_emi_co2ffi_%clt%
 
@@ -123,6 +126,10 @@ $elseif %phase%=='eqs'
 eqq_emi_lim_%clt%(t,n)$(mapn_th('%clt%') and t_cap(t,n))..
     sum(e_cap(e), Q_EMI(e,t,n)) =l= emi_cap(t,n) +
                                  sum(c_mkt$trading_t(c_mkt,t,n), Q_EMI(c_mkt,t,n));
+
+***newcode
+eqq_emi_lim_USA%clt%(t,n)$(mapn_th('%clt%') and t_cap(t,n)).. sum(e_cap(e), Q_EMI(e,t,'usa'))$(year(t) ge 2050) =e= 0.001;
+***
 
 * Compute total and sectoral emissions
 eqq_emi_tree_%clt%(t,n,e)$(mapn_th('%clt%') and (sum(ee$map_e(e,ee),1)))..
@@ -198,6 +205,9 @@ tfixvar(CPRICE,'(c_mkt,t)')
 
 tfixpar(carbonprice,'(t,n)')   
 tfixpar(m_eqq_emi_lim,'(t,n)') 
+**newcode
+tfixpar(m_eqq_emi_limUSA,'(t,n)')
+***
 tfixpar(m_eqq_emi_tree,'(t,n,e)') 
 
 *-------------------------------------------------------------------------------

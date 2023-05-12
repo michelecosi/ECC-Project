@@ -34,6 +34,12 @@
         },
         {
             "codecMib": 106,
+            "file": "modules/core_emissions.gms",
+            "name": "core_emissions.gms",
+            "type": "gms"
+        },
+        {
+            "codecMib": 106,
             "file": "conopt.opt",
             "name": "conopt.opt",
             "type": "opt"
@@ -100,7 +106,8 @@
         "--nameout=battery_new_increased_region_exp --VERBOSE=1",
         "--nameout=battery_new_increased_region_gdx --VERBOSE=1",
         "--nameout=invest_eqs --VERBOSE=1",
-        "--nameout=emicap_usa_1e-3_500notusa --verbose=1"
+        "--nameout=emicap_usa_1e-3_500notusa --verbose=1",
+        "--nameout=eqq_emi_lim_usa_1e-3 --verbose=1"
     ],
     "path": ".",
     "workDir": "."

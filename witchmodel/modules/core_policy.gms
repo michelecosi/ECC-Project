@@ -70,10 +70,10 @@ ctax(ghg,t,n) = 0;
 
 * Default emission cap
 e_cap(ghg) = yes;
-*emi_cap(t,n)= 500;
+emi_cap(t,n)= 500;
 
 ***newcode
-emi_cap(t,n)$(not sameas(n,'usa')) = 500;
+*emi_cap(t,n)$(not sameas(n,'usa')) = 500;
 ***
 
 $ifthen.pol %policy%=="bau"
@@ -101,8 +101,8 @@ $endif.cg
 *emi_cap(t,n) = 100; # very high number
 
 *** newcode: netzero usa and eu in 2050.
-emi_cap(t,'usa')$(year(t) ge 2050) = 0.001;
-emi_cap(t,'europe')$(year(t) ge 2050) = 0.001;
+*emi_cap(t,'usa')$(year(t) ge 2050) = 0.001;
+*emi_cap(t,'europe')$(year(t) ge 2050) = 0.001;
 ***
 
 $endif.pol

@@ -1,4 +1,5 @@
---- Job run_witch.gms Start 05/12/23 14:36:32 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
+
+--- Job run_witch.gms Start 05/12/23 16:29:17 42.2.0 ef14ea53 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\42\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -11,7 +12,7 @@
     ErrorLog 99
     IDE 1
     LstTitleLeftAligned 1
-    --nameout emicap_usa_1e-3_500notusa
+    --nameout eqq_emi_lim_usa_1e-3
     --verbose 1
 Licensee: Course License                                 S230216|0002AO-GEN
           Fondazione CMCC, Complesso Ecotekne                       DCE1910
@@ -659,7 +660,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -729,7 +730,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -799,7 +800,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -869,7 +870,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -939,7 +940,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1009,7 +1010,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1079,7 +1080,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1149,7 +1150,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1219,7 +1220,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1289,7 +1290,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1359,7 +1360,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1429,7 +1430,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1499,7 +1500,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1569,7 +1570,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1639,7 +1640,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1709,7 +1710,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(390) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(120) 6 Mb
+--- .... core_emissions.gms(123) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(106) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1779,7 +1780,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 6 Mb
 --- .... core_energy.gms(488) 6 Mb
 --- ... modules.gms(22) 6 Mb
---- .... core_emissions.gms(151) 6 Mb
+--- .... core_emissions.gms(158) 6 Mb
 --- ... modules.gms(23) 6 Mb
 --- .... core_knowledge.gms(147) 6 Mb
 --- ... modules.gms(24) 6 Mb
@@ -1805,8 +1806,8 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(36) 6 Mb
 --- .... mod_advbiofuel.gms(92) 6 Mb
 --- ... modules.gms(37) 6 Mb
---- .... mod_ccs.gms(278) 6 Mb
---- ... modules.gms(39) 6 Mb
+--- .... mod_ccs.gms(278) 7 Mb
+--- ... modules.gms(39) 7 Mb
 --- .... mod_nelcoal.gms(127) 7 Mb
 --- ... modules.gms(40) 7 Mb
 --- .... mod_wind.gms(328) 7 Mb
@@ -1849,7 +1850,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -1919,7 +1920,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -1989,7 +1990,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2059,7 +2060,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2129,7 +2130,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2199,7 +2200,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2269,7 +2270,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2339,7 +2340,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2409,7 +2410,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2479,7 +2480,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2549,7 +2550,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2619,7 +2620,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2689,7 +2690,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2759,7 +2760,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2829,7 +2830,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2899,7 +2900,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -2969,7 +2970,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3039,7 +3040,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3109,7 +3110,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3179,7 +3180,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3249,7 +3250,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3319,7 +3320,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3389,7 +3390,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3459,7 +3460,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3529,7 +3530,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3599,7 +3600,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(390) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(120) 7 Mb
+--- .... core_emissions.gms(123) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(106) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3669,7 +3670,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 7 Mb
 --- .... core_energy.gms(488) 7 Mb
 --- ... modules.gms(22) 7 Mb
---- .... core_emissions.gms(151) 7 Mb
+--- .... core_emissions.gms(158) 7 Mb
 --- ... modules.gms(23) 7 Mb
 --- .... core_knowledge.gms(147) 7 Mb
 --- ... modules.gms(24) 7 Mb
@@ -3705,20 +3706,20 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(42) 7 Mb
 --- .... pol_techno_ssp.gms(5) 7 Mb
 --- ... modules.gms(44) 7 Mb
---- .... mod_oil.gms(210) 7 Mb
---- ... modules.gms(45) 7 Mb
---- .... mod_uranium.gms(5) 7 Mb
---- ... modules.gms(46) 7 Mb
---- .... mod_gas.gms(5) 7 Mb
---- ... modules.gms(47) 7 Mb
---- .... mod_coal.gms(5) 7 Mb
---- ... modules.gms(50) 7 Mb
---- .... mod_climate.gms(207) 7 Mb
---- ... modules.gms(51) 7 Mb
---- .... mod_damage.gms(150) 7 Mb
---- ... modules.gms(53) 7 Mb
---- .... mod_transport.gms(469) 7 Mb
---- ... modules.gms(54) 7 Mb
+--- .... mod_oil.gms(210) 8 Mb
+--- ... modules.gms(45) 8 Mb
+--- .... mod_uranium.gms(5) 8 Mb
+--- ... modules.gms(46) 8 Mb
+--- .... mod_gas.gms(5) 8 Mb
+--- ... modules.gms(47) 8 Mb
+--- .... mod_coal.gms(5) 8 Mb
+--- ... modules.gms(50) 8 Mb
+--- .... mod_climate.gms(207) 8 Mb
+--- ... modules.gms(51) 8 Mb
+--- .... mod_damage.gms(150) 8 Mb
+--- ... modules.gms(53) 8 Mb
+--- .... mod_transport.gms(469) 8 Mb
+--- ... modules.gms(54) 8 Mb
 --- .... mod_transport_freight.gms(230) 8 Mb
 --- ... modules.gms(58) 8 Mb
 --- .... mod_trbiomass.gms(7) 8 Mb
@@ -3739,7 +3740,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -3809,7 +3810,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -3879,7 +3880,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(488) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(151) 8 Mb
+--- .... core_emissions.gms(158) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(147) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -3949,7 +3950,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4019,7 +4020,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4089,7 +4090,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(488) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(151) 8 Mb
+--- .... core_emissions.gms(158) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(147) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4159,7 +4160,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4234,7 +4235,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(21) 8 Mb
 --- ... core_energy.gms(5) 8 Mb
 --- .. modules.gms(22) 8 Mb
---- ... core_emissions.gms(158) 8 Mb
+--- ... core_emissions.gms(165) 8 Mb
 --- .. modules.gms(23) 8 Mb
 --- ... core_knowledge.gms(8) 8 Mb
 --- .. modules.gms(24) 8 Mb
@@ -4304,7 +4305,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(21) 8 Mb
 --- ... core_energy.gms(514) 8 Mb
 --- .. modules.gms(22) 8 Mb
---- ... core_emissions.gms(176) 8 Mb
+--- ... core_emissions.gms(183) 8 Mb
 --- .. modules.gms(23) 8 Mb
 --- ... core_knowledge.gms(202) 8 Mb
 --- .. modules.gms(24) 8 Mb
@@ -4494,7 +4495,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(21) 8 Mb
 --- ... core_energy.gms(514) 8 Mb
 --- .. modules.gms(22) 8 Mb
---- ... core_emissions.gms(176) 8 Mb
+--- ... core_emissions.gms(183) 8 Mb
 --- .. modules.gms(23) 8 Mb
 --- ... core_knowledge.gms(202) 8 Mb
 --- .. modules.gms(24) 8 Mb
@@ -4857,7 +4858,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4927,7 +4928,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -4997,7 +4998,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5067,7 +5068,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5137,7 +5138,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5207,7 +5208,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5277,7 +5278,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5347,7 +5348,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5417,7 +5418,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5487,7 +5488,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5557,7 +5558,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5627,7 +5628,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5697,7 +5698,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5767,7 +5768,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5837,7 +5838,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5907,7 +5908,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -5977,7 +5978,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- ... modules.gms(21) 8 Mb
 --- .... core_energy.gms(390) 8 Mb
 --- ... modules.gms(22) 8 Mb
---- .... core_emissions.gms(120) 8 Mb
+--- .... core_emissions.gms(123) 8 Mb
 --- ... modules.gms(23) 8 Mb
 --- .... core_knowledge.gms(106) 8 Mb
 --- ... modules.gms(24) 8 Mb
@@ -6048,7 +6049,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(21) 8 Mb
 --- ... core_energy.gms(643) 8 Mb
 --- .. modules.gms(22) 8 Mb
---- ... core_emissions.gms(236) 8 Mb
+--- ... core_emissions.gms(246) 8 Mb
 --- .. modules.gms(23) 8 Mb
 --- ... core_knowledge.gms(227) 8 Mb
 --- .. modules.gms(24) 8 Mb
@@ -6118,7 +6119,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(21) 8 Mb
 --- ... core_energy.gms(577) 8 Mb
 --- .. modules.gms(22) 8 Mb
---- ... core_emissions.gms(209) 8 Mb
+--- ... core_emissions.gms(219) 8 Mb
 --- .. modules.gms(23) 8 Mb
 --- ... core_knowledge.gms(8) 8 Mb
 --- .. modules.gms(24) 8 Mb
@@ -6174,7 +6175,7 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- .. modules.gms(66) 8 Mb
 --- . gdx.gms(19) 8 Mb
 --- run_witch.gms(147) 8 Mb
---- Starting execution: elapsed 0:00:05.564
+--- Starting execution: elapsed 0:00:04.255
 --- run_witch.gms(3567) 9 Mb
 --- GDXin=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
 --- GDX File (execute_load) C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\data_baseline.gdx
@@ -6368,10 +6369,10 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- GDX File (execute_load) C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- run_witch.gms(6652) 59 Mb
 --- GDXin=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
+--- run_witch.gms(6652) 59 Mb
 --- GDX File (execute_load) C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- run_witch.gms(6656) 59 Mb
 --- GDXin=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(6656) 59 Mb
 --- GDX File (execute_load) C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- run_witch.gms(6660) 59 Mb
 --- GDXin=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
@@ -6411,11 +6412,11 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- run_witch.gms(6770) 62 Mb
 --- GDXin=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
 --- GDX File (execute_load) C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\data_witch17\results_ssp2_calib.gdx
---- run_witch.gms(41171) 68 Mb  8 secs
+--- run_witch.gms(41341) 68 Mb  9 secs
 --- Generating NLP model witch_c_brazil
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_brazil
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42246) 75 Mb
+--- run_witch.gms(42416) 75 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   17,194 rows  30,631 columns  89,571 non-zeroes
@@ -6424,14 +6425,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 7.685E-06, 1.507E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 6.217E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42246) 73 Mb
---- Submitting model witch_c_brazil with handle grid877000001
---- Executing after solve: elapsed 0:00:19.956
---- run_witch.gms(41171) 73 Mb
+--- run_witch.gms(42416) 73 Mb
+--- Submitting model witch_c_brazil with handle grid878000001
+--- Executing after solve: elapsed 0:00:18.406
+--- run_witch.gms(41341) 73 Mb
 --- Generating NLP model witch_c_canada
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_canada
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42251) 75 Mb
+--- run_witch.gms(42421) 75 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   16,073 rows  30,635 columns  86,227 non-zeroes
@@ -6440,14 +6441,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 4.326E-06, 1.916E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.278E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42251) 73 Mb
---- Submitting model witch_c_canada with handle grid976000001
---- Executing after solve: elapsed 0:00:20.879
---- run_witch.gms(41171) 73 Mb
+--- run_witch.gms(42421) 73 Mb
+--- Submitting model witch_c_canada with handle grid978000001
+--- Executing after solve: elapsed 0:00:19.286
+--- run_witch.gms(41341) 73 Mb
 --- Generating NLP model witch_c_china
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_china
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42256) 75 Mb
+--- run_witch.gms(42426) 75 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   17,017 rows  30,636 columns  89,043 non-zeroes
@@ -6456,14 +6457,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 4.487E-05, 3.339E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.295E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42256) 73 Mb
---- Submitting model witch_c_china with handle grid1075000001
---- Executing after solve: elapsed 0:00:21.831
---- run_witch.gms(41171) 73 Mb
+--- run_witch.gms(42426) 73 Mb
+--- Submitting model witch_c_china with handle grid1078000001
+--- Executing after solve: elapsed 0:00:20.473
+--- run_witch.gms(41341) 73 Mb
 --- Generating NLP model witch_c_europe
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_europe
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42261) 76 Mb
+--- run_witch.gms(42431) 76 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   17,370 rows  30,638 columns  90,095 non-zeroes
@@ -6472,14 +6473,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 3.276E-05, 2.053E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.245E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42261) 74 Mb
---- Submitting model witch_c_europe with handle grid1174000001
---- Executing after solve: elapsed 0:00:22.920
---- run_witch.gms(41171) 74 Mb
+--- run_witch.gms(42431) 74 Mb
+--- Submitting model witch_c_europe with handle grid1178000001
+--- Executing after solve: elapsed 0:00:21.748
+--- run_witch.gms(41341) 74 Mb
 --- Generating NLP model witch_c_india
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_india
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42266) 76 Mb
+--- run_witch.gms(42436) 76 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   16,132 rows  30,631 columns  86,403 non-zeroes
@@ -6488,14 +6489,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 8.595E-06, 2.755E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.788E-19, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42266) 74 Mb
---- Submitting model witch_c_india with handle grid1273000001
---- Executing after solve: elapsed 0:00:24.154
---- run_witch.gms(41171) 74 Mb
+--- run_witch.gms(42436) 74 Mb
+--- Submitting model witch_c_india with handle grid1278000001
+--- Executing after solve: elapsed 0:00:23.078
+--- run_witch.gms(41341) 74 Mb
 --- Generating NLP model witch_c_indonesia
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_indonesia
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42271) 76 Mb
+--- run_witch.gms(42441) 76 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   15,483 rows  30,626 columns  84,467 non-zeroes
@@ -6504,14 +6505,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 1.878E-06, 8.154E+03] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.044E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42271) 74 Mb
---- Submitting model witch_c_indonesia with handle grid1372000001
---- Executing after solve: elapsed 0:00:25.436
---- run_witch.gms(41171) 74 Mb
+--- run_witch.gms(42441) 74 Mb
+--- Submitting model witch_c_indonesia with handle grid1378000001
+--- Executing after solve: elapsed 0:00:24.368
+--- run_witch.gms(41341) 74 Mb
 --- Generating NLP model witch_c_jpnkor
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_jpnkor
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42276) 76 Mb
+--- run_witch.gms(42446) 76 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   13,594 rows  30,632 columns  78,831 non-zeroes
@@ -6520,14 +6521,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 9.629E-06, 1.812E+03] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 6.993E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42276) 74 Mb
---- Submitting model witch_c_jpnkor with handle grid1471000001
---- Executing after solve: elapsed 0:00:26.720
---- run_witch.gms(41171) 74 Mb
+--- run_witch.gms(42446) 74 Mb
+--- Submitting model witch_c_jpnkor with handle grid1478000001
+--- Executing after solve: elapsed 0:00:25.688
+--- run_witch.gms(41341) 74 Mb
 --- Generating NLP model witch_c_laca
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_laca
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42281) 77 Mb
+--- run_witch.gms(42451) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   20,026 rows  30,640 columns  98,019 non-zeroes
@@ -6536,14 +6537,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 9.995E-06, 1.831E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.305E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42281) 75 Mb
---- Submitting model witch_c_laca with handle grid1570000001
---- Executing after solve: elapsed 0:00:28.177
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42451) 75 Mb
+--- Submitting model witch_c_laca with handle grid1578000001
+--- Executing after solve: elapsed 0:00:27.227
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_mena
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_mena
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42286) 77 Mb
+--- run_witch.gms(42456) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   18,728 rows  30,640 columns  94,147 non-zeroes
@@ -6552,14 +6553,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 1.663E-05, 6.305E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.607E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42286) 75 Mb
---- Submitting model witch_c_mena with handle grid1669000001
---- Executing after solve: elapsed 0:00:29.548
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42456) 75 Mb
+--- Submitting model witch_c_mena with handle grid1678000001
+--- Executing after solve: elapsed 0:00:28.632
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_mexico
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_mexico
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42291) 77 Mb
+--- run_witch.gms(42461) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   16,486 rows  30,635 columns  87,459 non-zeroes
@@ -6568,14 +6569,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 7.273E-06, 9.339E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 2.228E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42291) 75 Mb
---- Submitting model witch_c_mexico with handle grid1768000001
---- Executing after solve: elapsed 0:00:30.979
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42461) 75 Mb
+--- Submitting model witch_c_mexico with handle grid1778000001
+--- Executing after solve: elapsed 0:00:29.999
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_oceania
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_oceania
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42296) 77 Mb
+--- run_witch.gms(42466) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   19,849 rows  30,640 columns  97,491 non-zeroes
@@ -6584,14 +6585,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 4.023E-06, 1.256E+06] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.491E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42296) 75 Mb
---- Submitting model witch_c_oceania with handle grid1867000001
---- Executing after solve: elapsed 0:00:32.535
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42466) 75 Mb
+--- Submitting model witch_c_oceania with handle grid1878000001
+--- Executing after solve: elapsed 0:00:31.433
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_sasia
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_sasia
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42301) 77 Mb
+--- run_witch.gms(42471) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   15,542 rows  30,631 columns  84,643 non-zeroes
@@ -6600,14 +6601,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 3.273E-06, 4.264E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 4.061E-14, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42301) 75 Mb
---- Submitting model witch_c_sasia with handle grid1966000001
---- Executing after solve: elapsed 0:00:33.938
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42471) 75 Mb
+--- Submitting model witch_c_sasia with handle grid1978000001
+--- Executing after solve: elapsed 0:00:32.746
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_seasia
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_seasia
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42306) 77 Mb
+--- run_witch.gms(42476) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   17,017 rows  30,638 columns  89,043 non-zeroes
@@ -6616,14 +6617,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 8.294E-06, 1.139E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.744E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42306) 75 Mb
---- Submitting model witch_c_seasia with handle grid2065000001
---- Executing after solve: elapsed 0:00:35.417
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42476) 75 Mb
+--- Submitting model witch_c_seasia with handle grid2078000001
+--- Executing after solve: elapsed 0:00:34.198
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_southafrica
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_southafrica
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42311) 77 Mb
+--- run_witch.gms(42481) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   15,070 rows  30,625 columns  83,235 non-zeroes
@@ -6632,14 +6633,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 7.094E-06, 7.068E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 2.058E-19, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42311) 75 Mb
---- Submitting model witch_c_southafrica with handle grid2164000001
---- Executing after solve: elapsed 0:00:36.836
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42481) 75 Mb
+--- Submitting model witch_c_southafrica with handle grid2178000001
+--- Executing after solve: elapsed 0:00:35.661
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_ssa
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_ssa
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42316) 77 Mb
+--- run_witch.gms(42486) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   19,436 rows  30,640 columns  96,259 non-zeroes
@@ -6648,14 +6649,14 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 3.974E-06, 8.341E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.030E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42316) 75 Mb
---- Submitting model witch_c_ssa with handle grid2263000001
---- Executing after solve: elapsed 0:00:38.373
---- run_witch.gms(41171) 75 Mb
+--- run_witch.gms(42486) 75 Mb
+--- Submitting model witch_c_ssa with handle grid2278000001
+--- Executing after solve: elapsed 0:00:37.265
+--- run_witch.gms(41341) 75 Mb
 --- Generating NLP model witch_c_te
 --- Warning: Asynchronous solve turns holdFixed off for model witch_c_te
 ---          Check option holdFixedAsync to change this
---- run_witch.gms(42321) 77 Mb
+--- run_witch.gms(42491) 77 Mb
 --- LOOPS run = r1
 ---       siter = i1
 ---   18,020 rows  30,637 columns  92,035 non-zeroes
@@ -6664,6 +6665,5 @@ GAMS 42.2.0   Copyright (C) 1987-2023 GAMS Development. All rights reserved
 --- RHS       [min, max] : [ 1.673E-05, 4.062E+05] - Zero values observed as well
 --- Bound     [min, max] : [ 1.000E-12, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 1.475E-20, 5.455E+04] - Zero values observed as well
---- run_witch.gms(42321) 75 Mb
---- Submitting model witch_c_te with handle grid2362000001
---- Executing after solve: elapsed 0:00:39.808
+--- run_witch.gms(42491) 75 Mb
+--- Submitting model witch_c_te with handle grid2378000001

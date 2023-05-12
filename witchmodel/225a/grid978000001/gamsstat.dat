@@ -1,0 +1,384 @@
+=1
+=2
+=0CONOPT 3         42.2.0 ef14ea53 Feb 16, 2023          WEI x86 64bit/MS Window
+=C
+=1
+=CReading parameter(s) from "C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\conopt.opt"
+=C>>  rtredg=1e-12
+=C>>  rtbndt=1e-12
+=CFinished reading from "C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\conopt.opt"
+=2
+=C
+=1
+ 
+ 
+    C O N O P T 3   version 3.17N
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+=2
+    1  INPUT                                                                  (DEFAULT)
+    2  BRANCH * MAJERR MINERR JACERR                                          (DEFAULT)
+    3  OPTIMIZE                                                               (DEFAULT)
+    4  BRANCH * * * * * * MAJERR                                              (DEFAULT)
+    5  OUTPUT                                                                 (DEFAULT)
+    6  EXIT                                                                   (DEFAULT)
+    7  MAJERR MESSAGE MAJOR ERROR - TERMINATE                                 (DEFAULT)
+    8  EXIT                                                                   (DEFAULT)
+    9  MINERR MESSAGE MINOR ERROR - TERMINATE                                 (DEFAULT)
+   10  EXIT                                                                   (DEFAULT)
+   11  JACERR MESSAGE FUNCTION OR DERIVATIVE ERROR                            (DEFAULT)
+   12  OUTPUT                                                                 (DEFAULT)
+   13  EXIT                                                                   (DEFAULT)
+ 
+  ***  Line    1  INPUT
+ 
+  ***  Line    0  SET       LSAZRW   = TRUE
+ 
+  ***  Line    0  SET       LFEERR   =           0
+ 
+  ***  Line    0  SET       LFITER   =   100000000
+ 
+  ***  Line    0  SET       RTBNDT   =     1.0000000000E-12
+ 
+  ***  Line    0  SET       RTREDG   =     1.0000000000E-12
+ 
+  ***  Line    0  SET       RVTIME   =      10000000.00
+=1
+ 
+    The model has 30635 variables and 16073 constraints
+    with 86227 Jacobian elements, 17763 of which are nonlinear.
+    The Hessian of the Lagrangian has 2558 elements on the diagonal,
+    12688 elements below the diagonal, and 12633 nonlinear variables.
+=2
+ 
+  ***  Line    2  BRANCH with Lbranch =  1
+ 
+  ***  Line    3  OPTIMIZE
+ 
+Search for a first feasible solution
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        5.1900901552E+04 (Input point)
+=1
+ 
+                   Pre-triangular equations:   1221
+                   Post-triangular equations:  509
+                   Definitional equations:     2396
+ 
+=2
+      1   0        5.5778153005E+03 (After pre-processing)
+      2   0        7.7870293960E+01 (After scaling)
+      3   0   542  7.7862476553E+01               1.0E-04      T  T
+      4   0   542  7.7621196336E+01               3.2E-03      T  T
+      5   0   542  7.7584129060E+01               4.9E-04      T  T
+      6   0   542  7.7541728718E+01               5.6E-04      T  T
+      7   0   542  7.7492598038E+01               6.5E-04      T  T
+      8   0   542  7.7434673682E+01               7.7E-04      T  T
+      9   0   542  7.7418137477E+01               2.2E-04      T  T
+     10   0   542  7.7387368420E+01               4.1E-04      T  T
+     11   0   542  7.7386907833E+01               6.1E-06      T  T
+     12   0   542  7.7338557472E+01               6.4E-04      T  T
+     13   0   542  7.7312612397E+01               3.5E-04      T  T
+     14   0   542  7.7274566760E+01               5.1E-04      T  T
+     15   0   542  7.7230719157E+01               5.8E-04      T  T
+     16   0   542  7.7227742232E+01               4.0E-05      T  T
+     17   0   542  7.7227742232E+01               0.0E+00      T  T
+     18   0   542  7.7125700663E+01               1.4E-03      T  T
+     19   0   542  7.7121924734E+01               5.0E-05      T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+     20   0   542  7.5854745130E+01               1.7E-02      T  T
+     21   0   542  7.5544161002E+01               4.2E-03      T  T
+     22   0   542  7.5498887207E+01               6.2E-04      T  T
+     23   0   542  7.5327947684E+01               2.3E-03      T  T
+     24   0   542  7.5129010588E+01               2.7E-03      T  T
+     25   0   542  7.2660028069E+01               3.4E-02      T  T
+     26   0   542  7.1765752677E+01               1.3E-02      T  T
+     27   0   542  7.1593660899E+01               2.5E-03      T  T
+     28   0   542  6.6496464010E+01               7.4E-02      T  T
+     29   0   542  6.4022403103E+01               3.9E-02      T  T
+     30   0   542  6.4022403103E+01               0.0E+00      T  T
+     31   0   542  5.5591699602E+01               1.4E-01      T  T
+     32   0   542  4.1006825273E+01               2.7E-01      T  T
+     33   0   542  3.5810821589E+01               1.3E-01      T  T
+     34   0   542  3.2093477694E+01               1.1E-01      T  T
+     35   0   542  3.6277848622E+00               9.6E-01      T  T
+     36   0   542  2.3134814898E+00               1.0E+00      T  T
+     37   0   542  2.2930570367E+00               1.0E+00      F  T
+     38   0   542  2.2907707174E+00               1.0E+00      F  T
+     39   0   542  2.2907707174E+00               0.0E+00      T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+     40   0   542  2.2907707174E+00               0.0E+00      T  T
+     41   0   542  2.2907707174E+00               0.0E+00      T  T
+     42   0   542  2.2907707174E+00               0.0E+00      T  T
+     43   0   542  2.2907707174E+00               0.0E+00      T  T
+     44   0   542  2.2907707174E+00               0.0E+00      T  T
+     45   0   542  2.2907707174E+00               0.0E+00      T  T
+     46   0   542  2.2907707174E+00               0.0E+00      T  T
+     47   0   542  2.2907707174E+00               0.0E+00      T  T
+     48   0   542  2.2907707174E+00               0.0E+00      T  T
+     49   0   542  2.2907707174E+00               0.0E+00      T  T
+     50   0   542  2.2907707174E+00               0.0E+00      T  T
+     51   0   542  2.2907707174E+00               0.0E+00      T  T
+     52   0   542  2.2907707174E+00               0.0E+00      T  T
+     53   0   542  2.2907707174E+00               0.0E+00      T  T
+     54   0   542  2.2907707174E+00               0.0E+00      T  T
+     55   0   542  2.2907707174E+00               0.0E+00      T  T
+     56   0   542  2.2907707174E+00               0.0E+00      T  T
+     57   0   542  2.2907707174E+00               0.0E+00      T  T
+     58   0   542  2.2907707174E+00               0.0E+00      T  T
+     59   0   542  2.2907707174E+00               0.0E+00      T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+     60   0   542  2.2907707174E+00               0.0E+00      T  T
+     61   0   542  2.2907707174E+00               0.0E+00      T  T
+     62   0   542  2.2907707174E+00               0.0E+00      T  T
+     63   0   542  2.2907707174E+00               0.0E+00      T  T
+     64   0   542  2.2907707174E+00               0.0E+00      T  T
+     65   0   542  2.2907707174E+00               0.0E+00      T  T
+     66   0   542  2.2903259493E+00               1.0E+00      F  T
+     67   0   542  2.2903259493E+00               0.0E+00      T  T
+     68   0   542  2.2903259493E+00               0.0E+00      T  T
+     69   0   542  2.2903259493E+00               0.0E+00      T  T
+     70   0   542  2.2902425709E+00               1.0E+00      F  T
+     71   0   542  2.2902425709E+00               0.0E+00      T  T
+     72   0   542  2.2902425709E+00               0.0E+00      T  T
+     73   0   542  2.2902264889E+00               1.0E+00      F  T
+     74   0   542  2.2902264889E+00               0.0E+00      T  T
+     75   0   542  2.2902233893E+00               1.0E+00      F  T
+     76   0   542  2.2902233893E+00               0.0E+00      T  T
+     77   0   542  2.2902233893E+00               0.0E+00      T  T
+     78   0   542  2.2902229119E+00               1.0E+00      F  T
+     79   0   542  2.2902229119E+00               0.0E+00      T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+     80   0   542  2.2902229119E+00               0.0E+00      T  T
+     81   0   542  2.2902229119E+00               0.0E+00      T  T
+     82   0   542  2.2902229119E+00               0.0E+00      T  T
+     83   0   542  2.2902229119E+00               0.0E+00      T  T
+     84   0   542  2.2902229119E+00               0.0E+00      T  T
+     85   0   542  2.2902228301E+00               1.0E+00      F  T
+     86   0   542  2.2902228301E+00               0.0E+00      T  T
+     87   0   542  2.2902228301E+00               0.0E+00      T  T
+     88   0   542  2.2902228161E+00               1.0E+00      F  T
+     89   1   542  1.2502532524E+00 4.4E+06     6 1.0E+00    3 T  T
+     90   1   542  1.0754165857E+00 9.1E+05    13 1.0E+00   12 T  T
+     91   1   539  1.0672656889E+00 1.6E+03    88 1.0E+00   20 T  T
+     92   1   499  1.0428818267E+00 3.4E+02   129 1.0E+00   18 T  T
+     93   1   459  9.6838555513E-01 6.8E+02   193 1.0E+00   23 T  T
+     94   1   280  4.8989873371E-01 6.8E+02   229 1.0E+00   28 T  T
+     95   1   196  4.6904085015E-01 9.9E+01   128 1.0E+00   26 T  T
+     96   1   144  2.8655021465E-01 2.6E+01    70 1.0E+00   36 T  T
+     97   1   116  2.2418247316E-01 2.8E+01    97 1.0E+00   43 T  T
+     98   1    83  1.6227191102E-01 4.9E+02   159 1.0E+00   46 T  T
+     99   1    83  1.6133403236E-01 2.0E+03   214 7.8E-03   51 F  F
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    100   1    83  1.5117173860E-01 2.5E+01   142 1.0E+00   25 T  T
+    101   1    51  3.2056771444E-02 2.0E+01    90 1.0E+00   30 T  T
+    102   1    17  2.9734912476E-03 2.0E+01    92 1.0E+00   35 T  T
+    103   1     4  1.3075719403E-04 1.0E+00    67 1.0E+00   22 T  T
+ 
+ ** Feasible solution. Value of objective =    47334.1793226
+ 
+Search for an optimal solution.
+ 
+   Elapsed time       30.1 seconds.
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    104   3        4.7342052289E+04 8.3E+03   827 7.5E-02    9 F  T
+    105   3        4.7342053679E+04 9.3E+04   754 1.0E+00   27 T  T
+    106   3        4.7342060260E+04 6.8E+04   701 1.0E+00    7 T  T
+    107   3        4.7342060260E+04 1.7E+04   741 0.0E+00   13 F  F
+ 
+ ** Loss of feasibility while tightening tolerances - Return to phase 0.
+ 
+Search for a first feasible solution
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    108   0        1.5816611918E-07
+    109   0    12  1.5816611918E-07               0.0E+00      T  T
+    110   0    12  1.1862699265E-07               5.0E-01      T  T
+    111   0    12  7.8824514754E-08               1.0E+00      F  T
+ 
+ ** Feasible solution. Value of objective =    47342.0602528
+ 
+Search for an optimal solution.
+ 
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    112   3        4.7342060353E+04 1.7E+04   746 1.3E-14      T  T
+    113   3        4.7342060364E+04 1.7E+04   745 1.5E-15      T  T
+    114   3        4.7342060365E+04 1.7E+04   744 8.2E-17      T  T
+    115   3        4.7342060365E+04 1.7E+04   743 2.9E-17      T  T
+    116   3        4.7342060367E+04 1.7E+04   742 2.5E-16      T  T
+    117   3        4.7342060541E+04 1.7E+04   710 1.0E+00    3 T  T
+    118   3        4.7342060634E+04 1.7E+04   687 1.0E+00    9 T  T
+    119   3        4.7342061329E+04 2.0E+04   713 1.0E+00   13 T  T
+    120   3        4.7342063195E+04 1.3E+04   694 1.0E+00   13 T  T
+    121   3        4.7342076339E+04 1.1E+04   677 1.0E+00   18 T  T
+    122   3        4.7342080180E+04 1.4E+04   686 1.0E+00   25 T  T
+    123   3        4.7344370200E+04 1.4E+04   677 1.0E+00   25 T  T
+    124   3        4.7344372998E+04 1.2E+04   653 1.5E-03   33 F  F
+ 
+ ** Loss of feasibility while tightening tolerances - Return to phase 0.
+ 
+Search for a first feasible solution
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    125   0        2.0228328624E-09
+ 
+ ** Feasible solution. Value of objective =    47344.3729985
+ 
+Search for an optimal solution.
+ 
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    126   3        4.7344373866E+04 1.2E+04   662 4.2E-12      T  T
+    127   3        4.7344374137E+04 1.2E+04   661 1.3E-12      T  T
+    128   3        4.7344374154E+04 1.2E+04   660 8.4E-14      T  T
+    129   3        4.7344374534E+04 1.2E+04   659 1.9E-12      T  T
+    130   3        4.7344374908E+04 1.2E+04   658 1.9E-12      T  T
+    131   3        4.7344375331E+04 1.2E+04   657 2.2E-12      T  T
+    132   3        4.7344384217E+04 1.2E+04   656 4.7E-11      F  F
+    133   3        4.7344393102E+04 1.2E+04   656 4.7E-11      T  T
+    134   3        4.7344393102E+04 2.1E+04   547 0.0E+00    4 F  F
+    135   3        4.7344393102E+04 2.1E+04   546 0.0E+00    1 F  F
+    136   3        4.7344393007E+04 2.1E+04   543 8.8E-01    1 T  T
+    137   3        4.7344499267E+04 2.1E+04   629 3.3E-01    2 T  T
+    138   3        4.7344853528E+04 2.1E+04   628 5.0E-01    6 T  T
+    139   3        4.7345207624E+04 1.2E+04   626 1.0E+00    2 T  T
+    140   3        4.7345385959E+04 1.2E+04   624 6.2E-02    4 F  F
+    141   3        4.7345478025E+04 1.2E+04   624 1.1E-01    2 F  F
+    142   3        4.7345478028E+04 1.2E+04   634 1.4E-14      T  T
+    143   3        4.7345485287E+04 1.2E+04   633 4.0E-11      F  F
+    144   3        4.7345485287E+04 4.2E+03   628 0.0E+00      T  T
+    145   3        4.7345577831E+04 4.2E+03   627 4.3E-09      T  T
+   Elapsed time       67.4 seconds.
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    146   3        4.7345691280E+04 4.2E+03   626 5.2E-09      T  T
+    147   3        4.7345794667E+04 4.2E+03   625 4.8E-09      T  T
+    148   3        4.7345795429E+04 5.2E+03   669 1.0E+00    3 T  T
+    149   3        4.7345795457E+04 5.2E+03   659 1.0E+00   16 T  T
+    150   3        4.7345796925E+04 5.2E+03   649 1.0E+00   13 T  T
+    151   3        4.7345917392E+04 4.1E+03   636 5.0E-01    4 F  F
+    152   3        4.7346208073E+04 4.1E+03   645 1.0E+00    5 T  T
+    153   3        4.7347863524E+04 2.2E+03   640 1.0E+00   10 T  T
+    154   3        4.7348986290E+04 9.5E+03   657 1.0E+00   14 T  T
+    155   3        4.7349002791E+04 2.6E+04   643 1.2E-01   23 F  F
+    156   3        4.7349003413E+04 2.6E+04   639 1.0E+00   16 T  T
+    157   3        4.7349828395E+04 9.4E+03   635 1.0E+00    9 T  T
+    158   3        4.7353675472E+04 1.1E+04   622 1.0E+00   13 T  T
+    159   3        4.7353684642E+04 9.3E+05   641 1.0E+00   32 T  T
+    160   3        4.7353684642E+04 5.7E+04   638 0.0E+00   26 F  F
+ 
+ ** Loss of feasibility while tightening tolerances - Return to phase 0.
+ 
+Search for a first feasible solution
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    161   0        2.1569216124E-08
+    162   0     0  2.1569216124E-08               0.0E+00      T  T
+    163   0     0  2.1569216124E-08               0.0E+00      T  T
+    164   0     0  2.1569216124E-08               0.0E+00      T  T
+    165   0     0  2.1569216124E-08               0.0E+00      T  T
+    166   0     0  2.1569216124E-08               0.0E+00      T  T
+    167   0     0  2.1569216124E-08               0.0E+00      T  T
+    168   0     0  2.1569216124E-08               0.0E+00      T  T
+    169   0     0  2.1569216124E-08               0.0E+00      T  T
+    170   0     0  2.1569216124E-08               0.0E+00      T  T
+    171   0     0  2.1569216124E-08               0.0E+00      T  T
+    172   0     0  2.1569216124E-08               0.0E+00      T  T
+    173   0     0  2.1569216124E-08               0.0E+00      T  T
+    174   0     0  2.1569216124E-08               0.0E+00      T  T
+    175   0     0  2.1569216124E-08               0.0E+00      F  T
+    176   0     1  2.1569216124E-08               0.0E+00      F  T
+    177   0     2  2.1569216124E-08               0.0E+00      F  T
+    178   0     3  2.1569216124E-08               0.0E+00      F  T
+    179   0     4  2.1569216124E-08               0.0E+00      F  T
+    180   0     5  2.1569216124E-08               0.0E+00      F  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    181   0     6  2.1569216124E-08               0.0E+00      F  T
+    182   0     7  2.1569216124E-08               0.0E+00      F  T
+    183   0     8  2.1569216124E-08               0.0E+00      F  T
+    184   0     9  2.1569216124E-08               0.0E+00      F  T
+    185   0    10  2.1569216124E-08               0.0E+00      F  T
+    186   0    11  2.1569216124E-08               0.0E+00      F  T
+    187   0    12  2.1569216124E-08               0.0E+00      F  T
+    188   0    13  2.1569216124E-08               0.0E+00      F  T
+    189   0    14  2.1569216124E-08               0.0E+00      F  T
+    190   1    15  1.0289187151E-08 1.3E+02   528 0.0E+00      T  T
+    191   1    15  6.4005792047E-05 1.3E+02   497 0.0E+00      T  T
+    192   1    15  6.4005792047E-05 1.3E+02   496 0.0E+00      T  T
+    193   1    13  1.0923156305E-08 6.1E+01   496 1.1E-13      T  T
+    194   1    13  1.7687989082E-08 4.5E+02   494 0.0E+00      T  T
+    195   1    12  1.5987478828E-08 4.1E+02   494 2.7E-15      T  T
+    196   1    12  1.0791794341E-08 4.1E+00   512 0.0E+00      T  T
+    197   1    10  9.8826043302E-09 9.1E+00   463 3.4E-12      T  T
+    198   1     9  7.6300446729E-09 6.6E+00   405 4.7E-12      T  T
+    199   1     9  7.6300446729E-09 4.0E+00   312 0.0E+00    3 F  F
+    200   1     8  7.4694949925E-09 1.0E+00   136 1.0E+00    1 T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    201   1     2  3.4846536509E-09 2.8E-03   110 1.0E+00    5 T  T
+    202   1     2  0.0000000000E+00 7.5E+03   670 3.3E-01    2 T  T
+    203   1     2  2.4667163276E-09 1.9E-02    24 0.0E+00    2 F  F
+ 
+ ** Feasible solution. Value of objective =    47353.6889767
+ 
+Search for an optimal solution.
+ 
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    204   3        4.7353734957E+04 2.2E+04   703 5.0E-01    7 F  F
+    205   3        4.7353763704E+04 1.3E+04   702 1.0E+00    5 T  T
+    206   3        4.7353795411E+04 1.2E+04   695 1.0E+00   10 T  T
+    207   3        4.7354171359E+04 1.2E+04   685 1.0E+00   15 T  T
+    208   3        4.7361564081E+04 1.7E+04   677 1.0E+00   20 T  T
+    209   3        4.7371295188E+04 1.6E+05   677 7.1E-01   25 F  F
+    210   3        4.7371393393E+04 1.8E+05   713 1.0E+00   36 T  T
+    211   3        4.7379747676E+04 8.8E+03   671 9.7E-01   30 F  F
+ 
+ ** Loss of feasibility while tightening tolerances - Return to phase 0.
+ 
+Search for a first feasible solution
+ 
+   Elapsed time      104.9 seconds.
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+    212   0        1.1513727488E-08
+    213   0     0  1.1513727488E-08               0.0E+00      T  T
+    214   0     0  1.1513727488E-08               0.0E+00      T  T
+    215   0     0  1.1513727488E-08               0.0E+00      T  T
+    216   0     0  1.1513727488E-08               0.0E+00      T  T
+    217   0     0  1.1513727488E-08               0.0E+00      T  T
+    218   0     0  1.1513727488E-08               0.0E+00      T  T
+    219   0     0  1.1513727488E-08               0.0E+00      T  T
+    220   0     0  1.1513727488E-08               0.0E+00      T  T
+    221   0     0  1.1513727488E-08               0.0E+00      T  T
+    222   0     0  1.1513727488E-08               0.0E+00      T  T
+    223   0     0  1.1513727488E-08               0.0E+00      T  T
+    224   0     0  1.1513727488E-08               0.0E+00      T  T
+    225   0     0  1.1513727488E-08               0.0E+00      T  T
+    226   0     0  1.1513727488E-08               0.0E+00      T  T
+    227   0     0  1.1513727488E-08               0.0E+00      T  T
+    228   0     0  2.2734123391E-09               1.0E+00      F  T
+ 
+ ** Feasible solution. Value of objective =    47379.7466275
+ 
+Search for an optimal solution.
+ 
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+    229   3        4.7379746628E+04 1.4E+03   648 2.2E-14      T  T
+    230   3        4.7379746628E+04 1.4E+03   647 2.1E-14      T  T
+    231   3        4.7379746

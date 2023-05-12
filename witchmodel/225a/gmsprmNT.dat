@@ -8,5 +8,5 @@ ErrMsg=1
 ErrorLog=99
 IDE=1
 LstTitleLeftAligned=1
---nameout=emicap_usa_1e-3_500notusa
+--nameout=eqq_emi_lim_usa_1e-3
 --verbose=1
