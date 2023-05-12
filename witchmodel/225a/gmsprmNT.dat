@@ -1,0 +1,12 @@
+Input=C:\Users\Nicholas\Documents\GitHub\ECC-Project\witchmodel\run_witch.gms
+PageSize=0
+ScrDir=225a
+SysDir=C:\GAMS\42
+ScriptNext=225a\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1
+--nameout=emicap_usa_1e-3_500notusa
+--verbose=1

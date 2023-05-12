@@ -99,7 +99,8 @@
         "--nameout=battery_new_increased_region_exp",
         "--nameout=battery_new_increased_region_exp --VERBOSE=1",
         "--nameout=battery_new_increased_region_gdx --VERBOSE=1",
-        "--nameout=invest_eqs --VERBOSE=1"
+        "--nameout=invest_eqs --VERBOSE=1",
+        "--nameout=emicap_usa_1e-3_500notusa --verbose=1"
     ],
     "path": ".",
     "workDir": "."
